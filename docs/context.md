@@ -33,9 +33,10 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Hoje o Instituto Brasileiro de Geografia e Estatística (IBGE) aponta quase 9 mil brasileiros desempregados, e a incumbência de redigir um currículo não deveria ser uma barreira separando essas pessoas de seus empregos, mas ela pode ser.
+Uma pesquisa relizada em 2021 pelo Banco Nacional de Empregos (BNE) levantou que quase metade dos recrutadores eliminam um currículo em até 20 segundos. Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português. José Tortato, diretor do BNE, explica que muitos candidatos não colocam suas experiências no currículo, ainda que sejam informais e/ou de trabalho voluntário. 
+O Núcleo Brasileiro de Estágios (Nube) investigou as principais dúvidas entre os jovens de 15 a 26 anos no que se refere à elaboração de um currículo, e descobriu que quase 60% não sabe como estruturar o documento de forma atraente e concisa.
+Uma plataforma na qual seja possível minimizar essas dúvidas e orientar na escrita de um currículo poderia fazer diferença significativa na vida de muitos cidadãos, sejam eles desempregados, jovens com pouca experiência em início de carreira ou trabalhadores que não conseguem mudar de empresa ou de área.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
