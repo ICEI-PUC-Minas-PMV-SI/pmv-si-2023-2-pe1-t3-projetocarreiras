@@ -19,9 +19,7 @@ Uma aplicação chamada "Carreiras" tem como objetivo conectar empregadores e ca
 As funcionalidades chave da aplicação incluem a capacidade dos usuários cadastrarem seus perfis, pesquisarem vagas de emprego e candidatarem-se a posições disponíveis. Além disso, a aplicação oferecerá recursos de desenvolvimento profissional, como cursos online e orientação de carreira, visando apoiar os usuários na busca de empregos e no aprimoramento de suas habilidades.
 
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
