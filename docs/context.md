@@ -38,13 +38,16 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Hoje o Instituto Brasileiro de Geografia e Estatística (IBGE) aponta quase 9 mil brasileiros desempregados. A incumbência de redigir um currículo não deveria ser uma barreira separando essas pessoas de seus empregos, mas ela pode ser.
+Hoje, o Instituto Brasileiro de Geografia e Estatística (IBGE) aponta quase 9 mil brasileiros desempregados. A incumbência de redigir um currículo não deveria ser uma barreira separando essas pessoas de seus empregos, mas ela pode ser.
 
-Uma pesquisa relizada em 2021 pelo Banco Nacional de Empregos (BNE) levantou que quase metade dos recrutadores eliminam um currículo em até 20 segundos. Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português. José Tortato, diretor do BNE, explica que muitos candidatos não colocam suas experiências no currículo, ainda que sejam informais e/ou de trabalho voluntário. 
+Em levantamento relizado em 2021 pelo Banco Nacional de Empregos (BNE), constatou-se que quase metade dos recrutadores eliminam um currículo em até 20 segundos[[1]](https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/). Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português.
 
-O Núcleo Brasileiro de Estágios (Nube) investigou as principais dúvidas entre os jovens de 15 a 26 anos no que se refere à elaboração de um currículo, e descobriu que quase 60% não sabe como estruturar o documento de forma atraente e concisa.
+No que se refere à falta de experiência, a lacuna pode ser enfatizada ou atenuada, a depender da forma como o candidato estrutura e redige seu currículo[[2]](). Em não sabendo selecionar bem as informações, pode-se estar deixando de incluir experiências informais, trabalhos voluntários, projetos comunitários, vivências culturais e/ou internacionais etc, e isso pode determinar se um candidato se destaca ou não[[3]](#3). Para além disso, é necessário se atentar à descrição da vaga e aos requisitos: os processos seletivos atualmente, em sua maioria, são automatizados, e passam pelo crivo de algoritmos, os quais vão buscar palavras-chave. Assim, o candidato que não inserir habilidades pertinentes, ou que inserir com erros de prtografia, pode ser eliminado.
 
-Uma plataforma na qual seja possível minimizar essas dúvidas e orientar na escrita de um currículo poderia fazer diferença significativa na vida de muitos cidadãos, sejam eles desempregados, jovens com pouca experiência em início de carreira ou trabalhadores que não conseguem mudar de empresa ou de área.
+Passado o desafio do currículo, os candidatos são levados a outra etapa que é quiçá ainda mais complexa: a entrevista. Os fatores que influenciam na aprovação de uma pessoa são muitos, e muitos abstratos: o tom de voz, o linguajar empregado, as expressões corporais, a firmeza com que responde aos entrevistadores etc[[4]](). Ainda que haja experiência, uma pessoa pode ser reprovada pelo comportamental, de forma que saber se portar durante uma entrevista é imprescindível para o sucesso empregatício.
+
+Uma plataforma na qual se possa minimizar essas dúvidas, orientar na escrita de um currículo e sumarizar as orientações mais importantes para canditados poderia fazer diferença significativa na vida de muitos cidadãos, sejam eles desempregados, jovens com pouca experiência em início de carreira ou trabalhadores que não conseguem mudar de empresa ou de área.
+
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
@@ -60,7 +63,17 @@ Serão contempladas, portanto:
 
 Não se espera que os usuários tenham conhecimento em tecnologia, a plataforma é voltada a todas as áreas profissionais, e a todos os níveis hierárquicos dentro das organizações.
 
+## Referências
 
+[3] SCISTOWSKI, L. Como Conquistar e Manter seu Emprego –tudo o que você precisa saber e fazer para estar competitivo e se manter empregável. Rio de Janeiro: Palavra e Imagem, 2002
+
+[2] OLIVEIRA, Ikaro  Ramon  Vidal  de;  MACÊDO, Maria  Erilúcia  Cruz. O  Papel Determinante  do Currículo no Processo de Recrutamento e Seleção. Id on Line Rev.Mult. Psic., Fevereiro/2020,  vol.14, n.49, p.212-228.ISSN: 1981-1179
+
+[4] Ferreira, Aleciane & Gondim, Sonia & Pilati, Ronaldo. (2014). Gerenciamento de impressões e tomada de decisão em entrevistas de emprego. Psicologia: Ciência e Profissão. 34. 66-79. 10.1590/S1414-98932014000100006.
+
+[1]BNE EMPREGOS. Recrutadores eliminam currículos em até 20 segundos. Blog do Emprego. Disponível em: <https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/>. Acesso em: 8 set. 2023.
+
+‌ <!-- olhar a forma correta de fazer as referencias -->
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
