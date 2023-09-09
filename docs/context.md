@@ -11,16 +11,29 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%, atingindo mais de 14 milhões de brasileiros desempregados. Essa taxa pode variar consideravelmente por região e grupo demográfico. Além disso, o desemprego no Brasil afeta desproporcionalmente grupos de baixa renda e minorias étnicas, tornando a desigualdade uma questão crítica.
+O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%, atingindo mais de 14 milhões de brasileiros desempregados. [~~Essa taxa pode variar consideravelmente pr região e grupo demográfico. Além disso, o desemprego no Brasil afeta desproporcionalmente grupos de baixa renda e minorias étnicas, tornando a desigualdade uma questão crítica.~~]
+<!--fora do escopo do projeto-->
 
-O impacto da pandemia de COVID-19 agravou ainda mais a situação do desemprego, causando uma queda na economia e aumentando o desemprego em diversos setores. Notavelmente, setores como o turismo e a hospitalidade foram particularmente afetados pela pandemia e pelo desemprego.
+~~O impacto da pandemia de COVID-19 agravou ainda mais a situação do desemprego, causando uma queda na economia e aumentando o desemprego em diversos setores. [Notavelmente, setores como o turismo e a hospitalidade foram particularmente afetados pela pandemia e pelo desemprego.~~] <!--fora do escopo do projeto-->
 
-Uma aplicação chamada "Carreiras" tem como objetivo conectar empregadores e candidatos a emprego de forma eficiente, oferecendo recursos para melhorar a empregabilidade.
-As funcionalidades chave da aplicação incluem a capacidade dos usuários cadastrarem seus perfis, pesquisarem vagas de emprego e candidatarem-se a posições disponíveis. Além disso, a aplicação oferecerá recursos de desenvolvimento profissional, como cursos online e orientação de carreira, visando apoiar os usuários na busca de empregos e no aprimoramento de suas habilidades.
+~~Uma aplicação chamada "Carreiras" tem como objetivo conectar empregadores e candidatos a emprego de forma eficiente, oferecendo recursos para melhorar a empregabilidade.
+As funcionalidades chave da aplicação incluem a capacidade dos usuários cadastrarem seus perfis, pesquisarem vagas de emprego e candidatarem-se a posições disponíveis. Além disso, a aplicação oferecerá recursos de desenvolvimento profissional, como cursos online e orientação de carreira, visando apoiar os usuários na busca de empregos e no aprimoramento de suas habilidades.~~
+<!--instrução diz pra não detalhar sobre a aplicação neste momento-->
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. 
+
+### No entanto, não é a hora de comentar sobre a aplicação.
+
+Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda **não é a hora de apresentar requisitos  detalhados ou projetos**.
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+
+#### Sugestão de texto para Problema:
+
+Passar pelos processos de recrutamento e seleção pode ser uma experiência extremamente maçante e confusa para muitos brasileiros, sobretudo aqueles que estão desempregados. Isso se dá não apenas pelo nervosismo e ansiedade gerados durante o processo, mas também porque muitos candidatos não sabem como se apresentar às empresas, desde o momento da elaboração de um currículo até às entrevistas com recrutadores e gestores.
+
+Pelo lado das empresas, as muitas aplicações recebidas precisam passar por um crivo, e os profissionais de Recursos Humanos devem filtrar repetidas vezes os currículos e candidados a serem selecionados, para que seja feita a contratação mais adequada possível.
+
+Faz-se necessário, com isso, um processo de melhoria e orientação para candidatos. Uma aplicação na qual isso fosse possível poderia ser usufruída por ambos os lados, beneficiando trabalhadores e empresas
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -42,15 +55,19 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Hoje, o Instituto Brasileiro de Geografia e Estatística (IBGE) aponta quase 9 mil brasileiros desempregados. A incumbência de redigir um currículo não deveria ser uma barreira separando essas pessoas de seus empregos, mas ela pode ser.
-
 Em levantamento relizado em 2021 pelo Banco Nacional de Empregos (BNE), constatou-se que quase metade dos recrutadores eliminam um currículo em até 20 segundos[[1]](https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/). Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português.
 
-No que se refere à falta de experiência, a lacuna pode ser enfatizada ou atenuada, a depender da forma como o candidato estrutura e redige seu currículo[[2]](). Em não sabendo selecionar bem as informações, pode-se estar deixando de incluir experiências informais, trabalhos voluntários, projetos comunitários, vivências culturais e/ou internacionais etc, e isso pode determinar se um candidato se destaca ou não[[3]](#3). Para além disso, é necessário se atentar à descrição da vaga e aos requisitos: os processos seletivos atualmente, em sua maioria, são automatizados, e passam pelo crivo de algoritmos, os quais vão buscar palavras-chave. Assim, o candidato que não inserir habilidades pertinentes, ou que inserir com erros de prtografia, pode ser eliminado.
+A falta de experiência é uma lacuna que pode ser enfatizada ou atenuada, a depender de como o candidato estrutura e redige seu currículo[[2]](): em não sabendo selecionar bem as informações, pode estar deixando de incluir experiências informais, trabalhos voluntários, projetos comunitários, vivências culturais e/ou internacionais etc, e isso vai determinar se ele se destaca ou não[[3]](#3). Hoje, grande parte dos processos seletivos são automatizados, com algoritmos para buscar palavras-chave. Assim, o candidato que não se atém à descrição da vaga, não insere habilidades pertinentes, ou que insere com erros de ortografia, pode ser eliminado.
 
-Passado o desafio do currículo, os candidatos são levados a outra etapa que é quiçá ainda mais complexa: a entrevista. Os fatores que influenciam na aprovação de uma pessoa são muitos, e muitos abstratos: o tom de voz, o linguajar empregado, as expressões corporais, a firmeza com que responde aos entrevistadores etc[[4]](). Ainda que haja experiência, uma pessoa pode ser reprovada pelo comportamental, de forma que saber se portar durante uma entrevista é imprescindível para o sucesso empregatício.
+Outra etapa que é quiçá ainda mais complexa é a entrevista. Os fatores que influenciam na aprovação de uma pessoa são muitos, e muito abstratos: o tom de voz, o linguajar empregado, as expressões corporais, a firmeza com que responde aos entrevistadores etc[[4]](). Ainda que haja experiência, uma pessoa pode ser reprovada pelo comportamental, portanto, saber se portar durante uma entrevista é imprescindível para o sucesso empregatício.
 
-Uma plataforma na qual se possa minimizar essas dúvidas, orientar na escrita de um currículo e sumarizar as orientações mais importantes para canditados poderia fazer diferença significativa na vida de muitos cidadãos, sejam eles desempregados, jovens com pouca experiência em início de carreira ou trabalhadores que não conseguem mudar de empresa ou de área.
+Para tratar dessas questões, uma plataforma que contivesse as principais orientações sobre currículo e entrevista de emprego seria de grande valia. Além disso, poderia-se fazer a ponte de contato entre trabalhadores e empresas, promovendo a melhoria na carreira dos cidadãos e contribuindo para experiências melhores para ambos os lados nos processos seletivos.
+
+---
+
+Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+
+O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
 
 > **Links Úteis**:
