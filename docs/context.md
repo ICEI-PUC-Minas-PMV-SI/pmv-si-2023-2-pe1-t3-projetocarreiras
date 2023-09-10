@@ -75,14 +75,14 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-A aplicação será utilizada por pessoas com necessidades de desenvolvimento profissional, as quais têm dificuldades em montar um currículo e dúvidas sobre se portar em entrevistas com recrutadores e gestores. 
+A aplicação visa atender a um público diversificado e abrange uma ampla gama de indivíduos em diferentes estágios de suas carreiras e trajetórias profissionais, oferecendo ferramentas e recursos personalizados para atender às necessidades individuais de cada usuário.
 
 Serão contempladas, portanto:
 1. as pessoas mais jovens e/ou com pouca experiência que não sabem como descrever suas habilidades e vivências informais;
-2. as pessoas com  experiência, mas que não estruturam bem seu currículo e que não sabem selecionar as competências e palavras-chave mais relevantes;
+2. a profissionais com uma longa trajetória profissional e que precisam atualizar e personalizar seus currículos de acordo com as necessidades do mercado atual;
 3. as pessoas que têm dificuldades em etapas de entrevistas nos processos seletivos.
 
-Não se espera que os usuários tenham conhecimento em tecnologia, a plataforma é voltada a todas as áreas profissionais, e a todos os níveis hierárquicos dentro das organizações.
+Não se espera que os usuários tenham conhecimento em tecnologia, a plataforma engloba pessoas de diferentes áreas profissionais e em diferentes estágios de suas vidas profissionais.
 
 ## Referências
 
