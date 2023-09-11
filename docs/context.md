@@ -19,9 +19,9 @@ Olhando por uma perspectiva empresarial, também é possível ver uma problemát
 
 Com essa análise, observa-se a necessidade de uma melhoria por parte dos candidatos às vagas que buscam um emprego, em como se apresentar e preparar seu currículo para os recrutadores e gestores, e também nota-se a necessidade de simplificação do processo de recrutamento para as empresas. Uma aplicação atendendo ambos lados, que beneficie tanto os candidatos quanto as empresas seria bem utilizada por ambos polos, trazendo assim benefícios mútuos.
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. 
+<!--Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. 
 
-<!--### No entanto, não é a hora de comentar sobre a aplicação.
+### No entanto, não é a hora de comentar sobre a aplicação.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda **não é a hora de apresentar requisitos  detalhados ou projetos**.
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
