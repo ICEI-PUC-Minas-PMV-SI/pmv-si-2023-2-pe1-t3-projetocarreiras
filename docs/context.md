@@ -11,9 +11,9 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%[[6]](https://www.bcb.gov.br/estatisticas/detalhamentoGrafico/graficosestatisticas/taxadesocupacao), atingindo mais de 14 milhões de brasileiros desempregados. 
+O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%[[5]](https://www.bcb.gov.br/estatisticas/detalhamentoGrafico/graficosestatisticas/taxadesocupacao), atingindo mais de 14 milhões de brasileiros desempregados. 
 
-O primeiro emprego para muitos brasileiros se encontra sendo um dos maiores desafios da atualidade, tanto para os jovens quanto para os mais velhos que estão em uma mudança de carreira[[5]](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9180-pesquisa-mensal-de-emprego.html). Esse processo de busca por vagas e oportunidades por vezes se encontra sendo algo exaustivo e desgastante, principalmente para aqueles que não possuem referência de como se moldar para encaixar em uma vaga de sua área. Nota-se uma defasagem de ensino prévio, em como se apresentar para os recrutadores das empresas, tanto nas entrevistas quanto no currículo.
+O primeiro emprego para muitos brasileiros se encontra sendo um dos maiores desafios da atualidade, tanto para os jovens quanto para os mais velhos que estão em uma mudança de carreira[[6]](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9180-pesquisa-mensal-de-emprego.html). Esse processo de busca por vagas e oportunidades por vezes se encontra sendo algo exaustivo e desgastante, principalmente para aqueles que não possuem referência de como se moldar para encaixar em uma vaga de sua área. Nota-se uma defasagem de ensino prévio, em como se apresentar para os recrutadores das empresas, tanto nas entrevistas quanto no currículo.
 
 Olhando por uma perspectiva empresarial, também é possível ver uma problemática para os recrutadores, que passam por diversos processos de busca para achar um candidato que seja adequado para a vaga então desejada.
 
@@ -93,10 +93,9 @@ Não se espera que os usuários tenham conhecimento em tecnologia, a plataforma 
 
 [1]BNE EMPREGOS. Recrutadores eliminam currículos em até 20 segundos. Blog do Emprego. Disponível em: <https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/>. Acesso em: 8 set. 2023.
 
-[5]Até 2016 | IBGE. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/9180-pesquisa-mensal-de-emprego.html>. Acesso em: 11 set. 2023.
+[5]Banco Central do Brasil. Disponível em: <https://www.bcb.gov.br/estatisticas/detalhamentoGrafico/graficosestatisticas/taxadesocupacao>. Acesso em: 11 set. 2023.
 
-[6]Banco Central do Brasil. Disponível em: <https://www.bcb.gov.br/estatisticas/detalhamentoGrafico/graficosestatisticas/taxadesocupacao>. Acesso em: 11 set. 2023.
-
+[6]Até 2016 | IBGE. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/9180-pesquisa-mensal-de-emprego.html>. Acesso em: 11 set. 2023.
 
 ‌ <!-- olhar a forma correta de fazer as referencias -->
 > **Links Úteis**:
