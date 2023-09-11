@@ -11,14 +11,7 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%, atingindo mais de 14 milhões de brasileiros desempregados. [~~Essa taxa pode variar consideravelmente pr região e grupo demográfico. Além disso, o desemprego no Brasil afeta desproporcionalmente grupos de baixa renda e minorias étnicas, tornando a desigualdade uma questão crítica.~~]
-<!--fora do escopo do projeto-->
-
-~~O impacto da pandemia de COVID-19 agravou ainda mais a situação do desemprego, causando uma queda na economia e aumentando o desemprego em diversos setores. [Notavelmente, setores como o turismo e a hospitalidade foram particularmente afetados pela pandemia e pelo desemprego.~~] <!--fora do escopo do projeto-->
-
-~~Uma aplicação chamada "Carreiras" tem como objetivo conectar empregadores e candidatos a emprego de forma eficiente, oferecendo recursos para melhorar a empregabilidade.
-As funcionalidades chave da aplicação incluem a capacidade dos usuários cadastrarem seus perfis, pesquisarem vagas de emprego e candidatarem-se a posições disponíveis. Além disso, a aplicação oferecerá recursos de desenvolvimento profissional, como cursos online e orientação de carreira, visando apoiar os usuários na busca de empregos e no aprimoramento de suas habilidades.~~
-<!--instrução diz pra não detalhar sobre a aplicação neste momento-->
+O desemprego é um problema persistente no Brasil, com flutuações ao longo dos anos. De acordo com dados do Instituto Brasileiro de Geografia e Estatística (IBGE), até setembro de 2021, a taxa média de desemprego no Brasil era de aproximadamente 14,4%, atingindo mais de 14 milhões de brasileiros desempregados. 
 
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. 
 
