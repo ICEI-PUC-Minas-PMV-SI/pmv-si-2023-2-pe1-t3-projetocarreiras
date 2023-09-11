@@ -6,8 +6,8 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
-teste alteração 1
+O trabalho tem como objetivo promover assistência aos candidatos em processos seletivos de empregos.
+
 ## Integrantes
 
 * Abraao de Oliveira Ferreira Couto
