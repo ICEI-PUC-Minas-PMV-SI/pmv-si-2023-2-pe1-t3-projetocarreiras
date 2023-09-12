@@ -43,8 +43,12 @@ Faz-se necessário, com isso, um processo de melhoria e orientação para candid
 ## Objetivos
 
 Objetivo Geral
-Instruir, capacitar e ajudar pessoas de todos os estados brasileiros que estão fora do mercado de trabalho, a obter uma recolocação profissional.
+O projeto tem como objetivo desenvolver um sistema web com o propósito de facilitar a divulgação e a busca de oportunidades de emprego. A plataforma será destinada tanto para candidatos em busca de novas colocações, quanto para recrutadores em busca de profissionais, dessa forma promovendo uma integração eficiente. Além de instruir, capacitar e ajudar pessoas de todos os estados brasileiros que estão fora do mercado de trabalho, a obter uma recolocação profissional.
 
+Objetivos específicos
+1-	Otimizar a elaboração de currículos: Ferramentas com modelos de currículos, além de auxílio aos candidatos, com o objetivo de destacar suas habilidades e experiências de maneira eficiente de acordo com as expectativas do mercado de trabalho.
+2-	Aprimorar a preparação para entrevistas de emprego: Orientações sobre como se apresentar de forma eficaz durante as entrevistas de emprego, abordando desde linguagem corporal, soft skills até estratégias de comunicação assertiva.
+3-	Simplificar o processo de recrutamento: Funcionalidades que simplificam o processo de seleção visando economia de tempo e maior eficiência.
 
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
@@ -55,11 +59,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Em levantamento relizado em 2021 pelo Banco Nacional de Empregos (BNE), constatou-se que quase metade dos recrutadores eliminam um currículo em até 20 segundos[[1]](https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/). Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português.
+Em levantamento relizado em 2021 pelo Banco Nacional de Empregos (BNE), constatou-se que quase metade dos recrutadores eliminam um currículo em até 20 segundos[[1]](https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/). Dentre as razões para esse dado, estão a falta de experiência e a ocorrência de erros de português. Deve-se ter em mente que as competências requeridas pelos profissionais vão além das experiências profissionais e conhecimentos acadêmicos. Os candidatos estão a todo momento sendo avaliados e essa avaliação inicia-se antes mesmo da entrevista, durante o processo de cadastro nas vagas e na elaboração dos currículos. 
 
 A falta de experiência é uma lacuna que pode ser enfatizada ou atenuada, a depender de como o candidato estrutura e redige seu currículo[[2]](): em não sabendo selecionar bem as informações, pode estar deixando de incluir experiências informais, trabalhos voluntários, projetos comunitários, vivências culturais e/ou internacionais etc, e isso vai determinar se ele se destaca ou não[[3]](#3). Hoje, grande parte dos processos seletivos são automatizados, com algoritmos para buscar palavras-chave. Assim, o candidato que não se atém à descrição da vaga, não insere habilidades pertinentes, ou que insere com erros de ortografia, pode ser eliminado.
 
 Outra etapa que é quiçá ainda mais complexa é a entrevista. Os fatores que influenciam na aprovação de uma pessoa são muitos, e muito abstratos: o tom de voz, o linguajar empregado, as expressões corporais, a firmeza com que responde aos entrevistadores etc[[4]](). Ainda que haja experiência, uma pessoa pode ser reprovada pelo comportamental, portanto, saber se portar durante uma entrevista é imprescindível para o sucesso empregatício.
+
+O que se tem percebido é uma mudança de estratégia pela área de recrutamento e seleção. As empresas além de avaliarem as habilidades técnicas e a experiência profissional e acadêmica do candidato, estão avaliando também as habilidades comportamentais e socioemocionais. Uma pesquisa realizada pela The School of Life em 2021, relata que aproximadamente 61% dos empregadores dispensaram pelo menos um funcionário que apresentou comportamento inadequado ou incompatibilidade com a cultura da empresa. Dessa forma, essas habilidades influenciam significativamente o ambiente de trabalho e são vistas como essenciais no momento da avaliação e contratação do profissional.
 
 Para tratar dessas questões, uma plataforma que contivesse as principais orientações sobre currículo e entrevista de emprego seria de grande valia. Além disso, poderia-se fazer a ponte de contato entre trabalhadores e empresas, promovendo a melhoria na carreira dos cidadãos e contribuindo para experiências melhores para ambos os lados nos processos seletivos.
 
