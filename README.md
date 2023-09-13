@@ -10,7 +10,7 @@ O trabalho tem como objetivo promover assistência aos candidatos em processos s
 
 ## Integrantes
 
-* Abraao de 
+* Abraao de Oliveira Ferreira Couto
 * Bruna Climaco Nunes de Queiroz
 * Edlaine Nunes D Oliveira
 * Leonardo Guedes Gomes Junior
