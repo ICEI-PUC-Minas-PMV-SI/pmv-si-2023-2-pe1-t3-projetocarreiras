@@ -1,13 +1,8 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta. Teste 1
+No cenário empresarial atual, caracterizado pela rápida evolução tecnológica e pela crescente digitalização de processos, a forma de contratação e a busca por novas oportunidades sofreram transformações significativas. Além disso, a alta volatilidade da empregabilidade no Brasil evidencia os desafios que os profissionais enfrentam ao manter seus empregos e ao se reinserirem no mercado de trabalho [5]. Nesse contexto, não apenas a atualização constante do currículo se tornou crucial para os profissionais, mas também a necessidade de encontrar formas de ingressar no mercado formal.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Portanto, este site foi concebido com o propósito de abordar essas dificuldades, conectando não apenas empresários a potenciais funcionários, mas também auxiliando recém-formados a encontrar seu primeiro emprego. Para alcançar esses objetivos, implementaremos uma série de mecanismos, como aprimoramento de currículos profissionais, facilitação na conexão com empregadores e muito mais. Em resumo, nosso site busca resolver um problema que afeta a maioria dos brasileiros em algum momento de suas vidas: a incerteza em relação ao futuro, especialmente no que diz respeito à segurança do emprego.
 
 ## Problema
 
