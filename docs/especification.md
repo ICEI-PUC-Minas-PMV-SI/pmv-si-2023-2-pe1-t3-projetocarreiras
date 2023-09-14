@@ -38,8 +38,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Jovem sem experiência | Saber como montar um currículo     | Começar a aplicar para vagas de emprego|
+| Trabalhador   | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
+| Estudante universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
+| Adulto sem experiência formal | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
+| Recrutador | Captar bons currículos | Fazer a melhor contratação
+| Gestor de equipe | Candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo |
+| pessoa | necessidade | finalidade |
+| pessoa | necessidade | finalidade |
+| pessoa | necessidade | finalidade |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -58,15 +66,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|RF-001| Permitir que o usuário (pessoa física) insira suas informações profissionais | ALTA |  |
+|RF-002| Permitir que o usuário (empresa) divulgue vagas em aberto | ALTA |  |
+|RF-003| Informar o usuário (pessoa física) sobre a estrutura de um currículo | MÉDIA | |
+|RF-004| Informar o usuário (pessoa física) sobre  | MÉDIA | |
+|RF-005| Informar o usuário (pessoa física) sobre  | MÉDIA | |
+|RF-006| Informar o usuário (pessoa física) sobre  | MÉDIA | |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| Promover uma boa experiência do usuário | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
