@@ -6,6 +6,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+Ideias de personas:
+1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
+  - fala inglês
+  - trabalhou voluntariamente ensinando idosos a usar o computador
+2. adulto M, formado em curso superior, há anos no mesmo cargo, aplica pra vagas sempre e nunca consegue oportunidade nova
+  - sempre é reprovado das etapas de entrevista
+3. adulto F, cursando faculdade, sem experiência
+  - fez projetos de pesquisa na faculdade
+4. adulto F, nunca trabalhou formalmente, sem curso superior
+  - sabe lidar com o público
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
