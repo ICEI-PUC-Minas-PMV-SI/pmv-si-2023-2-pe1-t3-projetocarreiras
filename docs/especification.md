@@ -42,7 +42,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Trabalhador   | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
 | Estudante universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
 | Adulto sem experiência formal | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
-| Recrutador | Captar bons currículos | Fazer a melhor contratação
+| Recrutador | Publicar novas vagas no site, fornecendo informações sobre a posição e requisito |  Para atrair candidatos qualificados
 | Gestor de equipe | Candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo |
 | pessoa | necessidade | finalidade |
 | pessoa | necessidade | finalidade |
