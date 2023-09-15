@@ -38,14 +38,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Jovem sem experiência | Saber como montar um currículo     | Começar a aplicar para vagas de emprego|
+| Candidato sem experiência | Criar um currículo online    | Começar a aplicar para vagas de emprego com facilidade |
 | Trabalhador   | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
 | Estudante universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
 | Adulto sem experiência formal | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
 | Recrutador | Publicar novas vagas no site, fornecendo informações sobre a posição e requisito |  Para atrair candidatos qualificados
 | Gestor de equipe | Candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo |
-| pessoa | necessidade | finalidade |
-| pessoa | necessidade | finalidade |
+| Candidato em busca de emprego | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
+| Candidato | Acompanhar o status das minhas candidaturas | Para acompanhar o andamento da candidatura |
 | pessoa | necessidade | finalidade |
 
 
