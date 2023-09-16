@@ -12,6 +12,12 @@ José Carlos tem 38 anos, mora no Espírito Santo, e há mais de 10 anos trabalh
 ![Jose Carlos, 38](/docs/img/jose-carlos.png)
 
 ---
+
+Juliana Souza tem 24 anos, e mora em Belo Horizonte. Sempre gostou muito de estudar, está sempre envolvida em algum projeto na faculdade. Hoje, está no quarto período de Economia. Até o momento, Juliana nunca trabalhou formalmente, já que dedicou seus esforços totalmente para a graduação. Durante o Ensino Médio, ela participou de várias simulações de sessões da ONU que acontecem em diversas escolas pela cidade, e também na PUC Minas. 
+Busca sua primeira oportunidade profissional na sua área e precisa de auxílio para ressaltar suas habilidades e potenciais, por meio de uma ferramenta que a ajude a encontrar oportunidades alinhadas com sua formação.
+
+![Juliana, 24](/docs/img/juliana.png)
+---
 Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 
 ![Isabela, 32](/docs/img/isabela.png)
@@ -22,19 +28,8 @@ Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se for
 
 ![Marina, 19](/docs/img/marina.png)
 
----
-
-Juliana Souza, 23 anos. Graduada em administração e atualmente cursando pós graduação em Gestão de Projetos. Sem experiência formal, por ter ingressado diretamente na faculdade após o ensino médio, fluente em inglês, com um excelente desemprenho acadêmico, com participação em projetos universitários e iniciação científica. Busca sua primeira oportunidade profissional na sua área e precisa de auxílio para ressaltar suas habilidades e potenciais, por meio de uma ferramenta que a ajude a encontrar oportunidades alinhadas com sua formação.
 
 
-Ideias de personas:
-1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
-  - fala inglês
-  - trabalhou voluntariamente ensinando idosos a usar o computador
-2. adulto M, formado em curso superior, há anos no mesmo cargo, aplica pra vagas sempre e nunca consegue oportunidade nova
-  - sempre é reprovado das etapas de entrevista
-3. adulto F, cursando faculdade, sem experiência
-  - fez projetos de pesquisa na faculdade
 4. adulto F, nunca trabalhou formalmente, sem curso superior
   - sabe lidar com o público
 
