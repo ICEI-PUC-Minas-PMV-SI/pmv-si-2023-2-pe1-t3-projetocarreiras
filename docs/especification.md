@@ -12,7 +12,12 @@ José Carlos tem 38 anos, mora no Espírito Santo, e há mais de 10 anos trabalh
 
 ![Jose Carlos, 38](/docs/img/jose-carlos.png)
 
-Isabela Pereira tem 36 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
+---
+Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
+
+![Isabela, 32](/docs/img/isabela.png)
+
+---
 
 Ideias de personas:
 1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
