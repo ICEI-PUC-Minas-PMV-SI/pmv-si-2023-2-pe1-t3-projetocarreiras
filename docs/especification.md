@@ -9,6 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <!-- Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros-->
 
 José Carlos tem 38 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, está em um processo de transição de carreira, e para isso iniciou a faculdade no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. José tem enviado currículos pelos sites de algumas empresas, mas por enquanto não obteve sucesso, e não conhece outras estratégias. 
+![Jose Carlos, 38](/docs/img/jose-carlos.png)
 
 Isabela Pereira tem 36 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 
