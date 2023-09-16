@@ -1,8 +1,7 @@
 # Especificações do Projeto
+O problema identificado é a dificuldade enfrentada pelos usuários em ingressar no mercado de trabalho, seja por falta de experiência formal, transição de carreira ou necessidade de destacar suas habilidades e potenciais. Eles buscam uma ferramenta que ofereça suporte na elaboração de currículos, preparação para entrevistas e direcionamento para encontrar vagas alinhadas com suas formações e objetivos profissionais. Da mesma maneira, os recrutadores necessitam de uma ferramenta que ofereça um controle mais específico e mais próximo do processo de seleção, incluindo recursos para divulgação de vagas de maneira mais eficaz.
+Para isso, foi necessário uma visão clara do problema a ser resolvido, das personas envolvidas, das necessidades dos usuários e dos requisitos que a solução deve atender. Bem como, criação de personas, elaboração das histórias dos usuários, identificação dos requisitos funcionais e não funcionais, além da definição de restrições do projeto.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -18,6 +17,13 @@ Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialis
 ![Isabela, 32](/docs/img/isabela.png)
 
 ---
+
+João Guilherme, 18 anos. Recém-formado no ensino médio, sem formação técnica ou graduação. Busca oportunidades de trabalho sem ter experiência prévia, necessita de ajuda para elaboração de um currículo que destaque suas habilidades e potenciais, além de preparação para entrevistas de empreso e sugestões de habilidades a serem desenvolvidas.
+
+---
+
+Juliana Souza, 23 anos. Graduada em administração e atualmente cursando pós graduação em Gestão de Projetos. Sem experiência formal, por ter ingressado diretamente na faculdade após o ensino médio, fluente em inglês, com um excelente desemprenho acadêmico, com participação em projetos universitários e iniciação científica. Busca sua primeira oportunidade profissional na sua área e precisa de auxílio para ressaltar suas habilidades e potenciais, por meio de uma ferramenta que a ajude a encontrar oportunidades alinhadas com sua formação.
+
 
 Ideias de personas:
 1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
