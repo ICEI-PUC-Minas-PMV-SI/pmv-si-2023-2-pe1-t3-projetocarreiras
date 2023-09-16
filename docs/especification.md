@@ -38,14 +38,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Candidato sem experiência | Criar um currículo online    | Começar a aplicar para vagas de emprego com facilidade |
-| Trabalhador   | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
-| Estudante universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
-| Adulto sem experiência formal | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
-| Recrutador | Publicar novas vagas no site, fornecendo informações sobre a posição e requisito |  Para atrair candidatos qualificados
-| Gestor de equipe | Candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo |
-| Candidato em busca de emprego | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
-| Candidato | Acompanhar o status das minhas candidaturas | Para acompanhar o andamento da candidatura |
+| Nome persona 1 | Criar um currículo online    | Começar a aplicar para vagas de emprego com facilidade |
+| Nome persona 1 | Acompanhar o status das minhas candidaturas | Melhor me organizar e preparar para as etapas dos processos |
+| Nome persona 2 | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
+| Nome persona 2 | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
+| Nome persona 3 | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
+| Nome persona 4 | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
+| Nome Persona 5 | Publicar vagas em aberto na empresa onde trabalho |  Encontrar pessoas qualificadas para os cargos |
+| Nome persona 5 | Encontrar candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo na empresa onde trabalho |
 | pessoa | necessidade | finalidade |
 
 
@@ -66,8 +66,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas | ALTA |  |
-|RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA |  |
+|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas | ALTA | Bruna |
+|RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA | Bruna |
 |RF-003| O sistema deve poder ser acessado por usuários não cadastrados | ALTA |  |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego | ALTA | |
 |RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis | ALTA | |
