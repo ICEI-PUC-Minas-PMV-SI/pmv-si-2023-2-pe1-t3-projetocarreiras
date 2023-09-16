@@ -97,12 +97,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Requisito de usabilidade (facilidade de uso): não haverá necessidade de treinamento prévio para uso da plataforma.| MÉDIA | 
 |RNF-002| Requisito de confiabilidade: O sistema deverá estar disponível em pelo o menos 95% do tempo. |  BAIXA | 
-|RNF-002| Requisito de portabilidade: O sistema inicialmente será configurado para executar apenas na web. |  ALTA | 
-|RNF-002| Requisito de entrega: Em toda manutenção deverá ser gerado um pequeno relatório sobre as modificações.  |  MÉDIA | 
-|RNF-002| Requisito de implementação: Inicialmente será desenvolvido apenas a parte de front-end com HTML, CSS e JS. |  BAIXA | 
-|RNF-002| Requisito de interoperabilidade: Posteriormente, o sistema deverá se comunicar com um banco SQL. |  BAIXA | 
-|RNF-002| Requisito ético: O sistema não apresentará aos usuários quaisquer dados de cunho privativo. |  ALTA | 
-|RNF-002| Requisito legai: O sistema atenderá as normas legais vigentes no território nacional. |  ALTA | 
+|RNF-003| Requisito de portabilidade: O sistema inicialmente será configurado para executar apenas na web. |  ALTA | 
+|RNF-004| Requisito de entrega: Em toda manutenção deverá ser gerado um pequeno relatório sobre as modificações.  |  MÉDIA | 
+|RNF-005| Requisito de implementação: Inicialmente será desenvolvido apenas a parte de front-end com HTML, CSS e JS. |  BAIXA | 
+|RNF-006| Requisito de interoperabilidade: Posteriormente, o sistema deverá se comunicar com um banco SQL. |  BAIXA | 
+|RNF-007| Requisito ético: O sistema não apresentará aos usuários quaisquer dados de cunho privativo. |  ALTA | 
+|RNF-008| Requisito legai: O sistema atenderá as normas legais vigentes no território nacional. |  ALTA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
