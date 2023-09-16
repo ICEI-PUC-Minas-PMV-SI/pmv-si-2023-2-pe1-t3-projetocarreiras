@@ -42,10 +42,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Nome persona 1 | Acompanhar o status das minhas candidaturas | Melhor me organizar e preparar para as etapas dos processos |
 | Nome persona 2 | Entender melhor sobre entrevistas de emprego   | Descobrir o que estou errando e melhorar meu desempenho |
 | Nome persona 2 | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
-| Nome persona 3 | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
-| Nome persona 4 | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
-| Nome Persona 5 | Publicar vagas em aberto na empresa onde trabalho |  Encontrar pessoas qualificadas para os cargos |
-| Nome persona 5 | Encontrar candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo na empresa onde trabalho |
+| Estudante Universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
+| Recém-Graduado | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
+| Recrutador     | Publicar vagas em aberto na empresa onde trabalho |  Encontrar pessoas qualificadas para os cargos |
+| Gerente de RH  | Encontrar candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo na empresa onde trabalho |
 | pessoa | necessidade | finalidade |
 
 
