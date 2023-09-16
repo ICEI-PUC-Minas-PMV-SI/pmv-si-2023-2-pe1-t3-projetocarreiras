@@ -66,21 +66,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA |  |
-|RF-002| O sistema deve poder ser acessado por um usuário visitante | ALTA |  |
-|RF-003| O sistema deve permitir que usuários visitantes se cadastrem | MÉDIA | |
-|RF-004| O sistema deve permitir que empresas se cadastrem | MÉDIA | |
-|RF-005| O sistema deve permitir que empresas criem e gerencie seu perfil | MÉDIA | |
-|RF-006| O sistema deve permitir que empresas criem e gerenciem vagas de emprego | MÉDIA | |
-|RF-007| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada | MÉDIA | |
-|RF-008| O sistema deve permitir que o recrutador altere o status das vagas para "fechada" | MÉDIA | |
-|RF-009| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade | MÉDIA | |
-|RF-010| O sistema deve permitir | MÉDIA | |
+|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas | ALTA |  |
+|RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA |  |
+|RF-003| O sistema deve poder ser acessado por usuários não cadastrados | ALTA |  |
+|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego | ALTA | |
+|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis | ALTA | |
+|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados | MÉDIA | |
+|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas | MÉDIA | |
+|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada | MÉDIA | |
+|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada" | MÉDIA | |
+|RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade | MÉDIA | |
 |RF-011| O sistema deve permitir | MÉDIA | |
 |RF-012| O sistema deve permitir | MÉDIA | |
+|RF-013| O sistema deve permitir | MÉDIA | |
 
-### Requisitos não Funcionais
 
+### Reeuisitos não Funcionai89
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| Requisito de usabilidade (facilidade de uso): não haverá necessidade de treinamento prévio para uso da plataforma.| MÉDIA | 
