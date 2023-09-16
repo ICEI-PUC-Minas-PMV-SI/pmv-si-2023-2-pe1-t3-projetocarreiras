@@ -66,12 +66,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário (pessoa física) insira suas informações profissionais | ALTA |  |
-|RF-002| Permitir que o usuário (empresa) divulgue vagas em aberto | ALTA |  |
-|RF-003| Informar o usuário (pessoa física) sobre a estrutura de um currículo | MÉDIA | |
-|RF-004| Informar o usuário (pessoa física) sobre  | MÉDIA | |
-|RF-005| Informar o usuário (pessoa física) sobre  | MÉDIA | |
-|RF-006| Informar o usuário (pessoa física) sobre  | MÉDIA | |
+|RF-001| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA |  |
+|RF-002| O sistema deve poder ser acessado por um usuário visitante | ALTA |  |
+|RF-003| O sistema deve permitir que usuários visitantes se cadastrem | MÉDIA | |
+|RF-004| O sistema deve permitir que empresas se cadastrem | MÉDIA | |
+|RF-005| O sistema deve permitir que empresas criem e gerencie seu perfil | MÉDIA | |
+|RF-006| O sistema deve permitir que empresas criem e gerenciem vagas de emprego | MÉDIA | |
+|RF-007| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada | MÉDIA | |
+|RF-008| O sistema deve permitir que o recrutador altere o status das vagas para "fechada" | MÉDIA | |
+|RF-009| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade | MÉDIA | |
+|RF-010| O sistema deve permitir | MÉDIA | |
+|RF-011| O sistema deve permitir | MÉDIA | |
+|RF-012| O sistema deve permitir | MÉDIA | |
 
 ### Requisitos não Funcionais
 
