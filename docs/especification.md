@@ -7,7 +7,7 @@ Para isso, foi necessário uma visão clara do problema a ser resolvido, das per
 
 <!-- Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros-->
 
-José Carlos tem 33 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, está em um processo de transição de carreira, e para isso iniciou a faculdade no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. José tem enviado currículos pelos sites de algumas empresas, mas por enquanto não obteve sucesso, e não conhece outras estratégias. 
+José Carlos tem 33 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, José está embarcando em uma emocionante jornada de transição de carreira e, para concretizar essa mudança, deu início à sua jornada acadêmica no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. Em busca de novas oportunidades, José tem enviado currículos através de sites de empresas, no entanto, ele ainda não obteve o sucesso desejado e enfrenta a incerteza sobre as estratégias mais eficazes para ingressar na área de tecnologia. 
 
 ![Jose Carlos, 38](/docs/img/jose-carlos.png)
 ---
@@ -20,15 +20,14 @@ Busca sua primeira oportunidade profissional na sua área e precisa de auxílio 
 Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 
 ![Isabela, 32](/docs/img/isabela.png)
-
 ---
 
-Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, e fala 3 idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe mora. Agora está de volta ao Brasil, não está cursando faculdade, mas gostaria de começar a trabalhar. Ela não sabe como começar a escrever seu currículo, e precisa de orientação.
+Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, demonstrando habilidades notáveis ao falar três idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe reside, enriquecendo sua experiência internacional e ampliando seu conhecimento cultural. Agora de volta ao Brasil, Marina está ansiosa para iniciar sua trajetória profissional, mas se encontra diante de um desafio, ela não sabe por onde começar ao elaborar seu currículo. Ela busca orientação e assistência para dar os primeiros passos nessa nova fase de sua vida e aproveitar ao máximo suas habilidades e conhecimentos.
 
 ![Marina, 19](/docs/img/marina.png)
 ---
 
-Orlando Marques tem 38 anos, mora em Pernambuco, e nunca trabalhou formalmente. Sempre se esforçou muito para conseguir ajudar a família, tendo várias experiências informais em comércio, atendimento e prestação de serviços de manutenção. Orlando escreve muito bem, e em seu tempo livre gosta de escrever poesias. Hoje, ele gostaria de ter mais segurança e estabilidade, e conseguir um trabalho formal, mas não sabe como funciona o ambiente corporativo.
+Orlando Marques tem 38 anos, mora em Pernambuco, e nunca trabalhou formalmente. Sempre se esforçou muito para conseguir ajudar a família, tendo várias experiências informais em comércio, atendimento e prestação de serviços de manutenção. Orlando também demonstra habilidades excepcionais na escrita e, em seus momentos de lazer, gosta de escrever poesias. Atualmente, ele almeja uma mudança em sua trajetória, buscando mais segurança, estabilidade em sua vida profissional e conseguir um trabalho formal, mas enfrenta a incerteza sobre como funciona o ambiente corporativo.
 
 ![Orlando, 38](/docs/img/orlando.png)
 
