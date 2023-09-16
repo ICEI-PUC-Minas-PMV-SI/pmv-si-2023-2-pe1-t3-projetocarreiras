@@ -7,10 +7,9 @@ Para isso, foi necessário uma visão clara do problema a ser resolvido, das per
 
 <!-- Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros-->
 
-José Carlos tem 38 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, está em um processo de transição de carreira, e para isso iniciou a faculdade no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. José tem enviado currículos pelos sites de algumas empresas, mas por enquanto não obteve sucesso, e não conhece outras estratégias. 
+José Carlos tem 33 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, está em um processo de transição de carreira, e para isso iniciou a faculdade no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. José tem enviado currículos pelos sites de algumas empresas, mas por enquanto não obteve sucesso, e não conhece outras estratégias. 
 
 ![Jose Carlos, 38](/docs/img/jose-carlos.png)
-
 ---
 
 Juliana Souza tem 24 anos, e mora em Belo Horizonte. Sempre gostou muito de estudar, está sempre envolvida em algum projeto na faculdade. Hoje, está no quarto período de Economia. Até o momento, Juliana nunca trabalhou formalmente, já que dedicou seus esforços totalmente para a graduação. Durante o Ensino Médio, ela participou de várias simulações de sessões da ONU que acontecem em diversas escolas pela cidade, e também na PUC Minas. 
@@ -18,7 +17,7 @@ Busca sua primeira oportunidade profissional na sua área e precisa de auxílio 
 
 ![Juliana, 24](/docs/img/juliana.png)
 ---
-Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
+Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 
 ![Isabela, 32](/docs/img/isabela.png)
 
@@ -27,24 +26,11 @@ Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialis
 Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, e fala 3 idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe mora. Agora está de volta ao Brasil, não está cursando faculdade, mas gostaria de começar a trabalhar. Ela não sabe como começar a escrever seu currículo, e precisa de orientação.
 
 ![Marina, 19](/docs/img/marina.png)
+---
 
+Orlando Marques tem 38 anos, mora em Pernambuco, e nunca trabalhou formalmente. Sempre se esforçou muito para conseguir ajudar a família, tendo várias experiências informais em comércio, atendimento e prestação de serviços de manutenção. Orlando escreve muito bem, e em seu tempo livre gosta de escrever poesias. Hoje, ele gostaria de ter mais segurança e estabilidade, e conseguir um trabalho formal, mas não sabe como funciona o ambiente corporativo.
 
-
-4. adulto F, nunca trabalhou formalmente, sem curso superior
-  - sabe lidar com o público
-
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![Orlando, 38](/docs/img/orlando.png)
 
 ## Histórias de Usuários
 
