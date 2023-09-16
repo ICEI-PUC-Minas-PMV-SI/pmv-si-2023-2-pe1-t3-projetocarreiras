@@ -1,19 +1,15 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+Banco Central do Brasil. Estatísticas. Disponível em: <https://www.bcb.gov.br/estatisticas/detalhamentoGrafico/graficosestatisticas/taxadesocupacao>. Acesso em: 11 set. 2023.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+BNE EMPREGOS. Recrutadores eliminam currículos em até 20 segundos. Blog do Emprego. Disponível em: <https://blog.bne.com.br/recrutadores-eliminam-curriculos-em-ate-20-segundos/>. Acesso em: 8 set. 2023.
 
-Exemplos de referências bibliográficas:
+Ferreira, Aleciane & Gondim, Sonia & Pilati, Ronaldo. (2014). Gerenciamento de impressões e tomada de decisão em entrevistas de emprego. Psicologia: Ciência e Profissão. 34. 66-79. 10.1590/S1414-98932014000100006.
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Desemprego. Disponível em: <https://www.ibge.gov.br/explica/desemprego.php>. Acesso em: 16 set. 2023.
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+OLIVEIRA, Ikaro  Ramon  Vidal  de;  MACÊDO, Maria  Erilúcia  Cruz. O  Papel Determinante  do Currículo no Processo de Recrutamento e Seleção. Id on Line Rev.Mult. Psic., Fevereiro/2020,  vol.14, n.49, p.212-228.ISSN: 1981-1179
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+SCISTOWSKI, L. Como Conquistar e Manter seu Emprego –tudo o que você precisa saber e fazer para estar competitivo e se manter empregável. Rio de Janeiro: Palavra e Imagem, 2002
+‌
 
