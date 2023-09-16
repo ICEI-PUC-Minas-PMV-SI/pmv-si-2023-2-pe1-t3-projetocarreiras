@@ -18,7 +18,9 @@ Isabela Pereira tem 32 anos, é psicóloga, analista comportamental e especialis
 
 ---
 
-João Guilherme, 18 anos. Recém-formado no ensino médio, sem formação técnica ou graduação. Busca oportunidades de trabalho sem ter experiência prévia, necessita de ajuda para elaboração de um currículo que destaque suas habilidades e potenciais, além de preparação para entrevistas de empreso e sugestões de habilidades a serem desenvolvidas.
+Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, e fala 3 idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe mora. Agora está de volta ao Brasil, não está cursando faculdade, mas gostaria de começar a trabalhar. Ela não sabe como começar a escrever seu currículo, e precisa de orientação.
+
+![Marina, 19](/docs/img/marina.png)
 
 ---
 
