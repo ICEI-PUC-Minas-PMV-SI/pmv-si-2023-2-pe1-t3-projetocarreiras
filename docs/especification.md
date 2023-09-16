@@ -6,9 +6,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-José Carlos, 48 anos, mais de 20 anos de experiência na área comercial, desde vendedor até gerente de vendas. Atualmente está em um processo de transição de carreira, voltou a estudar e ingressou na faculdade no curso de Análise e Desenvolvimento de Sistemas e está tentando se inserir no mercado nessa área. Está a procura de uma ferramenta que o possibilite criar um currículo de maneira adequada, se preparar melhor para entrevistas de emprego, encontrar vagas na área e uma orientação de quais habilidades devem ser aprimoradas.
+<!-- Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros-->
 
-Isabela Pereira, 36 anos. Psicóloga, analista comportamental e especialista em recrutamento e seleção. Vasta experiência profissional, apresenta dificuldades na divulgação das vagas na empresa em que trabalha, incluindo encontrar candidatos qualificados e alinhados às vagas com base em critérios comportamentais técnicos, além de currículos incompletos ou inconsistentes, dificuldade em manter um controle mais próximo do processo de seleção, desde a triagem, até a integração desses profissionais. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
+José Carlos tem 38 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, está em um processo de transição de carreira, e para isso iniciou a faculdade no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. José tem enviado currículos pelos sites de algumas empresas, mas por enquanto não obteve sucesso, e não conhece outras estratégias. 
+
+Isabela Pereira tem 36 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. Sua empresa tem tido problemas em encontrar funcionários para preencher alguns cargos muito importantes. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 
 Ideias de personas:
 1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
@@ -21,8 +23,6 @@ Ideias de personas:
 4. adulto F, nunca trabalhou formalmente, sem curso superior
   - sabe lidar com o público
 
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
