@@ -6,6 +6,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+José Carlos, 48 anos, mais de 20 anos de experiência na área comercial, desde vendedor até gerente de vendas. Atualmente está em um processo de transição de carreira, voltou a estudar e ingressou na faculdade no curso de Análise e Desenvolvimento de Sistemas e está tentando se inserir no mercado nessa área. Está a procura de uma ferramenta que o possibilite criar um currículo de maneira adequada, se preparar melhor para entrevistas de emprego, encontrar vagas na área e uma orientação de quais habilidades devem ser aprimoradas.
+
+Isabela Pereira, 36 anos. Psicóloga, analista comportamental e especialista em recrutamento e seleção. Vasta experiência profissional, apresenta dificuldades na divulgação das vagas na empresa em que trabalha, incluindo encontrar candidatos qualificados e alinhados às vagas com base em critérios comportamentais técnicos, além de currículos incompletos ou inconsistentes, dificuldade em manter um controle mais próximo do processo de seleção, desde a triagem, até a integração desses profissionais. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
+
 Ideias de personas:
 1. adolescente M recém-formado no ensino médio, não cursa faculdade, sem experiências formais
   - fala inglês
