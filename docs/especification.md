@@ -22,7 +22,7 @@ Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialis
 ![Isabela, 32](/docs/img/isabela.png)
 ---
 
-Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, demonstrando habilidades notáveis ao falar três idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe reside, enriquecendo sua experiência internacional e ampliando seu conhecimento cultural. Agora de volta ao Brasil, Marina está ansiosa para iniciar sua trajetória profissional, mas se encontra diante de um desafio, ela não sabe por onde começar ao elaborar seu currículo. Ela busca orientação e assistência para dar os primeiros passos nessa nova fase de sua vida e aproveitar ao máximo suas habilidades e conhecimentos.
+Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, demonstrando habilidades notáveis ao falar três idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe reside, enriquecendo sua experiência internacional e ampliando seu conhecimento cultural. Agora de volta ao Brasil, Marina está ansiosa para iniciar sua trajetória profissional, mas se encontra diante de um desafio: ela não sabe por onde começar a elaborar seu currículo. Ela busca orientação e assistência para dar os primeiros passos nessa nova fase de sua vida e aproveitar ao máximo suas habilidades e conhecimentos.
 
 ![Marina, 19](/docs/img/marina.png)
 ---
