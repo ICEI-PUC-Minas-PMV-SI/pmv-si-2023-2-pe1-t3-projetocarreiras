@@ -1,6 +1,7 @@
 # Especificações do Projeto
-O problema identificado é a dificuldade enfrentada pelos usuários em ingressar no mercado de trabalho, seja por falta de experiência formal, transição de carreira ou necessidade de destacar suas habilidades e potenciais. Eles buscam uma ferramenta que ofereça suporte na elaboração de currículos, preparação para entrevistas e direcionamento para encontrar vagas alinhadas com suas formações e objetivos profissionais. Da mesma maneira, os recrutadores necessitam de uma ferramenta que ofereça um controle mais específico e mais próximo do processo de seleção, incluindo recursos para divulgação de vagas de maneira mais eficaz.
-Para isso, foi necessário uma visão clara do problema a ser resolvido, das personas envolvidas, das necessidades dos usuários e dos requisitos que a solução deve atender. Bem como, criação de personas, elaboração das histórias dos usuários, identificação dos requisitos funcionais e não funcionais, além da definição de restrições do projeto.
+
+Baseando-se no problema do desemprego, atrelado à dificuldade dos candidatos em elaborarem currículos e em desempenharem boas entrevistas, bem como na necessidade dos recrutadores encontrarem candidatos adequados e guiarem processos seletivos de forma mais dinâmica e precisa, busca-se construir uma solução que atue nesse cenário. 
+Aqui, constam as personas que representam os potenciais usuários a se beneficiarem deste sistema, as suas histórias dentro da aplicação, além dos Requisitos Funcionais e Não Funcionais.
 
 
 ## Personas
@@ -44,7 +45,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | José Carlos | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
 | João    | Entender melhor sobre entrevistas de emprego | Identificar onde estou cometendo erros e aprimorar meu desempenho durante as entrevistas |
 | João | Um mecanismo de recomendação de cursos de aprimoramento profissional | Ajudar os candidatos a melhorar suas habilidades e avançar em suas carreiras |
-| Juliana | Saber qu experiências incluir em meu currículo | Aumentar minhas chances de ser selecionado em processos seletivos |
+| Juliana | Saber que experiências incluir em meu currículo | Aumentar minhas chances de ser selecionado em processos seletivos |
 | Juliana     | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
 | Isabela        | Publicar vagas em aberto na minha empresa |  Encontrar pessoas qualificadas para os cargos |
 | Isabela     | Encontrar candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo na minha empresa |
