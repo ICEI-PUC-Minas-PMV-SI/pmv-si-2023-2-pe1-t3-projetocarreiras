@@ -83,7 +83,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-003| O sistema inicialmente será configurado para executar apenas na web. |  BAIXA | 
 |RNF-004| O sistema será desenvolvido a parte de front-end utilizando HTML, CSS e JS. |  ALTA | 
 |RNF-005| O sistema atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
-|RNF-006| Inicialmente será desenvolvido apenas a parte de front-end com HTML, CSS e JS. |  ALTA | 
 
 ## Restrições
 
