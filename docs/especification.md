@@ -60,17 +60,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |--------|---------------------------------------|----| ----|
 |RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Bruna |
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
-|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA |  |
-|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | |
-|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | |
+|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
+|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA |  |
+|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | Leonardo |
 |RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | |
 |RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | MÉDIA | |
-|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA | |
-|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | MÉDIA | |
+|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA | Leonardo |
+|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | MÉDIA | Leonardo |
 |RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | MÉDIA | |
-|RF-011| O sistema deve permitir | MÉDIA | |
-|RF-012| O sistema deve permitir | MÉDIA | |
-|RF-013| O sistema deve permitir | MÉDIA | |
+|RF-011| O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo. | MÉDIA | |
+|RF-012| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | ALTA | Leonardo |
+|RF-013| O sistema deve permitir que o usuário cadastrado altere seu perfil| MÉDIA | |
 
 
 ### Requisitos não-Funcionais: 
@@ -78,7 +78,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema não precisará de treinamento prévio para uso da mesma.| BAIXA | 
-|RNF-002| O sistema deverá ser responsivo, se adaptando às telas de Desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
+|RNF-002| O sistema deverá ser responsivo, se adaptando às telas de desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
 |RNF-003| O sistema inicialmente será configurado para executar apenas na web. |  BAIXA | 
 |RNF-004| O sistema será desenvolvido a parte de front-end utilizando HTML, CSS e JS. |  ALTA | 
 |RNF-005| O sistema ao possuir conectividade com banco, deverá se comunicar com um storage SQL. |  MÉDIA | 
