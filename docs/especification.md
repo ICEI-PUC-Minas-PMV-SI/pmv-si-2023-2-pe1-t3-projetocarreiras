@@ -8,16 +8,12 @@ Aqui, constam as personas que representam os potenciais usuários a se beneficia
 
 ![Jose Carlos, 33](/docs/img/jose-carlos.png)
 ---
-
 ![Juliana, 24](/docs/img/juliana.png)
 ---
-
 ![Isabela, 31](/docs/img/isabela.png)
 ---
-
 ![Marina, 19](/docs/img/marina.png)
 ---
-
 ![joao, 38](/docs/img/joao.png)
 
 ## Histórias de Usuários
