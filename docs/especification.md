@@ -54,7 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | MÉDIA | Abraão |
 |RF-011| O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo. | MÉDIA | Paola |
 |RF-012| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | ALTA | Leonardo |
-|RF-013| O sistema deve permitir que o usuário cadastrado altere seu perfil| MÉDIA | Abraão |
+|RF-013| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| MÉDIA | Abraão |
 
 
 ### Requisitos não-Funcionais: 
