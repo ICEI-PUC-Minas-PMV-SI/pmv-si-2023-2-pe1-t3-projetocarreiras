@@ -18,7 +18,7 @@ Busca sua primeira oportunidade profissional na sua área e precisa de auxílio 
 ![Juliana, 24](/docs/img/juliana.png)
 ---
 
-Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. No entanto, sua empresa enfrenta desafios significativos na busca por funcionários adequados para cargos de extrema importância. Diante dessa necessidade premente, Isabela está ativamente procurando por uma solução integrada que possa revolucionar e otimizar o processo de recrutamento, desde a identificação inicial de candidatos até a seleção final. Ela busca uma abordagem que simplifique  e aprimore o processo de identificação e seleção dos melhores talentos, visando assegurar o sucesso contínuo dos negócios de sua empresa.
+Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. No entanto, sua empresa enfrenta desafios significativos na busca por funcionários adequados para cargos de extrema importância. Diante dessa necessidade premente, Isabela está ativamente procurando por uma solução integrada que possa revolucionar e otimizar o processo de recrutamento, desde a identificação inicial de candidatos até a seleção final. Ela busca uma abordagem que simplifique e aprimore o processo de identificação e seleção dos melhores talentos, visando assegurar o sucesso contínuo dos negócios de sua empresa.
 
 ![Isabela, 31](/docs/img/isabela.png)
 ---
@@ -40,13 +40,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Nome persona 1     | Criar um currículo online          | Começar a aplicar para vagas de emprego com facilidade |
 | Nome persona 1     | Acompanhar o status das minhas candidaturas | Melhor me organizar e preparar para as etapas dos processos |
-| Nome persona 2     | Entender melhor sobre entrevistas de emprego | Descobrir o que estou errando e melhorar meu desempenho |
+| Nome persona 2     | Entender melhor sobre entrevistas de emprego | Identificar onde estou cometendo erros e aprimorar meu desempenho durante as entrevistas |
 | Profissional em Transição de Carreira | Pesquisar vagas por localização | Encontrar oportunidades próximas à minha localização |
-| Estudante Universitário | Saber o que escrevo em meu currículo | Ser selecionado em processos seletivos |
+| Estudante Universitário | Saber o que incluir em meu currículo | Aumentar minhas chances de ser selecionado em processos seletivos |
 | Recém-Graduado     | Saber quais habilidades tenho que são valiosas | Conseguir uma oportunidade formal |
 | Recrutador         | Publicar vagas em aberto na empresa onde trabalho |  Encontrar pessoas qualificadas para os cargos |
 | Gerente de RH      | Encontrar candidatos melhor preparados | Realizar boas entrevistas e agilizar o processo seletivo na empresa onde trabalho |
-| Profissional de Desenvolvimento de Carreira | Um mecanismo de recomendação de cursos de aprimoramento profissional | ajudar os candidatos a melhorar suas habilidades e avançar em suas carreiras |
+| Profissional de Desenvolvimento de Carreira | Um mecanismo de recomendação de cursos de aprimoramento profissional | Ajudar os candidatos a melhorar suas habilidades e avançar em suas carreiras |
 
 ## Requisitos
 
