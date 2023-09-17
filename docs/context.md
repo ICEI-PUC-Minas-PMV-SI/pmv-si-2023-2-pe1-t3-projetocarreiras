@@ -1,15 +1,7 @@
 # Introdução
 
 O mercado de trabalho hoje é caracterizado pela rápida evolução tecnológica e pela crescente automatiização de processos, a forma de contratação e a busca por novas oportunidades sofreram transformações significativas. Além disso, a empregabilidade volátil no Brasil implica desafios aos profissionais para manter seus empregos e para se reinserirem no mercado de trabalho. Nesse contexto, não apenas a atualização constante do currículo se tornou crucial para os profissionais, mas também a necessidade de encontrar formas de ingressar no mercado formal. \
-Este projeto foi concebido com o propósito de abordar essas dificuldades, conectando não apenas empresários a candidatos, mas também auxiliando as pessoas que buscam sua primeira oportunidade. Para alcançar esses objetivos, serão implementados mecanismos que visem a facilitar essa cadeia para ambos os lados. Busca-se, portanto, propagar o melhor entendimento ao trabalhador sobre como gerenciar sua carreira, ao mesmo tempo que facilitar ao empregador a busca por essas pessoas.\
-Ressalta-se ainda que a platafoma busca atender a necessidades que as soluções hoje disponíveis não conseguem suprir como um todo, abarcando, assim, as principais necessidades dos candidatos no que se refere ao desenvolvimento contínuo de suas carreiras, bem como das empresas no âmbito do recrutamento. O quadro a seguir ilustra o comparativo entre a plataforma aqui proposta, o CV Connect, e as principais plataformas de empregos da atualidade:
-
-| Funcionalidade | LinkedIn | Vagas.com | Gupy | Glassdoor | CV Connect
-| --- | --- | --- | --- | --- | --- |
-| Divulga vagas de emprego | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Guarda histórico de currículos  | ✅ | ✅ | ✅ | ❌ | ✅ |
-| Tem seção de ensino sobre montagem de currículo e entrevistas | ❌ | ❌ | ❌ | ❌ | ✅ |
-
+O projeto CV Connect foi concebido com o propósito de abordar essas dificuldades, conectando não apenas empresários a candidatos, mas também auxiliando as pessoas que buscam sua primeira oportunidade. Para alcançar esses objetivos, serão implementados mecanismos que visem a facilitar essa cadeia para ambos os lados. Busca-se, portanto, propagar o melhor entendimento ao trabalhador sobre como gerenciar sua carreira, ao mesmo tempo que facilitar ao empregador a busca por essas pessoas.
 
 ## Problema
 
@@ -36,7 +28,15 @@ Hoje, grande parte dos processos  são automatizados, com algoritmos para buscar
 As etapas de entrevista também trazem complexidade ao processo, já que há muitos fatores influenciando a avaliação: o tom de voz, o linguajar empregado, as expressões corporais, a firmeza com que responde aos entrevistadores etc.Ainda que haja experiência, uma pessoa pode ser reprovada pelo comportamental, portanto, saber se portar durante uma entrevista é imprescindível para o sucesso empregatício.\ 
 O que ocorre hoje nas empresas é que, além de avaliarem as habilidades técnicas, a experiência profissional e acadêmica do candidato, estão avaliando também as habilidades comportamentais e socioemocionais. Por essa razão, pensou-se no objetivo específico 2 (Aprimorar a preparação para entrevistas de emprego), que seria muito importante para garantir resultados melhores na etapa de entrevista.\
 O desemprego hoje afeta um grande contingente de brasileiros, sendo mais de 8 milhões de pessoas no segundo trimestre de 2023, segundo o Instituto Brasileiro de Geogragia e Estatística (IBGE). Para agir nesse cenário, uma plataforma que contivesse as principais orientações sobre currículo e entrevista de emprego seria de grande valia. Fazendo a ponte de contato entre trabalhadores e empresas, estaria promovendo a melhoria na carreira dos cidadãos que, melhor orientados, teriam desempenho melhor durante a busca por oportunidades.\
-Ao mesmo tempo, os recrutadores poderiam fazer análises mais precisas e assertivas, selecionando candidatos cada vez mais aderentes à cultura da empresa, o que poderia ainda significar menor rotatividade e times cada vez mais integrados. Essa questão é abarcada pelo objetivo específico 3 (Simplificar o processo de recrutamento.) 
+Ao mesmo tempo, os recrutadores poderiam fazer análises mais precisas e assertivas, selecionando candidatos cada vez mais aderentes à cultura da empresa, o que poderia ainda significar menor rotatividade e times cada vez mais integrados. Essa questão é abarcada pelo objetivo específico 3 (Simplificar o processo de recrutamento.)\
+Ressalta-se ainda que a platafoma busca atender a necessidades que as soluções hoje disponíveis não conseguem suprir como um todo, abarcando, assim, as principais necessidades dos candidatos no que se refere ao desenvolvimento contínuo de suas carreiras, bem como das empresas no âmbito do recrutamento. O quadro a seguir ilustra o comparativo entre a plataforma aqui proposta, o CV Connect, e as principais plataformas de empregos da atualidade:
+
+| Funcionalidade | LinkedIn | Vagas.com | Gupy | Glassdoor | CV Connect
+| --- | --- | --- | --- | --- | --- |
+| Divulga vagas de emprego | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Guarda histórico de currículos  | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Tem seção de ensino sobre montagem de currículo e entrevistas | ❌ | ❌ | ❌ | ❌ | ✅ |
+
 
 
 ## Público-Alvo
