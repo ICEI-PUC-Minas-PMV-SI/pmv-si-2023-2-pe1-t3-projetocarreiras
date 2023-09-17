@@ -75,14 +75,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Requisito de usabilidade (facilidade de uso): não haverá necessidade de treinamento prévio para uso da plataforma.| MÉDIA | 
-|RNF-002| Requisito de confiabilidade: O sistema deverá estar disponível em pelo o menos 95% do tempo. |  BAIXA | 
-|RNF-003| Requisito de portabilidade: O sistema inicialmente será configurado para executar apenas na web. |  ALTA | 
-|RNF-004| Requisito de entrega: Em toda manutenção deverá ser gerado um pequeno relatório sobre as modificações.  |  MÉDIA | 
-|RNF-005| Requisito de implementação: Inicialmente será desenvolvido apenas a parte de front-end com HTML, CSS e JS. |  BAIXA | 
-|RNF-006| Requisito de interoperabilidade: Posteriormente, o sistema deverá se comunicar com um banco SQL. |  BAIXA | 
-|RNF-007| Requisito ético: O sistema não apresentará aos usuários quaisquer dados de cunho privativo. |  ALTA | 
-|RNF-008| Requisito legai: O sistema atenderá as normas legais vigentes no território nacional. |  ALTA | 
+|RNF-001| A aplicação não precisará de treinamento prévio para uso da mesma.| MÉDIA | 
+|RNF-002| A aplicação deverá estar disponível em pelo o menos 95% do tempo. |  BAIXA | 
+|RNF-003| A aplicação inicialmente será configurada para executar apenas na web. |  ALTA | 
+*|RNF-004| Requisito de entrega: Em toda manutenção deverá ser gerado um pequeno relatório sobre as modificações.  |  MÉDIA | *
+|RNF-005| A aplicação será desenvolvida apenas a parte de front-end utilizando HTML, CSS e JS. |  BAIXA | 
+|RNF-006| A apliação ao possuir conectividade com banco, deverá se comunicar com um storage SQL. |  BAIXA | 
+|RNF-007| A aplicação não apresentará aos usuários quaisquer dados de cunho privativo. |  ALTA | 
+|RNF-008| A aplicação atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
 
 ## Restrições
 
