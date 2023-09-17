@@ -58,16 +58,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |--------|---------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas | ALTA | Bruna |
-|RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo | ALTA | Bruna |
-|RF-003| O sistema deve poder ser acessado por usuários não cadastrados | ALTA |  |
-|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego | ALTA | |
-|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis | ALTA | |
-|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados | MÉDIA | |
-|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas | MÉDIA | |
-|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada | MÉDIA | |
-|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada" | MÉDIA | |
-|RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade | MÉDIA | |
+|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Bruna |
+|RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
+|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA |  |
+|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | |
+|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | |
+|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | |
+|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | MÉDIA | |
+|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA | |
+|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | MÉDIA | |
+|RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | MÉDIA | |
 |RF-011| O sistema deve permitir | MÉDIA | |
 |RF-012| O sistema deve permitir | MÉDIA | |
 |RF-013| O sistema deve permitir | MÉDIA | |
@@ -77,14 +77,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação não precisará de treinamento prévio para uso da mesma.| MÉDIA | 
-|RNF-002| A aplicação deverá estar disponível em pelo o menos 95% do tempo. |  BAIXA | 
-|RNF-003| A aplicação inicialmente será configurada para executar apenas na web. |  ALTA | 
-*|RNF-004| Requisito de entrega: Em toda manutenção deverá ser gerado um pequeno relatório sobre as modificações.  |  MÉDIA | *
-|RNF-005| A aplicação será desenvolvida apenas a parte de front-end utilizando HTML, CSS e JS. |  BAIXA | 
-|RNF-006| A apliação ao possuir conectividade com banco, deverá se comunicar com um storage SQL. |  BAIXA | 
-|RNF-007| A aplicação não apresentará aos usuários quaisquer dados de cunho privativo. |  ALTA | 
-|RNF-008| A aplicação atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
+|RNF-001| O sistema não precisará de treinamento prévio para uso da mesma.| BAIXA | 
+|RNF-002| O sistema deverá ser responsivo, se adaptando às telas de Desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
+|RNF-003| O sistema inicialmente será configurada para executar apenas na web. |  BAIXA | 
+|RNF-004| O sistema será desenvolvido a parte de front-end utilizando HTML, CSS e JS. |  ALTA | 
+|RNF-005| O sistema ao possuir conectividade com banco, deverá se comunicar com um storage SQL. |  MÉDIA | 
+|RNF-006| O sistema atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
 
 ## Restrições
 
