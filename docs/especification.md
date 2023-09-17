@@ -63,8 +63,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | Abraão |
 |RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | Leonardo |
-|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | |
-|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | MÉDIA | |
+|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | Bruna |
+|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | MÉDIA | Bruna |
 |RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA | Leonardo |
 |RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | MÉDIA | Leonardo |
 |RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | MÉDIA | Abraão |
