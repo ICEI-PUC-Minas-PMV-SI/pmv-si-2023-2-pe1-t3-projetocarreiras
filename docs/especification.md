@@ -42,7 +42,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |--------|---------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Bruna |
+|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Paola |
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
 |RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | Abraão |
@@ -62,14 +62,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema dispensa a necessidade de treinamento prévio para utilização.| BAIXA | 
-|RNF-002| O sistema deverá ser responsivo, se adaptando às telas de desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
-|RNF-003| O sistema inicialmente será configurado para executar apenas na web. |  BAIXA | 
-|RNF-004| O sistema será desenvolvido a parte de front-end utilizando HTML, CSS e JS. | ALTA | 
-|RNF-005| O sistema estará em conformidade com as normas legais em vigor no território nacional, incluindo a LGPD. | ALTA | 
-|RNF-006| O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge). | ALTA | 
-|RNF-007| O sistema deve permitir que os usuários tenham a capacidade de manter várias versões de seus currículos | MÉDIA | 
-|RNF-008| O sistema deve fornecer mensagens de erro claras e orientações quando os usuários encontrarem erros ou problemas |  ALTA | 
-|RNF-009| O sistema deve oferecer um layout simplificado e de fácil usabilidade. | MÉDIA | 
+|RNF-002| O sistema deverá ser responsivo, adaptando-se às telas de desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
+|RNF-003| O sistema deverá ter tempo de resposta de até 3 segundos. |  ALTA | 
+|RNF-004| O sistema será configurado para executar apenas na web. |  BAIXA | 
+|RNF-005| O sistema será constituído da parte de front-end utilizando HTML, CSS e JS. | ALTA | 
+|RNF-006| O sistema estará em conformidade com as normas legais em vigor no território nacional, incluindo a LGPD. | ALTA | 
+|RNF-007| O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge). | ALTA | 
+|RNF-008| O sistema deve permitir a possibilidade de os usuários manterem várias versões de seus currículos | MÉDIA | 
+|RNF-009| O sistema deve fornecer mensagens claras e orientações quando os usuários encontrarem erros ou problemas |  ALTA | 
+|RNF-010| O sistema deve oferecer um layout simplificado e de fácil usabilidade. | MÉDIA | 
 
 ## Restrições
 
