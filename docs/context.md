@@ -1,7 +1,15 @@
 # Introdução
 
 O mercado de trabalho hoje é caracterizado pela rápida evolução tecnológica e pela crescente automatiização de processos, a forma de contratação e a busca por novas oportunidades sofreram transformações significativas. Além disso, a empregabilidade volátil no Brasil implica desafios aos profissionais para manter seus empregos e para se reinserirem no mercado de trabalho. Nesse contexto, não apenas a atualização constante do currículo se tornou crucial para os profissionais, mas também a necessidade de encontrar formas de ingressar no mercado formal. \
-Este projeto foi concebido com o propósito de abordar essas dificuldades, conectando não apenas empresários a candidatos, mas também auxiliando as pessoas que buscam sua primeira oportunidade. Para alcançar esses objetivos, serão implementados mecanismos que visem a facilitar essa cadeia para ambos os lados. Busca-se, portanto, propagar o melhor entendimento ao trabalhador sobre como gerenciar sua carreira, ao mesmo tempo que facilitar ao empregador a busca por essas pessoas.
+Este projeto foi concebido com o propósito de abordar essas dificuldades, conectando não apenas empresários a candidatos, mas também auxiliando as pessoas que buscam sua primeira oportunidade. Para alcançar esses objetivos, serão implementados mecanismos que visem a facilitar essa cadeia para ambos os lados. Busca-se, portanto, propagar o melhor entendimento ao trabalhador sobre como gerenciar sua carreira, ao mesmo tempo que facilitar ao empregador a busca por essas pessoas.\
+Ressalta-se ainda que a platafoma busca atender a necessidades que as soluções hoje disponíveis não conseguem suprir como um todo, abarcando, assim, as principais necessidades dos candidatos no que se refere ao desenvolvimento contínuo de suas carreiras, bem como das empresas no âmbito do recrutamento. O quadro a seguir ilustra o comparativo entre a plataforma aqui proposta, o CV Connect, e as principais plataformas de empregos da atualidade:
+
+| Funcionalidade | LinkedIn | Vagas.com | Gupy | Glassdoor | CV Connect
+| --- | --- | --- | --- | --- | --- |
+| Divulga vagas de emprego | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Guarda histórico de currículos  | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Tem seção de ensino sobre montagem de currículo e entrevistas | ❌ | ❌ | ❌ | ❌ | ✅ |
+
 
 ## Problema
 
