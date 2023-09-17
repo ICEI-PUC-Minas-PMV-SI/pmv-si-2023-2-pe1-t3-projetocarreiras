@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
 |RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | Abraão |
-|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | Leonardo |
+|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA |  |
 |RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | Bruna |
 |RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | MÉDIA | Bruna |
 |RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA |  |
