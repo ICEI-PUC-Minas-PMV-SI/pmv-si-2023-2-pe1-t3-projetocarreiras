@@ -81,8 +81,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-002| O sistema deverá ser responsivo, se adaptando às telas de desktop e de smartphone, retornando em até 3 segundos. |  ALTA | 
 |RNF-003| O sistema inicialmente será configurado para executar apenas na web. |  BAIXA | 
 |RNF-004| O sistema será desenvolvido a parte de front-end utilizando HTML, CSS e JS. |  ALTA | 
-|RNF-005| O sistema ao possuir conectividade com banco, deverá se comunicar com um storage SQL. |  MÉDIA | 
-|RNF-006| O sistema atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
+|RNF-005| O sistema atenderá as normas legais vigentes no território nacional e a LGPD. |  ALTA | 
 
 ## Restrições
 
