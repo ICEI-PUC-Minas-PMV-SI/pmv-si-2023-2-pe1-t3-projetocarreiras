@@ -14,7 +14,6 @@ O trabalho tem como objetivo promover assistência aos candidatos em processos s
 * Bruna Climaco Nunes de Queiroz
 * Edlaine Nunes D Oliveira
 * Leonardo Guedes Gomes Junior
-* Marco Aurélio de Castro Alves
 * Paola Marques Braga
 
 ## Orientador
