@@ -1,0 +1,46 @@
+
+.navbar{
+    background-color: gray;
+}
+
+.carousel{
+    background-color: gray;
+}
+.carousel-item {
+    margin-top: 50px;
+    color: white;
+}
+
+.banner-content{
+    padding-inline: 120px;
+    height: 300px;
+}
+.banner img{
+    height: 200px;
+    float: right;
+    margin: 5px 10px;
+}
+
+.cards-row{
+    margin: 30px auto;
+    display: grid;
+    place-items: center;
+}
+
+.row{
+    padding: 20px;
+}
+
+.card{
+    margin-inline: 10px;
+    place-items: center;
+}
+
+.card img {
+    padding: 20px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+
