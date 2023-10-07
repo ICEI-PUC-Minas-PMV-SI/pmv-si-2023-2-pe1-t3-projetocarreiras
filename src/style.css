@@ -46,4 +46,7 @@
     height: 200px;
 }
 
-
+footer {
+    background-color: gray;
+    height: 15rem;
+}
