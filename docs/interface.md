@@ -14,29 +14,25 @@ Acima pode ser observado todo o fluxo experienciado pelo usuário, tanto pessoa 
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+A tabela abaixo faz uma relação entre as telas aqui mostradas e os requisitos funcionais que constam nas especificações. Seguindo a tabela, encontram-se as wireframes da plataforma.
 
-### Exemplo
-
-A seguir, encontram-se as wireframes da plataforma, representando os requisitos funcionais definidos em Especificações.
-
-| Tela | requisito |
+| Tela | Requisito funcional|
 |--- |----|
-| Inicial|RF-0|
-| Cadastro de usuário |RF-0|
-| Cadastro de empresa |RF-0|
-| Login de usuário |RF-0|
-| Login de empresa |RF-0|
-| Alteração de perfil de usuário |RF-0|
+| Inicial|RF-003 - O sistema deve poder ser acessado por usuários não cadastrados.|
+| Aprimore-se | RF-002 - O sistema deve ter uma seção ensinando como estruturar um bom currículo. |
+| Cadastro de usuário / Cadastro de empresa |RF-001 - O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas|
+| Alteração de perfil de usuário |RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil|
 | Alteração de perfil de empresa |RF-0|
-| . |RF-0|
-| .|RF-0|
-|. |RF-0|
-| .|RF-0|
-| .|RF-0|
-| .|RF-0|
+| Vagas |RF-010 - O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade|
+| Aplicar para vaga|RF-005 - O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis.|
+|Histórico de aplicações |RF-6 - O sistema deve manter o histórico de aplicações dos usuários cadastrados|
+| Histórico de vagas da empresa | RF-007 - O sistema deve manter o histórico de vagas submetidas pelas empresas |
+|Alerta de vaga|RF-11 - O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo.|
+| Nova vaga|RF-004 - O sistema deve permitir que empresas criem e gerenciem vagas de emprego / RF-008 - O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada*|
+| Alteração de vaga|RF-009 - O sistema deve permitir que o recrutador altere o status das vagas para "fechada"|
 
----
+------
+ ### Telas
 
 A página inicial, bem como os links da barra de navegação, podem ser acessados por qualquer pessoa, tendo ou não cadastro na plataforma. A única limitação seria para aplicar para alguma vaga, momento no qual é pedido o login no site. Assim, a tela inicial atende ao requisito funcional (RF) **RF-003 - O sistema deve poder ser acessado por usuários não cadastrados.**
 
