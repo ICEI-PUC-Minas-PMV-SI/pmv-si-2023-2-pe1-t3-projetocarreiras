@@ -6,29 +6,14 @@ Aqui, constam as personas que representam os potenciais usuários a se beneficia
 
 ## Personas
 
-![José Carlos, 33](/docs/img/jose-carlos.png)
+| Foto | Persona |
+|--------- | ---- |
+|![José Carlos, 33](/docs/img/personas/jose-carlos.png) |José Carlos tem 33 anos, mora no Espírito Santo, e há mais de 10 anos trabalha na área comercial, tendo sido vendedor e gerente de vendas. Atualmente, José está embarcando em uma emocionante jornada de transição de carreira e, para concretizar essa mudança, deu início a uma graduação no curso de Análise e Desenvolvimento de Sistemas. Entre seus familiares e amigos, não há referências na área da tecnologia, sendo tudo muito novo para ele. Em busca de novas oportunidades, José tem enviado currículos através de sites de empresas. No entanto, ele ainda não obteve o sucesso desejado e enfrenta a incerteza sobre as estratégias mais eficazes para ingressar na área de tecnologia.  |
+|![Juliana, 24](/docs/img/personas/juliana.png)  | Juliana Souza tem 24 anos, e mora em Belo Horizonte. Sempre gostou muito de estudar, está sempre envolvida em algum projeto na faculdade. Hoje, está no quarto período de Economia. Até o momento, Juliana nunca trabalhou formalmente, já que dedicou seus esforços totalmente para a graduação. Durante o Ensino Médio, ela participou de várias simulações de sessões da ONU que acontecem em diversas escolas pela cidade, e também na PUC Minas. Juliana busca a primeira oportunidade profissional na sua área, e precisa de auxílio para ressaltar suas habilidades e potenciais. Suas vivências acadêmicas são tantas, que ela não sabe como filtrá-las, como redigi-las e como falar delas de forma direta. |
+| ![Isabela, 31](/docs/img/personas/isabela.png) | Isabela Pereira tem 31 anos, é psicóloga, analista comportamental e especialista em recrutamento e seleção na rede de panificação de sua família, em Xique-Xique, na Bahia. No entanto, sua empresa enfrenta desafios significativos na busca por funcionários adequados para cargos de extrema importância. Diante dessa necessidade, Isabela está ativamente procurando por uma solução integrada que possa  otimizar o processo de recrutamento, desde a identificação inicial de candidatos até a seleção final. Ela busca uma abordagem que simplifique e aprimore o processo de identificação e seleção dos melhores talentos, visando a assegurar o sucesso contínuo dos negócios de sua empresa. |
+| ![Marina, 19](/docs/img/personas/marina.png) | Marina Yoshida tem 19 anos, mora em São Caetano, São Paulo, e há 1 ano se formou no Ensino Médio. É uma pessoa muito comunicativa e estudiosa, demonstrando habilidades notáveis ao falar três idiomas: português, inglês e francês. Depois de sua formatura, ficou alguns meses no Canadá, onde sua mãe reside, enriquecendo sua experiência internacional e ampliando seu conhecimento cultural. Agora, de volta ao Brasil, Marina está ansiosa para iniciar sua trajetória profissional, mas se encontra diante de um desafio: não sabe por onde começar a elaborar seu currículo. Ela não sabe quais de suas vivências são significativas e quais habilidades comportamentais valem a pena ser mencionadas, então tem tido problemas para se destacar e ser chamada para os processos seletivos. |
+| ![João, 38](/docs/img/personas/joao.png) | João Silva tem 38 anos, mora em Pernambuco, e nunca trabalhou formalmente. Sempre se esforçou muito para conseguir ajudar a família, tendo várias experiências informais em comércio, atendimento e prestação de serviços de manutenção. João também demonstra habilidades excepcionais na escrita e, em seus momentos de lazer, gosta de escrever poesias. Atualmente, ele almeja uma mudança em sua trajetória, buscando mais segurança e estabilidade em sua vida profissional através de um trabalho formal, mas enfrenta a incerteza sobre como funciona o ambiente corporativo.  |
 
-1. Arquiteto, possui experiência em Design de Interiores e Paisagismo, enfrenta o desafio de conciliar sua carreira com a recente paternidade. Busca uma oportunidade de trabalho em uma localidade mais próxima de sua casa, visando estar mais próximo de sua família. Para isso, procura uma plataforma que não apenas facilite a busca por empregos na área, mas também o auxilie na preparação para entrevistas e permita o acompanhamento mais próximo de suas candidaturas em processos seletivos. José Carlos necessita de um equílibrio entre sua carreira profissional e os momentos em família.
----
-
-![Juliana, 24](/docs/img/juliana.png)
-
-2. Graduada em administração e atualmente cursando pós graduação em Gestão de Projetos. Sem experiência formal, por ter ingressado diretamente na faculdade após o ensino médio, fluente em inglês, com um excelente desemprenho acadêmico, com participação em projetos universitários e iniciação científica. Busca sua primeira oportunidade profissional na sua área e precisa de auxílio para ressaltar suas habilidades e potenciais, por meio de uma ferramenta que a ajude a encontrar oportunidades alinhadas com sua formação.
----
-
-![Isabela, 31](/docs/img/isabela.png)
-
-3. Psicóloga, analista comportamental e especialista em recrutamento e seleção. Vasta experiência profissional, apresenta dificuldades na divulgação das vagas na empresa em que trabalha, incluindo encontrar candidatos qualificados e alinhados às vagas com base em critérios comportamentais técnicos, além de currículos incompletos ou inconsistentes, dificuldade em manter um controle mais próximo do processo de seleção, desde a triagem, até a integração desses profissionais. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
----
-
-![Marina, 19](/docs/img/marina.png)
-
-4. Recém-formada no ensino médio, sem formação técnica ou graduação. Marina tem experiência apenas em atividades informais e está em busca de oportunidades de trabalho sem ter experiência formal prévia. Dessa forma, necessita de ajuda para elaboração de um currículo que destaque suas habilidades e potenciais, além de preparação para entrevistas de empreso e sugestões de habilidades a serem desenvolvidas. 
----
-
-![João, 38](/docs/img/joao.png)
-
-5. Tem mais de 10 anos de experiência na área comercial, desde vendedor até gerente de vendas. Atualmente está em um processo de transição de carreira, voltou a estudar e ingressou na faculdade no curso de Análise e Desenvolvimento de Sistemas e está tentando se inserir no mercado nessa área. Enquanto busca sua primeira oportunidade nesse novo campo, enfrenta desafios na elaboração de um currículo que reflita sua nova trajetória e na preparação para entrevistas nesse novo ramo. Está a procura de uma ferramenta que o possibilite criar um currículo de maneira adequada, se preparar melhor para entrevistas de emprego, encontrar vagas na área e uma orientação de quais habilidades devem ser aprimoradas e quais os principais erros a serem evitados nos processos soletivos futuras.
 
 ## Histórias de Usuários
 
