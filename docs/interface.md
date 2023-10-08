@@ -37,28 +37,71 @@ A seguir, encontram-se as wireframes da plataforma, representando os requisitos 
 | .|RF-0|
 
 ---
-As telas a seguir são respectivamente as de cadastro de usuário, cadastro de empresa, alteração de perfil de usuário e alteração de perfil de empresas.
 
-Seus componentes atendem aos requisitos funcionais **RF-001 - O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas** e **RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil**.
+A página inicial, bem como os links da barra de navegação, podem ser acessados por qualquer pessoa, tendo ou não cadastro na plataforma. A única limitação seria para aplicar para alguma vaga, momento no qual é pedido o login no site. Assim, a tela inicial atende ao requisito funcional (RF) **RF-003 - O sistema deve poder ser acessado por usuários não cadastrados.**
 
-![cadastro-user](img/telas-requisitos/cadastro-usuario.png)
-
-![cadastro-empresa](img/telas-requisitos/cadastro-empresa.png)
-
-![edita-user](img/telas-requisitos/editar-usuario.png)
+![tela-inicial](img/telas-requisitos/pag-inicial.png)
 
 ---
 
- A tela "Aprimore-se" comporta o conteúdo voltado ao ensino e divulgação a respeito de montagem de currículos e processos de entrevista. Assim, ela atende ao requisito funcioal RF-002 - O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas.
+Ao acessar o link "Aprimore-se", o usuário ou visitante é levado a uma seção de ensino sobre a estrutura de um currículo e sobre a etapa de entrevista em processos seletivos. Assim, essa tela atende ao **RF-002 - O sistema deve ter uma seção ensinando como estruturar um bom currículo**.
 
-![aprimore-se](img/telas-requisitos/aprimore-se.png)
-
----
-Na barra de navegação da tela inicial, existe um botão que torna possível fazer login no site, mas o conteúdo ainda é mostrado mesmo que o visitante esteja deslogado ou que não tenha conta.
-
-Assim, ela atende ao requisito funcional RF-003 - O sistema deve poder ser acessado por usuários não cadastrados.
-
-![tela inicial](img/telas-requisitos/pag-inicial.png)
+![](img/telas-requisitos/aprimore-se.png)
 
 ---
 
+Pelo link "Vagas", o usuário ou visitante pode procurar por vagas de emprego disponíveis na plataforma, além de filtrar por palavra-chave ou localidade. Com isso, essa tela atende ao **RF-010 - O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade**. 
+
+![](img/telas-requisitos/vagas-publicas.png)
+
+---
+
+Para participar do processo seletivo, porém, é necessário estar logado na plataforma. O usuário pode aplicar para a vaga respondendo a perguntas submetidas pelas empresas e confirmando o envio. Assim, atende ao **RF-005 - O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis.**
+
+![](img/telas-requisitos/perguntas-vaga.png)
+
+---
+
+Os usuários podem acompanhar os processos dos quais estão participando pelo seu perfil. Essa tela atende ao **RF-6 - O sistema deve manter o histórico de aplicações dos usuários cadastrados**.
+
+![](img/telas-requisitos/vagas-user.png)
+
+---
+
+O usuário da plataforma que está logado pode também criar alertas para vagas conforme os termos que escolher. Essa tela atende ao **RF-11 - O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo.**.
+
+![](img/telas-requisitos/alerta-vaga.png)
+
+---
+
+O usuário pode também alterar suas infomações de perfil. Essa tela atende ao **RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil**.
+
+![](img/telas-requisitos/editar-usuario.png)
+
+---
+
+Aquela pessoa ou empresa que não têm cadastro na plataforma podem criar uma conta pelas telas mostradas a seguir. Para cada tipo, existe uma tela de cadastro. Elas atendem ao **RF-001 - O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas**.
+
+![](img/telas-requisitos/cadastro-usuario.png)
+
+![](img/telas-requisitos/cadastro-empresa.png)
+
+---
+
+Em seu perfil, as empresas podem divulgar os processos em aberto, e fazer o gerenciamento dessas vagas. Ao iniciar o cadastro de uma nova vaga, o sistema determina seu status como "aberta". Essa tela atende aos **RF-004 - O sistema deve permitir que empresas criem e gerenciem vagas de emprego** e **RF-008 - O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada**.
+
+![](img/telas-requisitos/nova-vaga.png)
+
+---
+
+Os processos enviados pelas empresas são guardados em sua seção de vagas. Essa tela atende ao **RF-007 - O sistema deve manter o histórico de vagas submetidas pelas empresas**.
+
+![](img/telas-requisitos/vagas-empresa.png)
+
+---
+
+
+
+O recrutador pode alterar os detalhes das vagas, além de fechá-las. Essa tela atende ao **RF-009 - O sistema deve permitir que o recrutador altere o status das vagas para "fechada"**.
+
+![](img/telas-requisitos/altera-vaga.png)
