@@ -20,6 +20,10 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 ## Tipografia
 
+A fonte escolhida para utilização em todo o site foi a Montserrat, disponibilizada pela Google. A Montserrat é uma fonte moderna e elegante, conhecida por sua legibilidade e versatilidade, o que a torna uma escolha sólida para a comunicação de informações importantes. Ela possui uma variedade de pesos (do mais fino ao mais negrito) e estilos (normal, itálico, etc.), que podem ser utilizados para criar hierarquia e ênfase no conteúdo do site. Sua aparência limpa e contemporânea combina bem com a sensação de profissionalismo que um site de vagas deseja transmitir aos seus usuários.
+
+![Fonts](../docs/img/design/fontMontserrat.png)
+
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 
