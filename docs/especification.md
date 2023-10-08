@@ -7,22 +7,27 @@ Aqui, constam as personas que representam os potenciais usuários a se beneficia
 ## Personas
 
 ![José Carlos, 33](/docs/img/jose-carlos.png)
+
 1. Arquiteto, possui experiência em Design de Interiores e Paisagismo, enfrenta o desafio de conciliar sua carreira com a recente paternidade. Busca uma oportunidade de trabalho em uma localidade mais próxima de sua casa, visando estar mais próximo de sua família. Para isso, procura uma plataforma que não apenas facilite a busca por empregos na área, mas também o auxilie na preparação para entrevistas e permita o acompanhamento mais próximo de suas candidaturas em processos seletivos. José Carlos necessita de um equílibrio entre sua carreira profissional e os momentos em família.
 ---
 
 ![Juliana, 24](/docs/img/juliana.png)
+
 2. Graduada em administração e atualmente cursando pós graduação em Gestão de Projetos. Sem experiência formal, por ter ingressado diretamente na faculdade após o ensino médio, fluente em inglês, com um excelente desemprenho acadêmico, com participação em projetos universitários e iniciação científica. Busca sua primeira oportunidade profissional na sua área e precisa de auxílio para ressaltar suas habilidades e potenciais, por meio de uma ferramenta que a ajude a encontrar oportunidades alinhadas com sua formação.
 ---
 
 ![Isabela, 31](/docs/img/isabela.png)
+
 3. Psicóloga, analista comportamental e especialista em recrutamento e seleção. Vasta experiência profissional, apresenta dificuldades na divulgação das vagas na empresa em que trabalha, incluindo encontrar candidatos qualificados e alinhados às vagas com base em critérios comportamentais técnicos, além de currículos incompletos ou inconsistentes, dificuldade em manter um controle mais próximo do processo de seleção, desde a triagem, até a integração desses profissionais. Está a procura de uma solução integrada que a ajude a otimizar o processo de recrutamento, desde a identificação de candidatos até a seleção final.
 ---
 
 ![Marina, 19](/docs/img/marina.png)
+
 4. Recém-formada no ensino médio, sem formação técnica ou graduação. Marina tem experiência apenas em atividades informais e está em busca de oportunidades de trabalho sem ter experiência formal prévia. Dessa forma, necessita de ajuda para elaboração de um currículo que destaque suas habilidades e potenciais, além de preparação para entrevistas de empreso e sugestões de habilidades a serem desenvolvidas. 
 ---
 
 ![João, 38](/docs/img/joao.png)
+
 5. Tem mais de 10 anos de experiência na área comercial, desde vendedor até gerente de vendas. Atualmente está em um processo de transição de carreira, voltou a estudar e ingressou na faculdade no curso de Análise e Desenvolvimento de Sistemas e está tentando se inserir no mercado nessa área. Enquanto busca sua primeira oportunidade nesse novo campo, enfrenta desafios na elaboração de um currículo que reflita sua nova trajetória e na preparação para entrevistas nesse novo ramo. Está a procura de uma ferramenta que o possibilite criar um currículo de maneira adequada, se preparar melhor para entrevistas de emprego, encontrar vagas na área e uma orientação de quais habilidades devem ser aprimoradas e quais os principais erros a serem evitados nos processos soletivos futuras.
 
 ## Histórias de Usuários
