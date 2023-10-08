@@ -9,12 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ![Exemplo de UserFlow](img/userflow.jpg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Acima pode ser observado todo o fluxo experienciado pelo usuário, tanto pessoa quanto empresa, ao navegar pelo sistema.
 
 
 ## Wireframes
@@ -23,16 +18,47 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Exemplo
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+A seguir, encontram-se as wireframes da plataforma, representando os requisitos funcionais definidos em Especificações.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+| Tela | requisito |
+|--- |----|
+| Inicial|RF-0|
+| Cadastro de usuário |RF-0|
+| Cadastro de empresa |RF-0|
+| Login de usuário |RF-0|
+| Login de empresa |RF-0|
+| Alteração de perfil de usuário |RF-0|
+| Alteração de perfil de empresa |RF-0|
+| . |RF-0|
+| .|RF-0|
+|. |RF-0|
+| .|RF-0|
+| .|RF-0|
+| .|RF-0|
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+---
+As telas a seguir são respectivamente as de cadastro de usuário, cadastro de empresa, alteração de perfil de usuário e alteração de perfil de empresas.
+
+Seus componentes atendem aos requisitos funcionais **RF-001 - O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas** e **RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil**.
+
+![cadastro-user](img/telas-requisitos/cadastro-usuario.png)
+
+![cadastro-empresa](img/telas-requisitos/cadastro-empresa.png)
+
+![edita-user](img/telas-requisitos/editar-usuario.png)
+
+---
+
+ A tela "Aprimore-se" comporta o conteúdo voltado ao ensino e divulgação a respeito de montagem de currículos e processos de entrevista. Assim, ela atende ao requisito funcioal RF-002 - O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas.
+
+![aprimore-se](img/telas-requisitos/aprimore-se.png)
+
+---
+Na barra de navegação da tela inicial, existe um botão que torna possível fazer login no site, mas o conteúdo ainda é mostrado mesmo que o visitante esteja deslogado ou que não tenha conta.
+
+Assim, ela atende ao requisito funcional RF-003 - O sistema deve poder ser acessado por usuários não cadastrados.
+
+![tela inicial](img/telas-requisitos/pag-inicial.png)
+
+---
+
