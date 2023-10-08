@@ -42,7 +42,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |--------|---------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Paola |
+|RF-001| O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas. | ALTA | Paola |
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
 |RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | Abraão |
