@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #FBF8F1;
+    --second-bg-color: #04251A;
+    --text-color: black;
+    --second-text-color: #E8E3CF;
+    --main-color: #033A34;
+    --color-button: #4C886D;
+
+
+    --spacing-sm: 0.5rem;
+    --spacing-base: 1rem;
+    --spacing-lg: 1.25rem;
+    --spacing-xl: 1.5rem;
+    --spacing-2xl: 2rem;
+
+
+    --text-xs: clamp(0.625rem, 0.5825rem + 0.2094vw, 0.75rem); /* 10px - 12px */
+    --text-sm: clamp(0.75rem, 0.7075rem + 0.2094vw, 0.875rem); /* 12px - 14px */
+    --text-md: clamp(0.875rem, 0.8325rem + 0.2094vw, 1rem); /* 14px - 16px */
+    --text-base: clamp(1rem, 0.9575rem + 0.2094vw, 1.125rem); /* 16px - 18px */
+    --text-lg: clamp(1.25rem, 1.1649rem + 0.4188vw, 1.5rem); /* 20px - 24px */
+    --text-xl: clamp(1.75rem, 1.6649rem + 0.4188vw, 2rem); /* 28px - 32px */
+    --text-2xl: clamp(2rem, 1.8298rem + 0.8377vw, 2.5rem); /* 32px- 40px*/
+    --text-3xl: clamp(2.5rem, 2.3298rem + 0.8377vw, 3rem); /* 40px - 48px */
+}
+
