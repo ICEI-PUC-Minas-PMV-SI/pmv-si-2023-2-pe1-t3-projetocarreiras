@@ -4,7 +4,6 @@
  A seguir serão apresentadas as principais telas da plataforma, construídas pelo Figma. O desenvolvimento foi orientado pelos Requisitos Funcionais, Não Funcionais e Personas enumerados nas Especificações do projeto.
 
 ## User Flow
-Abaixo pode ser observado todo o fluxo experienciado pelo usuário, tanto pessoa quanto empresa, ao navegar pelo sistema.
 
 Abaixo pode ser observado todo o fluxo da plataforma. Há possibilidades de navegação sem login, mas muitas funcionalidades são exclusivas para usuários e empresas cadastradas.
 
