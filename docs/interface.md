@@ -11,8 +11,6 @@ Abaixo pode ser observado todo o fluxo da plataforma. Há possibilidades de nave
 ![Exemplo de UserFlow](img/userflow.jpg)
 
 
-
-
 ## Wireframes
 
 
