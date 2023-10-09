@@ -2,8 +2,6 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
 
 O design do nosso site de vagas é pensado para oferecer uma experiência atraente e funcional aos usuários, garantindo que eles possam acessar facilmente informações sobre oportunidades de emprego, candidatura e detalhes relacionados. Além disso, o site é responsivo, o que significa que é adaptável a diferentes dispositivos e tamanhos de tela, proporcionando uma experiência consistente em smartphones, tablets e desktops. O design do site apresenta um layout limpo e organizado, com uma disposição lógica de elementos. Utilizamos uma paleta de cores agradável e harmoniosa que reflete a identidade da marca e cria uma atmosfera profissional e convidativa.
@@ -36,11 +34,3 @@ Escolhemos o Font Awesome  por possuir uma vasta biblioteca de ícones e a facil
 
 ![Icones](../docs/img/design/iconografia.png)
 
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
