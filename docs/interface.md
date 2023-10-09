@@ -91,7 +91,7 @@ A tabela abaixo faz uma relação entre as telas aqui mostradas e os requisitos 
 | Aprimore-se | RF-002 - O sistema deve ter uma seção ensinando como estruturar um bom currículo. |
 | Cadastro de usuário / Cadastro de empresa |RF-001 - O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas|
 | Alteração de perfil de usuário |RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil|
-| Alteração de perfil de empresa |RF-0|
+| Alteração de perfil de empresa |RF-001 - O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas|
 | Vagas |RF-010 - O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade|
 | Aplicar para vaga|RF-005 - O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis.|
 |Histórico de aplicações |RF-6 - O sistema deve manter o histórico de aplicações dos usuários cadastrados|
