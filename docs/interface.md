@@ -21,57 +21,57 @@ A página inicial, bem como os links da barra de navegação, podem ser acessado
 
 Ao acessar o link "Aprimore-se", o usuário ou visitante é levado a uma seção de ensino sobre a estrutura de um currículo e sobre a etapa de entrevista em processos seletivos, podendo navegar para tópicos de seu interesse através do menu lateral. Assim, essa tela atende ao **RF-002 - O sistema deve ter uma seção ensinando como estruturar um bom currículo**.
 
-![](img/telas-requisitos/aprimore-se.png)
+![aprimore-se](img/telas-requisitos/aprimore-se.png)
 
 ---
 
 Pelo link "Vagas", o usuário ou visitante pode procurar por vagas de emprego disponíveis na plataforma, além de filtrar por palavra-chave ou localidade. Lá, ele verá os resultados em forma de cards com as principais informações a respeito das vagas. Com isso, essa tela atende ao **RF-010 - O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade**. 
 
-![](img/telas-requisitos/vagas-publicas.png)
+![vagas-publicas](img/telas-requisitos/vagas-publicas.png)
 
 ---
 
 Para participar do processo seletivo, é necessário estar logado na plataforma.  Assim, o sistema retorna as informações profissionais do perfil do usuário, tendo ele apenas que responder a perguntas submetidas pelas empresas e confirmar o envio. Assim, atende ao **RF-005 - O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis.**
 
-![](img/telas-requisitos/perguntas-vaga.png)
+![perguntas-vaga](img/telas-requisitos/perguntas-vaga.png)
 
 ---
 
 Os usuários podem acompanhar os processos dos quais estão participando pelo seu perfil. Esse histórico é mostrado como forma de cards contendo as principais informações sobre as vagas, para que o usuário tenha uma visão dinâmica dos seus processos. Essa tela atende ao **RF-6 - O sistema deve manter o histórico de aplicações dos usuários cadastrados**.
 
-![](img/telas-requisitos/vagas-user.png)
+![vagas-user](img/telas-requisitos/vagas-user.png)
 
 ---
 
 O usuário que está logado na plataforma pode também criar alertas para vagas conforme os termos que escolher. Essa tela atende ao **RF-11 - O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo.**.
 
-![](img/telas-requisitos/alerta-vaga.png)
+![altera-vaga](img/telas-requisitos/alerta-vaga.png)
 
 ---
 
 O usuário pode também alterar suas infomações de perfil, para que consiga manter suas informações profissionais atualizadas e continuar encontrando as vagas mais adequadas ao seu perfil. Essa tela atende ao **RF-013 - O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil**.
 
-![](img/telas-requisitos/editar-usuario.png)
+![edit-usuario](img/telas-requisitos/editar-usuario.png)
 
 ---
 
 Para cadastros novos, foram desenvolvidos dois tipos de telas diferentes conforme o tipo de perfil - pessoa ou empresa -, buscando atender às características de cada um, isto é, solicitando informações básicas diferentes. Elas atendem ao **RF-001 - O sistema deve permitir que usuários e empresas cadastrados registrem-se e gerenciem suas contas**.
 
-![](img/telas-requisitos/cadastro-usuario.png)
+![cadastro-usuario](img/telas-requisitos/cadastro-usuario.png)
 
-![](img/telas-requisitos/cadastro-empresa.png)
+![cadastro-empresa](img/telas-requisitos/cadastro-empresa.png)
 
 ---
 
 Em seu perfil, as empresas podem divulgar os processos em aberto, e fazer o gerenciamento dessas vagas. Ao iniciar o cadastro de uma nova vaga, o sistema determina seu status como "aberta". Essa tela atende aos **RF-004 - O sistema deve permitir que empresas criem e gerenciem vagas de emprego** e **RF-008 - O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada**.
 
-![](img/telas-requisitos/nova-vaga.png)
+![nova-vaga](img/telas-requisitos/nova-vaga.png)
 
 ---
 
 Os processos enviados pelas empresas são guardados em sua seção de vagas, que são mostradas como forma de cards contendo suas principais informações, para que se tenha uma visão dinâmica dos seus processos. Essa tela atende ao **RF-007 - O sistema deve manter o histórico de vagas submetidas pelas empresas**.
 
-![](img/telas-requisitos/vagas-empresa.png)
+![vagas-empresa](img/telas-requisitos/vagas-empresa.png)
 
 ---
 
@@ -79,7 +79,7 @@ Os processos enviados pelas empresas são guardados em sua seção de vagas, que
 
 O recrutador pode alterar os detalhes das vagas, movimentar os candidatos participantes, além de fechar essas vagas. Essa tela atende ao **RF-009 - O sistema deve permitir que o recrutador altere o status das vagas para "fechada"**.
 
-![](img/telas-requisitos/altera-vaga.png)
+![altera-vaga](img/telas-requisitos/altera-vaga.png)
 
 ## Tabela relacional
 
