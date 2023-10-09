@@ -6,7 +6,10 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+O design do nosso site de vagas é pensado para oferecer uma experiência atraente e funcional aos usuários, garantindo que eles possam acessar facilmente informações sobre oportunidades de emprego, candidatura e detalhes relacionados. Além disso, o site é responsivo, o que significa que é adaptável a diferentes dispositivos e tamanhos de tela, proporcionando uma experiência consistente em smartphones, tablets e desktops. O design do site apresenta um layout limpo e organizado, com uma disposição lógica de elementos. Utilizamos uma paleta de cores agradável e harmoniosa que reflete a identidade da marca e cria uma atmosfera profissional e convidativa.
+
+![img](../docs/img/design/img01.png)
+![img](../docs/img/design/img2.png)
 
 
 ## Cores
@@ -29,10 +32,9 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+Escolhemos o Font Awesome  por possuir uma vasta biblioteca de ícones e a facilidade de implementação. Abrangendo desde ícones básicos e universais até ícones altamente específicos de nichos e setores, atendendo às necessidades do nosso design de maneira abrangente.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+![Icones](../docs/img/design/iconografia.png)
 
 
 > **Links Úteis**:
