@@ -128,7 +128,7 @@
     line-height: 2.5rem;
 }
 
-p {
+.home p {
     margin-bottom: 2rem;
     font-size: 1rem;
 }
@@ -219,17 +219,8 @@ p {
 
 /* Seção Alerta */
 
-.alerta {
-    width: 100%;
-    min-height: fit-content;
-    display: grid;
-    place-items: center;
-    align-items: center;
-} 
-
-
-.add-alerta {
-    width: 600px; 
+.container {
+    width: 55%; 
     min-height: fit-content;   
     background-color: var(--second-text-color);
     padding: 20px;
@@ -291,6 +282,61 @@ p {
     height: 40px;
     line-height: 24px;
     cursor: pointer;
+}
+
+/* Secao Aplicar */
+
+.cabecalho-aplicar{
+    text-align: left;
+    width: 100%;
+}
+.img-aplicar {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+.detalhes-vaga {
+    height: 70px;
+    margin: 10px 0;
+}
+.detalhes-vaga .detalhe-vaga{
+    display: inline-block;
+}
+
+.detalhe-vaga i {
+    margin: 2px;
+}
+
+.info-user div{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.info-user p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.perguntas-form{
+    text-align: left;
+}
+
+.perguntas-form p{
+    margin: 10px 0;
+}
+
+.perguntas-form input[type=text] {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 30px;
+    width: 100%;
+}
+
+.perguntas-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
