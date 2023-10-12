@@ -7,8 +7,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    font-weight: 100;
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -208,13 +209,93 @@ p {
 }
 
  /* Estilo do footer */
+
  footer {
     background-color: var(--second-bg-color);
     color: #fff;
     text-align: center;;
     padding: 20px;
-    
 }
+
+/* Seção Alerta */
+
+.alerta {
+    width: 100%;
+    min-height: fit-content;
+    display: grid;
+    place-items: center;
+    align-items: center;
+} 
+
+
+.add-alerta {
+    width: 600px; 
+    min-height: fit-content;   
+    background-color: var(--second-text-color);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: -12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.row-meus-alertas {
+    margin: 10px auto;
+}
+
+.palavras-alerta {
+    border: 1px solid;
+    border-radius: 5px;
+    min-height: fit-content;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.palavras-alerta p{
+    background-color: var(--main-color);
+    max-width: fit-content;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.row-meus-alertas button {
+    background-color: rgb(153, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.row-novo-alerta * {
+    margin-bottom: 10px;
+}
+
+.row-novo-alerta input {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+
+.row-novo-alerta button {
+    padding: 5px;
+    font-size: 20pt;
+    margin: 5px;
+    color: white;
+    background-color: var(--color-button);
+    border-radius: 8px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
 
 /* Estilo do link no footer */
 footer a {
