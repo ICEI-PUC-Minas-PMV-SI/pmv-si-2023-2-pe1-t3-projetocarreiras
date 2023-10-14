@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vagas</title>
+</head>
+    <body>
+        <header class="header">
+            <h1 class="logo" alt="logo">LOGO</h1>
+            <nav>
+            <ul class="nav_links">
+                <li><a href="#">Vagas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Aprimore-se</a></li>
+                <li><a href="#">Contato</a></li>
+               
+            </ul>
+            </nav>
+            <div class="nav-user">
+                <img src="/docs/img/personas//marina.png" alt="" class="user-pic">
+                <a href="" class="test">Marina</a>
+            </div>
+            <div class="menu-btn">
+                <img src="../docs/img/html-img/bars-solid.png" alt="">
+            </div>
+        </header>
+
+        <div class="wrapper-vagas">
+            <aside>
+                <h2>Filtrar</h2>
+                <div class="row-filtro">
+                    <input type="text" name="palavra-chave" id="input-filtro" placeholder="Palavra-chave">
+                    <button class="botao-filtro">Pesquisar</button>
+
+                    <p>Cidade:</p>
+                    <input type="checkbox" id="html" name="fav_language" value="HTML">
+                    <label for="html">Belo Horizonte</label><br>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">Betim</label><br>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">Contagem</label><br>
+
+
+                    <p>Tipo de contrato:</p>
+                    <input type="checkbox" id="html" name="fav_language" value="HTML">
+                    <label for="html">CLT</label><br>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">Estágio</label><br>
+                </div>
+            </aside>
+            <main>
+                <section>
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs-item">
+                            <a href="index.html" class="breadcrumbs-link">Home</a>
+                        </li>
+                        <li class="breadcrumbs-item">
+                            <a href="" class="breadcrumbs-link active">Vagas</a>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    <div class="container" id="container-vagas">
+                        <ul class="lista-vagas">
+                            <li class="cards-vagas">
+                                <div class="card-vaga">
+                                    <div class="cabecalho-vaga">
+                                        <img src="https://source.unsplash.com/random/?Work/200x200?sig=1/" class="card-img-vaga" alt="...">
+                                        <button class="botao-vaga"><a href="/src/aplicar.html">+</a></button>
+                                        <h3>Titulo do cargo</h3>
+                                        <h4>Nome da empresa</h4>
+                                    </div>
+                                    <div class="detalhes-vaga">
+                                        <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                        <span>Belo Horizonte</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <span>CLT</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-building"></i>
+                                        <span>Presencial</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                                        <span>R$3.200</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cards-vagas">
+                                <div class="card-vaga">
+                                    <div class="cabecalho-vaga">
+                                        <img src="https://source.unsplash.com/random/?Work/200x200?sig=2/" class="card-img-vaga" alt="...">
+                                        <button class="botao-vaga"><a href="/src/aplicar.html">+</a></button>
+                                        <h3>Titulo do cargo</h3>
+                                        <h4>Nome da empresa</h4>
+                                    </div>
+                                    <div class="detalhes-vaga">
+                                        <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                        <span>Contagem</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <span>CLT</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-building"></i>
+                                        <span>Home office</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                                        <span>R$4.800</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cards-vagas">
+                                <div class="card-vaga">
+                                    <div class="cabecalho-vaga">
+                                        <img src="https://source.unsplash.com/random/?Work/200x200?sig=3/" class="card-img-vaga" alt="...">
+                                        <button class="botao-vaga"><a href="/src/aplicar.html">+</a></button>
+                                        <h3>Titulo do cargo</h3>
+                                        <h4>Nome da empresa</h4>
+                                    </div>
+                                    <div class="detalhes-vaga">
+                                        <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                        <span>Betim</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <span>Estágio</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-building"></i>
+                                        <span>Presencial</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                                        <span>R$1.200</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cards-vagas">
+                                <div class="card-vaga">
+                                    <div class="cabecalho-vaga">
+                                        <img src="https://source.unsplash.com/random/?Work/200x200?sig=4/" class="card-img-vaga" alt="...">
+                                        <button class="botao-vaga"><a href="/src/aplicar.html">+</a></button>
+                                        <h3>Titulo do cargo</h3>
+                                        <h4>Nome da empresa</h4>
+                                    </div>
+                                    <div class="detalhes-vaga">
+                                        <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                        <span>Belo Horizonte</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <span>CLT</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-building"></i>
+                                        <span>Presencial</span>
+                                    </div>
+                                    <div class="detalhe-vaga">
+                                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                                        <span>R$4.000</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                </section>
+            </main>
+
+            
+        </div>
+        <footer>
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </footer>    
+      
+    </body>
+</html>
