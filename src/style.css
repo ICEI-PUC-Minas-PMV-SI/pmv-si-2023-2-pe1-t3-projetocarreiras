@@ -385,7 +385,8 @@ aside {
 .palavras-alerta {
     border: 1px solid;
     border-radius: 5px;
-    min-height: fit-content;
+    min-height: 2rem;
+    height: fit-content;
     text-align: left;
     padding: 5px;
     margin: 10px;
@@ -551,6 +552,10 @@ footer a {
     }
     .menu-btn{
         display: block;
+    }
+
+    .nav-user {
+        display: none;
     }
 
     .home {
