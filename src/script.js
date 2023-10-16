@@ -1,17 +1,25 @@
 window.addEventListener('load', () => {
-    const form = document.querySelector('.row-novo-alerta');
-    const input = document.querySelector('#input-alerta');
-    const alertas = document.querySelector('.palavras-alerta');
+
+    const form = document.querySelector('.row-novo-alerta')
+    const input = document.querySelector('.input-alerta');
+    const listaAlertas = document.querySelector('.palavras-alerta');
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const palavra_chave = input.value;
+        const alerta = input.value;
 
-        if (!palavra_chave) {
-            alert("Não é possível adicionar um alerta vazio.");
+        if(!alerta){
+            alert('Não é possível criar alerta vazio.');
             return;
-        }
+        } else {
+            const novoAlerta = document.createElement('p');
 
+            novoAlerta.innerText = input.value;
+
+            listaAlertas.appendChild(novoAlerta);
+
+        }
     })
-}) 
+   
+})
