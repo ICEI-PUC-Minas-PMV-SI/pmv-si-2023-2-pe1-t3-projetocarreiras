@@ -16,6 +16,7 @@ body {
     flex-direction: column;
 }
 
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -39,6 +40,10 @@ body {
 }
 
 /* Breadcrumbs */
+
+.breadcrumbs-section {
+    margin-top: 5px;
+}
 
 .breadcrumbs {
     width: 55%;
@@ -103,6 +108,11 @@ body {
 
 .nav_links li a:hover {
     color: var(--color-button);
+}
+
+.nav_links a.pag-atual {
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
 }
 
 /* botão de login */
@@ -220,7 +230,7 @@ body {
     height: auto;
 }
 
-/* Cards */
+/* s */
 .secao-vagas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -288,8 +298,11 @@ body {
 
 /* Seção Vagas */
 
+#container-vagas{
+    background-color: var(--second-text-color);
+}
+
 .vagas {
-    background-color: red;
     height: fit-content;
     padding: 10px;
 }
@@ -299,7 +312,7 @@ body {
 }
 
 .cards-vagas{
-    background-color: var(--bg-color);
+    background-color: white;
     padding: 9px;
     margin-bottom: 5px;
     border-radius: 8px;
@@ -316,9 +329,10 @@ body {
 .botao-vaga {
     border: none;
     padding: 5px;
-    height: min-content;
-    background-color: var(--color-button);
-    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: var(--main-color);
+    border-radius: 5px;
     font-size: 1em;
     float: right;
     margin: 10px;
@@ -340,13 +354,14 @@ body {
 }
 
 aside {
-    width: 20%;
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 15%;
     position: fixed;
     top: auto;
     left: 0;
     padding: 20px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
     background-color: var(--second-text-color);
 }
 
@@ -383,7 +398,7 @@ aside {
 .container {
     width: 55%; 
     min-height: fit-content;   
-    background-color: var(--second-text-color);
+    background-color: white;
     padding: 20px;
     margin: 5px auto 50px;
     border-radius: 8px;
