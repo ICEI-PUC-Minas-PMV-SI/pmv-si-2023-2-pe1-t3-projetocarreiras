@@ -245,11 +245,13 @@ body {
     max-width: 18.75rem;
     max-height: fit-content;
     align-items: center;
+    border-radius: 8px;
 }
 
 .card img {
     width: 13rem;
     height: 10rem;
+    border-radius: 5px;
 }
 
 .card h2 {
