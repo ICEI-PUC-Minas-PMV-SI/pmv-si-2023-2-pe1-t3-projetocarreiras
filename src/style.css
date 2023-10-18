@@ -398,7 +398,7 @@ aside {
 .container {
     width: 55%; 
     min-height: fit-content;   
-    background-color: white;
+    background-color: var(--second-text-color);
     padding: 20px;
     margin: 5px auto 50px;
     border-radius: 8px;
