@@ -603,25 +603,25 @@ aside {
 
 /* Seção Currículo */
 
-.estrutura-curriculo ul{
+.conteudo-aprimore-se ul{
     margin: auto;
 }
 
-.estrutura-curriculo h1 {
+.conteudo-aprimore-se h1 {
     font-size: 25pt;
 }
 
-.lista-curriculo {
+.lista-aprimore-se {
     list-style: none;
 }
 
-.lista-curriculo p{
+.lista-aprimore-se p{
     text-align: left;
     background-color: pink;
     margin: 5px auto;
 }
 
-.lista-curriculo h2 {
+.lista-aprimore-se h2 {
     text-align: left;
     margin: 10px 0;
 }
