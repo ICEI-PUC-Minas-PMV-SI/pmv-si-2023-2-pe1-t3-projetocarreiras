@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Shadows+Into+Light&display=swap');
-@import "base.css";
+@import "/src/css/base.css";
 
 * {
     font-family: 'Montserrat', sans-serif;
