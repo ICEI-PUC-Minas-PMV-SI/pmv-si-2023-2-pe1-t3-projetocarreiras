@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script defer src="./js/script.js"></script>
+    <title>Login | Jobify</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./img/jobify.png" alt="Logo">
+        <nav>
+        <ul class="nav_links">
+            <li><a href="#">Vagas</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Aprimore-se</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        </nav>
+        <a class="button-login" href="#"><button>Login</button></a>
+        <div class="menu-btn">
+            <img src="../docs/img/html-img/bars-solid.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            
+            
+
+            <div class="criar-conta">
+                <h3> Criar conta </h3>
+                <div class="toggle-container">
+
+                <div class="toggle-wrapper">
+                    Sou empresa
+                  <label class="switch">
+                    <input type="checkbox" class="hidden-toggle"/>
+                    <div class="botao-slide">
+                      <div class="botao"></div>
+                    </div>
+                  </label>
+                </div>
+              
+              </div>
+                <form action="#" class="form-cadastro">
+                    
+                    <input type="text" class="_nome" id="_nome" name="_nome" placeholder="Nome completo"/>
+
+                    <input type="email" class="_email" id="_email" name="_email" placeholder="E-mail"/>
+
+                    <input type="tel" class="_telefone" id="_telefone" name="_telefone" placeholder="(99) 9 9999-9999" maxlength="15"/>
+                 
+                    <input type="password" class="_senha" id="_senha" name="_senha" placeholder="Senha (mínimo 6 caracteres)" minlength="6"/>
+                    
+                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha" placeholder="Confirme a senha" minlength="6"/>
+                </form>
+                <button class="botao-cadastro" onclick="Criar_Conta()">Cadastar-se</button>
+            </div>
+            
+            <div class="ja-cadastrado">
+                <p>Já tem cadastro? </p>
+                <button class="botao-login" onclick="TelaFazerLogin()">Fazer login</button>
+            </div>
+ 
+        </section>    
+    </main>
+
+        
+</body>
+</html>

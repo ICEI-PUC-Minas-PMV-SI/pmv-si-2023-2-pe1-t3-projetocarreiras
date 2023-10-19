@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Login | Jobify</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="./img/jobify.png" alt="Logo">
+        <nav>
+        <ul class="nav_links">
+            <li><a href="#">Vagas</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Aprimore-se</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        </nav>
+        <a class="button-login" href="#"><button>Login</button></a>
+        <div class="menu-btn">
+            <img src="../docs/img/html-img/bars-solid.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="area-login">
+                <h3> Login </h3>
+                <form action="#" class="form-login">
+                    <input type="text" class="input-nome-login" name="nome" placeholder="Username"/>
+                    <input type="password" class="input-senha-login" name="senha" placeholder="Senha"/> 
+                </form>
+                <button class="botao-login" onclick="verifica_login()" disabled>LOGIN</button>
+                <h5 class="msg1"></h5>
+            </div>
+
+            <div class="registre-se">
+                <p>Não tem uma conta?</p> 
+                <button onclick="window.location.href='cadastro.html'">Registre-se</button>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+    </footer>
+    
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
