@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
-    <title>PERFIL USUÃRIO</title>
+    <title>PERFIL USUÁRIO</title>
   </head>
   <body>
     <header class="header">
@@ -133,31 +133,24 @@
                 
               </form>           
             </div>
-            
-            <!--- <div class="perfil-descricao">
-              <div class="perfil-titulo">
-                  <h2>Adicione um currículo</h2>
-              </div>
-              <form action="upload.php" method="post" enctype="multipart/form-data">
-                <input type="file" name="pdfFile" accept=".pdf">
-                <input type="submit" value="Enviar PDF">
-            </form>
-            </div> -->
           </div>
         </div>
       </section>
     </main>
 
+    <footer>
+        <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+    </footer>
+
     <script>
-      let subMenu = document.getElementById("subMenu");
+        //Menu Nav
+        let subMenu = document.getElementById("subMenu");
 
-      function toggleMenu() {
+        function toggleMenu() {
         subMenu.classList.toggle("open-menu");
-      }
+        }
 
-
-
-        // bloco form
+        // Bloco Form
         const editIcons = document.querySelectorAll(".edit-icon");
         const inputFields = document.querySelectorAll("input[readonly]");
         const selectField = document.querySelector("select[disabled]");
@@ -173,9 +166,8 @@
                     editIcon.innerHTML = '<i class="far fa-edit"></i>';
                 }
             });
-        });
-    </script> 
-
+        }); 
+    </script>
     
   </body>
 </html>
