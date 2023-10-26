@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="/src/style.css">
     <script defer src="./js/script.js"></script>
     <title>Login | Jobify</title>
 </head>
 <body>
     <header class="header">
-        <img src="./img/jobify.png" alt="Logo">
+        <img src="/docs/img/logo-sem-background.png" alt="Logo">
         <nav>
         <ul class="nav_links">
-            <li><a href="#">Vagas</a></li>
+            <li><a href="/src/vagas.html">Vagas</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Aprimore-se</a></li>
+            <li><a href="/src/aprimore-se.html">Aprimore-se</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
         </nav>
@@ -25,10 +25,7 @@
     </header>
 
     <main>
-        <section class="container">
-            
-            
-
+        <section class="container cadastro-container">
             <div class="criar-conta">
                 <h3> Criar conta </h3>
                 <div class="toggle-container">
@@ -61,7 +58,7 @@
             
             <div class="ja-cadastrado">
                 <p>Já tem cadastro? </p>
-                <button class="botao-login" onclick="TelaFazerLogin()">Fazer login</button>
+                <button onclick="TelaFazerLogin()">Fazer login</button>
             </div>
  
         </section>    

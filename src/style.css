@@ -866,81 +866,11 @@ main {
     transition: all 0.5s;
 }
 
-/* Estilo responsivo */
-@media (max-width: 768px) {
-    .nav_links {
-        display: none;
-        flex-direction: column;
-        text-align: center;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: #333;
-        z-index: 1;
-    }
-
-    .nav_links.show {
-        display: flex;
-    }
-
-    .button-login button {
-        display:none;
-    }
-    .menu-btn{
-        display: block;
-    }
-
-    .nav-user {
-        display: none;
-    }
-
-    .home {
-        flex-direction: column;
-        text-align: center;
-        padding: 30px;
-    }
-
-    .home-text {
-        max-width: 100%;
-    }
-
-    .home-img {
-        max-width: 100%;
-        margin-top: 20px;
-    }
-
-    .secao-vagas {
-        grid-template-columns: 1fr;
-    }
-    .card {
-        max-width: 100%;
-    }
-
-    /* secão vagas */
-
-    .detalhes-vaga .detalhe-vaga{
-        font-size: 0.9em;
-    }
-
-    /* seção alertas */
-
-    .row-novo-alerta button {
-        width: 1.5rem;
-        height: 1.5rem;
-        font-size: 1em;
-        line-height: 0;
-    }
-
-    /* -------------------------------------------- Login e Cadastro - Inicio -------------------------------------------- */
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 /* Seção Login */
+
+.login-container, .cadastro-container {
+    margin: 20px auto;
+}
 
 .area-login h3 {
     font-size: 25px;
@@ -971,12 +901,12 @@ body {
     cursor: pointer;
 }
 
-.registre-se * {
+.registre-se *, .ja-cadastrado * {
     display: inline-block;
     font-size: 9pt;
 }
 
-.registre-se button {
+.registre-se button,.ja-cadastrado button  {
     border: none;
     border-bottom: 1px solid;
     padding: 5px;
@@ -1062,43 +992,72 @@ body {
 }
 
 
-/*
-.tipo-cadastro input:checked[type=checkbox] {
-    width: 60px;
-    height: 30px;
-    appearance: none;
-    background-color: black;
-    border-radius: 30px;
-    cursor: pointer;
-    transition:  0.4s;
-    position: absolute;
-}
+/*___________________________________________Estilo responsivo___________________________________________*/
+@media (max-width: 768px) {
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        z-index: 1;
+    }
 
-.tipo-cadastro input[type=checkbox]:before{
-    content: '';
-    width: 28px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    transform: scale(1.1);
-    left: 0;
-    top: 0;
-}
+    .nav_links.show {
+        display: flex;
+    }
 
-.tipo-cadastro input:checked[type=checkbox]:before {
-    
-} */
+    .button-login button {
+        display:none;
+    }
+    .menu-btn{
+        display: block;
+    }
 
-.ja-cadastrado *{
-    display: inline-block;
-}
+    .nav-user {
+        display: none;
+    }
 
-.ja-cadastrado button {
-    background-color: var(--second-bg-color);
-    font-size: 9pt;
-}
-/* ------------------------------------------ Login e Cadastro - Fim ----------------------------------------------------- */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .home-text {
+        max-width: 100%;
+    }
+
+    .home-img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .secao-vagas {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        max-width: 100%;
+    }
+
+    /* secão vagas */
+
+    .detalhes-vaga .detalhe-vaga{
+        font-size: 0.9em;
+    }
+
+    /* seção alertas */
+
+    .row-novo-alerta button {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1em;
+        line-height: 0;
+    }
+
 
     
 }
