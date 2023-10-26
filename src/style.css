@@ -101,7 +101,7 @@ body {
 }
 
 .nav_links a {
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 600;
 }
@@ -643,6 +643,227 @@ aside {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+/* Perfil Usuário - Inicio */
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Perfil do Usuário */
+
+.background-cover{
+    background: var(--main-color);
+    width: 100%;
+    padding: 10%;
+}
+
+.user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 320px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    padding: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h2 {
+    font-weight: 500;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin: 12px 0;
+}
+
+.sub-menu-link p {
+    flex: 1;
+}
+
+.sub-menu-link i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.sub-menu-link:hover i {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}
+
+/* Conteudo do Perfil */
+
+main {
+    background: rgb(242, 242, 242);
+}
+
+.profile-main{
+    margin: 0 10%;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    transition: 0.3s;
+    width: 80%;
+}
+
+.profile-container{
+    background: white;
+}
+
+.profile-container-inner {
+    padding: 0 4% 10px;
+}
+
+.profile-user{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    padding: 5px;
+    background:#fff;
+}
+
+.profile-container h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+
+.profile-container b{
+    font-weight: 500;
+}
+
+.profile-container p {
+    margin-top: 5px;
+}
+
+.perfil-descricao {
+    background: #fff;
+    padding: 20px 4% 30px;
+    margin: 12px 0;
+}
+
+.perfil-descricao h2{
+    color: #333;
+    margin: 10px 0 20px;
+    font-weight: 600;
+}
+
+.ver-mais{
+    display: block;
+    text-align: right;
+    font-size: 15px;
+}
+
+
+.edit-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.perfil-titulo {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.edit{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+/* Formulário */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.edit-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.editing .edit-icon i::before {
+    content: '\f0c7'; /* Código do ícone "far fa-save" */
+    color: var(--color-button);
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+.btn-save{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: var(--color-button);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
 }
 
 /* Estilo responsivo */

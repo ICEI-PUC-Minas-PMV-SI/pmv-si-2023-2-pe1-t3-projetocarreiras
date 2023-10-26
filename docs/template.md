@@ -12,7 +12,7 @@ O design do nosso site de vagas é pensado para oferecer uma experiência atraen
 
 ## Cores
 
-A escolha dos tons de verde na criação do site foi estratégica e significativa por várias razões. O verde é comumente associado à natureza, vegetação e paisagens serenas, o que permite transmitir uma sensação de calma e tranquilidade aos usuários, um elemento essencial em um site de vagas, onde os candidatos frequentemente buscam oportunidades de emprego em um ambiente estressante. Além disso, o verde evoca conceitos de renovação e crescimento, reforçando a ideia de desenvolvimento pessoal e profissional. A sua característica de ser relaxante para os olhos também aprimora a legibilidade do conteúdo do site, proporcionando uma experiência mais agradável aos visitantes.
+A escolhda dos tons de verde na criação do site foi estratégica e significativa por várias razões. O verde é comumente associado à natureza, vegetação e paisagens serenas, o que permite transmitir uma sensação de calma e tranquilidade aos usuários, um elemento essencial em um site de vagas, onde os candidatos frequentemente buscam oportunidades de emprego em um ambiente estressante. Além disso, o verde evoca conceitos de renovação e crescimento, reforçando a ideia de desenvolvimento pessoal e profissional. A sua característica de ser relaxante para os olhos também aprimora a legibilidade do conteúdo do site, proporcionando uma experiência mais agradável aos visitantes.
 
 ![Cores](../docs/img/design/cores-projeto-carreiras.png)
 
