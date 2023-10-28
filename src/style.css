@@ -818,6 +818,10 @@ main {
     align-items: center;
 }
 
+.perfil-titulo h2{
+    font-weight: 900;
+}
+
 .edit{
     display: block;
     text-align: right;
@@ -834,6 +838,7 @@ main {
 .form-group label {
     margin-bottom: 5px;
     text-align: left;
+    font-weight: 600;
 }
 
 .form-group input, .form-group select {
