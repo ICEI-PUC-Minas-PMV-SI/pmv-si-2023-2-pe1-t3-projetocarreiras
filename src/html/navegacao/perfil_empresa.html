@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../style.css" />
     <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
-    <title>PERFIL USUÁRIO</title>
+    <title>PERFIL EMPRESA</title>
   </head>
   <body>
     <header class="header">
@@ -17,12 +17,12 @@
               <li><a href="../../html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
               <li><a href="#">Contato</a></li>
           </ul>
-          <img src="../../../docs/img/personas/marina.png" alt="" class="user-pic" onclick="toggleMenu()" />
+          <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
           <div class="sub-menu-wrap" id="subMenu">
               <div class="sub-menu">
                   <div class="user-info">
-                      <img src="../../../docs/img/personas/marina.png" alt="" />
-                      <h2>Marina Yoshida</h2>
+                      <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                      <h2>Design Solutions</h2>
                   </div>
                   <hr />
 
@@ -52,6 +52,7 @@
   </header>
 
     <main>
+
       <section>
         <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
@@ -70,8 +71,8 @@
               <div class="background-cover" width="100%">
               </div>
               <div class="profile-container-inner">
-                <img src="../../../docs/img/personas/marina.png" alt="" class="profile-user" />
-                <h1>Marina Yoshida</h1>
+                <img src="../../../docs/img/logos/designsolutions.png" alt="" class="profile-user" />
+                <h1>Design Solutions</h1>
                 <p>São Caetano, SP, Brasil</p>
                 <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque corporis distinctio dicta magni, ut velit.</b>
                 
@@ -86,36 +87,47 @@
               </div>
               <form>
                 <div class="form-group">
-                    <label for="first-name">Nome:</label>
-                    <input type="text" id="first-name" name="first-name" value="Marina" readonly>
+                    <label for="first-name">Nome da Empresa:</label>
+                    <input type="text" id="first-name" name="first-name" value="Nome da Empresa" readonly>
+                </div>
+                <div class="form-group-flex">
+                    <div class="form-group">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" value="(99) 9 9999-9999" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="site">Site da Empresa:</label>
+                        <input type="text" id="site" name="site" value="Link do Site" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">País:</label>
+                        <select id="country" name="country" disabled>
+                            <option value="br">Brasil</option>
+                            <option value="us">Estados Unidos</option>
+                            <option value="ca">Canadá</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">Estado:</label>
+                        <input type="text" id="state" name="state" value="Minas Gerais" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" value="São Caetano" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail do Gestor de RH:</label>
+                        <input type="email" id="email" name="email" value="gestorrh@email.com" readonly>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="text" id="cnpj" name="cnpj" value="12.345.678/0001-00" readonly>
                 </div>
                 <div class="form-group">
-                    <label for="last-name">Sobrenome:</label>
-                    <input type="text" id="last-name" name="last-name" value="Yoshida" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" value="marina@example.com" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telefone:</label>
-                    <input type="tel" id="phone" name="phone" value="(99) 9 9999-9999" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="country">País:</label>
-                    <select id="country" name="country" disabled>
-                        <option value="br">Brasil</option>
-                        <option value="us">Estados Unidos</option>
-                        <option value="ca">Canadá</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="state">Estado:</label>
-                    <input type="text" id="state" name="state" value="Minas Gerais" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="cpf">CPF:</label>
-                    <input type="text" id="cpf" name="cpf" value="123.456.789-00" readonly>
+                    <label for="descricao">Descrição da Empresa:</label>
+                    <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
                 </div>
               </form>
             </div>

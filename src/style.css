@@ -657,7 +657,7 @@ footer a {
 /* Perfil do Usuário */
 
 .background-cover{
-    background: var(--main-color);
+    background: var(--color-button);
     width: 100%;
     padding: 10%;
     border-top-right-radius: 8px;
@@ -837,10 +837,20 @@ main {
 }
 
 .form-group input, .form-group select {
-    padding: 5px;
-    font-size: 13px;
-    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    font-size: 14px;
+    outline: none;
     border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
 }
 
 .edit-icon {
