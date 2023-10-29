@@ -83,59 +83,71 @@
               <form>
                 <div class="form-group">
                     <label for="nome-vaga">Título da Vaga:<span class="required-field">*</span></label>
-                    <input type="text" id="nome-vaga" name="nome-vaga" value="Titulo da Vaga" readonly>
+                    <input type="text" id="nome-vaga" name="nome-vaga" value="Titulo da Vaga" >
                 </div>
                 <div class="form-group">
                     <label for="nome-empresa">Empresa:<span class="required-field">*</span></label>
-                    <input type="text" id="nome-empresa" name="nome-empresa" value="Nome da Empresa" readonly>
+                    <input type="text" id="nome-empresa" name="nome-empresa" value="Nome da Empresa" >
                 </div>
                 <div class="form-group-flex">
                     <div class="form-group">
-                        <label for="data-inicio">Data de Início da Vaga:</label>
+                        <label for="data-inicio">Data de Início da Vaga:<span class="required-field">*</span></label>
                         <input type="date" id="data-inicio" name="data-inicio">
                     </div>
                     <div class="form-group">
-                        <label for="data-fim">Data de Término da Vaga:</label>
+                        <label for="data-fim">Data de Término da Vaga:<span class="required-field">*</span></label>
                         <input type="date" id="data-fim" name="data-fim">
                     </div>
                     
                     <div class="form-group">
-                        <label for="country">País:</label>
-                        <select id="country" name="country" disabled>
+                        <label for="country">País:<span class="required-field">*</span></label>
+                        <select id="country" name="country">
                             <option value="br">Brasil</option>
                             <option value="us">Estados Unidos</option>
                             <option value="ca">Canadá</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="state">Estado:</label>
-                        <input type="text" id="state" name="state" value="Minas Gerais" readonly>
+                        <label for="state">Estado:<span class="required-field">*</span></label>
+                        <input type="text" id="state" name="state" value="Minas Gerais" >
                     </div>
                     <div class="form-group">
-                        <label for="city">Cidade:</label>
-                        <input type="text" id="city" name="city" value="São Caetano" readonly>
+                        <label for="city">Cidade:<span class="required-field">*</span></label>
+                        <input type="text" id="city" name="city" value="São Caetano" >
                     </div>
                     <div class="form-group">
-                        <label for="email">E-mail do Gestor de RH:</label>
-                        <input type="email" id="email" name="email" value="gestorrh@email.com" readonly>
+                        <label for="modalidade">Modalidade:</label>
+                        <input type="text" id="modalidade" name="modalidade" value="" >
+                    </div>
+                    <div class="form-group">
+                        <label for="salario">Salário:</label>
+                        <input type="text" id="salario" name="salario">
+                    </div>
+                    <div class="form-group">
+                        <label for="contratacao">Tipo de Contratação:<span class="required-field">*</span></label>
+                        <select id="contratacao" name="contratacao">
+                            <option value="clt">CLT</option>
+                            <option value="freelancer">Freelancer</option>
+                            <option value="estagio">Estágio</option>
+                            <option value="aprendiz">Jovem Aprendiz</option>
+                            <option value="intermitente">Trabalho Intermitente</option>
+                            <option value="temporario">Trabalho Temporário</option>
+                            <option value="pj">Pessoa Jurídica</option>
+                        </select>
                     </div>
                 </div>
                 
-                <div class="form-group">
-                    <label for="salario">Salário:</label>
-                    <input type="text" id="salario" name="salario">
-                </div>
                 <div class="form-group">
                     <label for="descricao">Descrição da Empresa:</label>
                     <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="requisitos">Requisitos</label>
+                    <label for="requisitos">Requisitos:</label>
                     <textarea id="requisitos" name="requisitos" rows="5" cols="40"></textarea>
                 </div>
 
                 <div class="form-button">
-                    <button type="button" class="btn-save">Salvar</button>
+                    <button type="button" class="btn-save">Criar Vaga</button>
                   </div>
               </form>
             </div>
