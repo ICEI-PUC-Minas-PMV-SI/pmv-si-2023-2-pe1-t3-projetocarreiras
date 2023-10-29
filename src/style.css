@@ -854,7 +854,7 @@ main {
 .form-group-flex{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-gap: 0px 20px;
 
 }
 
@@ -904,14 +904,14 @@ main {
     border: 1px solid var(--color-button);
     border-radius: 5px;
     padding: 5px 10px;
-    background: var(--color-button); /* Fundo verde */
-    color: #fff; /* Cor do texto branco */
+    background: var(--color-button); 
+    color: #fff; 
     cursor: pointer;
 }
 
 /* Estilo quando o mouse está sobre o botão dropdown */
 .styled-select:hover {
-    background: var(--color-button); /* Cor de fundo mais clara quando hover */
+    background: var(--color-button);
 }
 
 /* Seção Login */
