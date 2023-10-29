@@ -48,7 +48,7 @@ body {
     width: 55%;
     height: fit-content;
     background-color: var(--second-text-color);
-    margin: auto;
+    margin: 10px auto 0;
     border-radius: 5px;
     list-style: none;
     padding: 10px;
@@ -907,6 +907,7 @@ main {
     background: var(--color-button); 
     color: #fff; 
     cursor: pointer;
+    text-align: center;
 }
 
 /* Estilo quando o mouse está sobre o botão dropdown */
