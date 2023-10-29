@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
+    <title>NOVA VAGA</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+          <img src="../../../docs/img/logo-sem-background.png" alt="">
+          <ul class="nav_links">
+              <li><a href="../../html/navegacao/vagas.html">Vagas</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="../../html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+          <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+          <div class="sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+                  <div class="user-info">
+                      <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                      <h2>Design Solutions</h2>
+                  </div>
+                  <hr />
+
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-user-alt"></i>
+                      <p>Editar Perfil</p>
+                      <span></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-cog"></i>
+                      <p>Configurações</p>
+                      <span></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-question-circle"></i>
+                      <p>Ajuda e Suporte</p>
+                      <span></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-sign-out-alt"></i>
+                      <p>Sair</p>
+                      <span></span>
+                  </a>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+    <main>
+
+      <section>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+                <a href="../../../index.html" class="breadcrumbs-link">Home</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="" class="breadcrumbs-link">Meu perfil</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="" class="breadcrumbs-link active">Criar Vaga</a>
+            </li>
+        </ul>
+      </section>
+
+      <section class="secao-perfil">
+        <div class="container">
+            <div class="perfil-descricao">
+              <div class="perfil-titulo">
+                <h2>Criar Nova Vaga</h2>
+                <div class="custom-select" style="width: 200px;">
+                    <select class="styled-select">
+                        <option value="0">Status</option>
+                        <option value="1">Aberta</option>
+                        <option value="2">Fechada</option>
+                    </select>
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                    <label for="nome-vaga">Título da Vaga:<span class="required-field">*</span></label>
+                    <input type="text" id="nome-vaga" name="nome-vaga" value="Titulo da Vaga" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="nome-empresa">Empresa:<span class="required-field">*</span></label>
+                    <input type="text" id="nome-empresa" name="nome-empresa" value="Nome da Empresa" readonly>
+                </div>
+                <div class="form-group-flex">
+                    <div class="form-group">
+                        <label for="data-inicio">Data de Início da Vaga:</label>
+                        <input type="date" id="data-inicio" name="data-inicio">
+                    </div>
+                    <div class="form-group">
+                        <label for="data-fim">Data de Término da Vaga:</label>
+                        <input type="date" id="data-fim" name="data-fim">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">País:</label>
+                        <select id="country" name="country" disabled>
+                            <option value="br">Brasil</option>
+                            <option value="us">Estados Unidos</option>
+                            <option value="ca">Canadá</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">Estado:</label>
+                        <input type="text" id="state" name="state" value="Minas Gerais" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" value="São Caetano" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail do Gestor de RH:</label>
+                        <input type="email" id="email" name="email" value="gestorrh@email.com" readonly>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="salario">Salário:</label>
+                    <input type="text" id="salario" name="salario">
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Descrição da Empresa:</label>
+                    <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="requisitos">Requisitos</label>
+                    <textarea id="requisitos" name="requisitos" rows="5" cols="40"></textarea>
+                </div>
+
+                <div class="form-button">
+                    <button type="button" class="btn-save">Salvar</button>
+                  </div>
+              </form>
+            </div>
+
+
+                       
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+    </footer>
+
+  </body>
+</html>

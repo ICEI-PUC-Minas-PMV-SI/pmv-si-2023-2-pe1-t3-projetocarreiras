@@ -885,6 +885,35 @@ main {
     transition: all 0.5s;
 }
 
+.required-field {
+    color: red;
+    margin-left: 5px;
+}
+
+/* Estilos personalizados para o botão dropdown */
+.custom-select {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+.styled-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid var(--color-button);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: var(--color-button); /* Fundo verde */
+    color: #fff; /* Cor do texto branco */
+    cursor: pointer;
+}
+
+/* Estilo quando o mouse está sobre o botão dropdown */
+.styled-select:hover {
+    background: var(--color-button); /* Cor de fundo mais clara quando hover */
+}
+
 /* Seção Login */
 
 .login-container, .cadastro-container {
