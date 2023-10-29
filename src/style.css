@@ -135,24 +135,21 @@ body {
 }
 
 /* botão do menu para telas menores */
+
 .menu-btn {
     background: rgb(255, 255, 255);
     color: black;
     padding: 2.2em;
     cursor: pointer;
     transition: 0.3s;
+    display: none;
+    padding: 0;
+    justify-self: end;
 }
   
 .menu-btn:hover {
     background: var(--color-button);
     border-radius: 5px;
-    
-}
-  
-.menu-btn {
-    display: none;
-    padding: 0;
-    justify-self: end;
 }
 
 .user-pic {
