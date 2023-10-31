@@ -612,7 +612,8 @@ aside {
 }
 
 .row-topicos li {
-    margin: 10px;
+    margin: 10px auto;
+    font-size: 0.8rem;
 }
 
 .row-topicos li a{
