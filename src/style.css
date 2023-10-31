@@ -545,42 +545,26 @@ aside {
 }
 
 #breadcrumbs-aprimore-se{
-    width: 62rem;
     margin: 5px auto;
 }
-.wrapper-aprimore-se {
+.wrapper-aprimore {
     display: inline-flex;
     justify-content: center;
 }
 
-.card-aprimore-se {
-    margin: 0px 10px;
+.card-aprimore {
+    margin: 0 10px;
     background-color: white;
-    padding: 15px;
-    width: 50%;
-    border-radius: 8px;
-    height: fit-content;
+    padding: 20px;
+    border-radius: 5px;
 }
-
-.card-aprimore-se img{
+.card-aprimore img {
     width: 10rem;
     height: 10rem;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 
-.card-aprimore-se h2{
-    font-size: 24pt;
-}
-
-.card-aprimore-se p {
-    margin: 5px auto 8px;
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: left;
-    hyphens: auto;
-}
-.card-aprimore-se button {
+.card-aprimore button {
     margin-top: 10px;
     border-radius: 5px;
     font-weight: 600;
@@ -1207,7 +1191,10 @@ main {
     .nav-user {
         display: none;
     }
-
+    
+    .container, .breadcrumbs{
+        width: 100%;
+    }
     .home {
         flex-direction: column;
         text-align: center;
@@ -1251,4 +1238,19 @@ main {
         margin-bottom: 30px;
     }
     
+    /* aprimore-se */
+
+    .wrapper-aprimore {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .card-aprimore {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    aside {
+        display: none;
+    }
 }
