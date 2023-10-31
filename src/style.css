@@ -754,6 +754,7 @@ footer a {
 
 main {
     background: rgb(242, 242, 242);
+    margin-bottom: 30px;
 }
 
 .profile-main{
@@ -1058,10 +1059,10 @@ main {
     color: #fff;
     text-align: center;;
     padding: 20px;
-    margin-top: auto;
     position: absolute;
     bottom: 0;
     width: 100%;
+    
 }
 
 .footer{
