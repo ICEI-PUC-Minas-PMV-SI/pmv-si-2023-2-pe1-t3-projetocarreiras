@@ -588,6 +588,12 @@ aside {
     color: white;
     cursor: pointer;
 }
+ 
+.referencia, .referencia a{
+    font-size: 10pt;
+    margin-top: 20px;
+    text-decoration: none;
+}
 
 /* Seção Currículo */
 
@@ -626,6 +632,43 @@ aside {
     text-decoration: none;
     color: black;
 }
+
+/* Seção Entrevista */
+
+.estrutura-entrevista ul{
+    margin: auto;
+}
+
+#comunicacao-visual li {
+    list-style: circle;
+}
+
+.estrutura-entrevista h1 {
+    font-size: 25pt;
+}
+
+.lista-entrevista {
+    list-style: none;
+}
+
+.lista-entrevista ol, li {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+
+.lista-entrevista p{
+    text-align: left;
+    background-color: pink;
+    margin: 5px auto;
+}
+
+.lista-entrevista h2 {
+    text-align: left;
+    margin: 10px 0;
+}
+
 
 /* Estilo do link no footer */
 footer a {
