@@ -1059,6 +1059,9 @@ main {
     text-align: center;;
     padding: 20px;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer{
