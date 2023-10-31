@@ -369,15 +369,16 @@ aside {
     width: 90%
 }
 
-.row-filtro label p{
-    font-size: 0.9em;
-}
 .botao-filtro {
     width: fit-content;
     height: fit-content;
-    font-size: 0.8em;
+    font-size: 0.6em;
     margin: 10px auto;
     padding: 5px;
+}
+
+.row-filtro label {
+    font-size: 0.8rem;
 }
 
 .row-filtro p{
@@ -1164,6 +1165,18 @@ main {
 
 
 /*___________________________________________Estilo responsivo___________________________________________*/
+@media (max-width: 900px){
+
+    .wrapper-aprimore {
+        display: inline-block;
+        justify-content: center;
+    } 
+
+    .card-aprimore {
+        width: 100%;
+        margin: auto;
+    }
+}
 @media (max-width: 768px) {
     .nav_links {
         display: none;
@@ -1239,16 +1252,6 @@ main {
     }
     
     /* aprimore-se */
-
-    .wrapper-aprimore {
-        display: inline-block;
-        justify-content: center;
-    }
-
-    .card-aprimore {
-        width: 100%;
-        margin: 15px auto;
-    }
 
     aside {
         display: none;
