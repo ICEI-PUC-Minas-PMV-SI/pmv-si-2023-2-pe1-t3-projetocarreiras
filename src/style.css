@@ -729,7 +729,7 @@ footer a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: var(--text-color);
     margin: 12px 0;
 }
 
@@ -744,10 +744,12 @@ footer a {
 
 .sub-menu-link:hover i {
     transform: translateX(5px);
+    color: var(--color-button);
 }
 
 .sub-menu-link:hover p {
     font-weight: 600;
+    color: var(--color-button);
 }
 
 /* Conteudo do Perfil */
