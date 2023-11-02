@@ -175,6 +175,50 @@ body {
 .nav-user a:hover{
     text-decoration: underline;
 }
+
+.overlay{
+    width: 0;
+    height: 100%;
+    background-color: white;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.menu-items{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: var(--color-button);
+}
+
+.overlay .closemenu {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px;
+}
+
+
+
+
 /* seção "Home" */
 .home {
     background: var(--bg-color);
@@ -1169,8 +1213,6 @@ main {
     background-color: var(--main-color);
 }
 
-
-
 /*___________________________________________Estilo responsivo___________________________________________*/
 @media (max-width: 900px){
 
@@ -1264,3 +1306,4 @@ main {
         display: none;
     }
 }
+
