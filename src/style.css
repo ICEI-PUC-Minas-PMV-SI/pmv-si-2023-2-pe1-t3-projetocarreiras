@@ -946,6 +946,7 @@ main {
     font-weight: 700;
     text-decoration: none;
     transition: all 0.5s;
+    border-radius: 5px;
 }
 
 .required-field {
