@@ -973,6 +973,21 @@ main {
     background: var(--color-button);
 }
 
+
+/* Página de Descrição de Vaga */
+.info-vaga{
+    text-align: start;
+    color: #333;
+}
+
+.info-container{
+    padding-bottom: 20px;
+}
+
+.desc-vaga {
+    padding: 10px 0 0 30px;
+}
+
 /* Seção Login */
 
 .login-container, .cadastro-container {
@@ -1097,6 +1112,7 @@ main {
     left: 2.45rem;
     background: #e0e2db;
 }
+
 
 
 /* Footer */
