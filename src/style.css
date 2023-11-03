@@ -48,8 +48,7 @@ body {
 }
 
 .breadcrumbs {
-    width: 55%;
-    height: fit-content;
+    width: 46rem;
     background-color: var(--second-text-color);
     margin: 10px auto 0;
     border-radius: 5px;
@@ -239,7 +238,7 @@ body {
 }
 
 .titulo {
-    text-align: center; /* Alinha o texto ao centro horizontalmente */
+    text-align: center;
     font-size: var(--text-xl);
     font-weight: 500;
     padding: 50px;
@@ -388,11 +387,11 @@ aside {
 /* Seção Alerta */
 
 .container {
-    width: 55%; 
+    width: 46rem; 
     min-height: fit-content;   
     background-color: var(--second-text-color);
     padding: 20px;
-    margin: 5px auto 50px;
+    margin: 5px auto 100px;
     border-radius: 8px;
     text-align: center;
 }
@@ -541,7 +540,7 @@ aside {
 
 /* Seção Aprimore-se*/ 
 #container-aprimore-se{
-    width: 62rem;
+    width: 46rem;
     margin-bottom: 30px;
 }
 
@@ -554,10 +553,15 @@ aside {
 }
 
 .card-aprimore {
-    margin: 0 10px;
+    margin: 10px;
     background-color: white;
     padding: 20px;
     border-radius: 5px;
+}
+
+.card-aprimore p{
+    font-size: 10pt;
+    text-align: justify;
 }
 .card-aprimore img {
     width: 10rem;
@@ -566,7 +570,7 @@ aside {
 }
 
 .card-aprimore button {
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
     font-weight: 600;
     width: 100%;
@@ -575,6 +579,7 @@ aside {
     border: none;
     color: white;
     cursor: pointer;
+    align-content: center;
 }
  
 .referencia, .referencia a{
@@ -1062,7 +1067,6 @@ main {
     position: absolute;
     bottom: 0;
     width: 100%;
-    
 }
 
 .footer{
@@ -1170,7 +1174,7 @@ main {
 
 
 /*___________________________________________Estilo responsivo___________________________________________*/
-@media (max-width: 900px){
+@media (max-width: 1185px){
 
     .wrapper-aprimore {
         display: inline-block;
@@ -1181,6 +1185,25 @@ main {
         width: 100%;
         margin: auto;
     }
+
+    aside{
+        width: 10%;
+        margin-left: 10px;
+    }
+
+    aside h2{
+        font-size: 10pt;
+    }
+
+    .row-topicos li{
+        font-size: 8pt;
+    }
+}
+
+@media (max-width: 970px) {
+    aside{
+        display: none;
+    };
 }
 @media (max-width: 768px) {
     .nav_links {
@@ -1254,11 +1277,5 @@ main {
     .footer__col{
         width: 100%;
         margin-bottom: 30px;
-    }
-    
-    /* aprimore-se */
-
-    aside {
-        display: none;
     }
 }
