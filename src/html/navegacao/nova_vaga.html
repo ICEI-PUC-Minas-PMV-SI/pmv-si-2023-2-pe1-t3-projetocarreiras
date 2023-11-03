@@ -73,7 +73,7 @@
         <div class="container">
             <div class="perfil-descricao">
               <div class="perfil-titulo">
-                <h2>Criar Nova Vaga</h2>
+                <h2>Criar nova vaga</h2>
                 <div class="custom-select" style="width: 200px;">
                     <h5>Status</h5>
                     <select class="styled-select">
@@ -84,12 +84,12 @@
               </div>
               <form>
                 <div class="form-group">
-                    <label for="nome-vaga">Título da Vaga:<span class="required-field">*</span></label>
-                    <input type="text" id="nome-vaga" name="nome-vaga" value="Titulo da Vaga" >
+                    <label for="nome-vaga">Título da vaga:<span class="required-field">*</span></label>
+                    <input type="text" id="nome-vaga" name="nome-vaga" placeholder="Titulo da vaga" >
                 </div>
                 <div class="form-group">
                     <label for="nome-empresa">Empresa:<span class="required-field">*</span></label>
-                    <input type="text" id="nome-empresa" name="nome-empresa" value="Nome da Empresa" >
+                    <input type="text" id="nome-empresa" name="nome-empresa" placeholder="Nome da empresa" >
                 </div>
                 <div class="form-group-flex">
                     <div class="form-group">
@@ -97,25 +97,28 @@
                         <input type="date" id="data-inicio" name="data-inicio">
                     </div>
                     <div class="form-group">
-                        <label for="data-fim">Data de Término da Vaga:<span class="required-field">*</span></label>
+                        <label for="data-fim">Data de término da vaga:<span class="required-field">*</span></label>
                         <input type="date" id="data-fim" name="data-fim">
                     </div>
                     
                     <div class="form-group">
                         <label for="country">País:<span class="required-field">*</span></label>
                         <select id="country" name="country">
+                            <option value="ca">Alemanha</option>
                             <option value="br">Brasil</option>
-                            <option value="us">Estados Unidos</option>
                             <option value="ca">Canadá</option>
+                            <option value="us">Estados Unidos</option>
+                            <option value="ca">Holanda</option>
+                            
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="state">Estado:<span class="required-field">*</span></label>
-                        <input type="text" id="state" name="state" value="Minas Gerais" >
+                        <input type="text" id="state" name="state" placeholder="ex.: Minas Gerais" >
                     </div>
                     <div class="form-group">
                         <label for="city">Cidade:<span class="required-field">*</span></label>
-                        <input type="text" id="city" name="city" value="São Caetano" >
+                        <input type="text" id="city" name="city" placeholder=" ex.: Belo Horizonte" >
                     </div>
                     <div class="form-group">
                         <label for="modalidade">Modalidade:</label>
@@ -126,21 +129,21 @@
                         <input type="text" id="salario" name="salario">
                     </div>
                     <div class="form-group">
-                        <label for="contratacao">Tipo de Contratação:<span class="required-field">*</span></label>
+                        <label for="contratacao">Tipo de contratação:<span class="required-field">*</span></label>
                         <select id="contratacao" name="contratacao">
                             <option value="clt">CLT</option>
                             <option value="freelancer">Freelancer</option>
                             <option value="estagio">Estágio</option>
                             <option value="aprendiz">Jovem Aprendiz</option>
-                            <option value="intermitente">Trabalho Intermitente</option>
-                            <option value="temporario">Trabalho Temporário</option>
+                            <option value="intermitente">Trabalho intermitente</option>
+                            <option value="temporario">Trabalho temporário</option>
                             <option value="pj">Pessoa Jurídica</option>
                         </select>
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="descricao">Descrição da Empresa:</label>
+                    <label for="descricao">Descrição da empresa:</label>
                     <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
                 </div>
                 <div class="form-group">
@@ -149,7 +152,7 @@
                 </div>
 
                 <div class="form-button">
-                    <button type="button" class="btn-save">Criar Vaga</button>
+                    <button type="button" class="btn-save">Criar vaga</button>
                   </div>
               </form>
             </div>
