@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../style.css" />
     <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
-    <title>Meu perfil</title>
+    <title>Perfil Usuário</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <a href="../../../index.html">
-          <img src="./docs/img/logo-sem-background.png" alt="">
+          <img class="logo" src="./../../../docs/img/logo-sem-background.png" alt="">
         </a>
           <ul class="nav_links">
               <li><a href="../../html/navegacao/vagas.html">Vagas</a></li>
@@ -56,6 +56,20 @@
               </div>
           </div>
       </nav>
+      <div class="menu-btn" onclick="openNav()">
+        <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+      </div>
+      <div id="myNav" class="overlay">
+          <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
+          
+          <div class="menu-items">
+              <a href="#">Home</a>
+              <a href="#">Vagas</a>
+              <a href="#">Aprimore-se</a>
+              <a href="#">Sobre</a>
+              <a href="#">Contato</a>
+          </div>
+      </div>
   </header>
 
     <main>
@@ -72,7 +86,7 @@
 
       <section class="secao-perfil">
         <div class="container">
-          <div class="profile-main">
+          <div>
             <div class="profile-container">
               <div class="background-cover" width="100%">
               </div>
@@ -80,7 +94,7 @@
                 <img src="../../../docs/img/personas/marina.png" alt="" class="profile-user" />
                 <h1>Marina Yoshida</h1>
                 <p>São Caetano, SP, Brasil</p>
-                <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque corporis distinctio dicta magni, ut velit.</b>
+                <b>Em busca de novas oportunidades para crescer e evoluir profissionalmente.</b>
                 
               </div>
             </div>
@@ -118,7 +132,7 @@
                 </div>
                 <div class="form-group">
                     <label for="state">Estado:</label>
-                    <input type="text" id="state" name="state" value="Minas Gerais" readonly>
+                    <input type="text" id="state" name="state" value="São Paulo" readonly>
                 </div>
                 <div class="form-group">
                     <label for="cpf">CPF:</label>
@@ -179,18 +193,13 @@
                   <div class="footer__col">
                       <h4>Receber Novas Vagas</h4>
                       <div class="form__sub">
-                          <form action="">
-                              <input type="email" placeholder="Digite seu email" required>
+                          <form>
+                              <input type="text" placeholder="Digite seu email" required>
                               <button>Increva-se</button>
                           </form>
                       </div>
-                      <div class="midias-sociais">
-                          <a href=""><i class="midias-sociais__link fab fa-facebook fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-instagram fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-twitter fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-whatsapp fa-2x"></i></a>
-                      </div>
                   </div>
+                  
               </div>
           </div>
       </div>
@@ -199,32 +208,33 @@
       </div>
   </footer>
 
-    <script>
-        //Menu Nav
-        let subMenu = document.getElementById("subMenu");
+  <script defer src="./../../script.js"></script>
+  <script>
+      //Menu Nav
+      let subMenu = document.getElementById("subMenu");
 
-        function toggleMenu() {
-        subMenu.classList.toggle("open-menu");
-        }
+      function toggleMenu() {
+      subMenu.classList.toggle("open-menu");
+      }
 
-        // Bloco Form
-        const editIcons = document.querySelectorAll(".edit-icon");
-        const inputFields = document.querySelectorAll("input[readonly]");
-        const selectField = document.querySelector("select[disabled]");
+      // Bloco Form
+      const editIcons = document.querySelectorAll(".edit-icon");
+      const inputFields = document.querySelectorAll("input[readonly]");
+      const selectField = document.querySelector("select[disabled]");
 
-        editIcons.forEach((editIcon, index) => {
-            editIcon.addEventListener("click", () => {
-                editIcon.classList.toggle("editing");
-                inputFields[index].toggleAttribute("readonly");
-                selectField.toggleAttribute("disabled");
-                if (editIcon.classList.contains("editing")) {
-                    editIcon.innerHTML = '<i class="far fa-save"></i>';
-                } else {
-                    editIcon.innerHTML = '<i class="far fa-edit"></i>';
-                }
-            });
-        }); 
-    </script>
+      editIcons.forEach((editIcon, index) => {
+          editIcon.addEventListener("click", () => {
+              editIcon.classList.toggle("editing");
+              inputFields[index].toggleAttribute("readonly");
+              selectField.toggleAttribute("disabled");
+              if (editIcon.classList.contains("editing")) {
+                  editIcon.innerHTML = '<i class="far fa-save"></i>';
+              } else {
+                  editIcon.innerHTML = '<i class="far fa-edit"></i>';
+              }
+          });
+      }); 
+  </script>
     
   </body>
 </html>

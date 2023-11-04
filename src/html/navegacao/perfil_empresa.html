@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../style.css" />
     <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
-    <title>Meu perfil empresa</title>
+    <title>Perfil Empresa</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <a href="../../../index.html">
-            <img src="../../../docs/img/logo-sem-background.png" alt="">
+            <img class="logo" src="../../../docs/img/logo-sem-background.png" alt="">
         </a>
           <ul class="nav_links">
               <li><a href="../../html/navegacao/vagas.html">Vagas</a></li>
@@ -56,6 +56,20 @@
               </div>
           </div>
       </nav>
+      <div class="menu-btn" onclick="openNav()">
+        <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+      </div>
+      <div id="myNav" class="overlay">
+          <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
+          
+          <div class="menu-items">
+              <a href="#">Home</a>
+              <a href="#">Vagas</a>
+              <a href="#">Aprimore-se</a>
+              <a href="#">Sobre</a>
+              <a href="#">Contato</a>
+          </div>
+      </div>
   </header>
 
     <main>
@@ -73,7 +87,7 @@
 
       <section class="secao-perfil">
         <div class="container">
-          <div class="profile-main">
+          <div>
             <div class="profile-container">
               <div class="background-cover" width="100%">
               </div>
@@ -81,7 +95,7 @@
                 <img src="../../../docs/img/logos/designsolutions.png" alt="" class="profile-user" />
                 <h1>Design Solutions</h1>
                 <p>São Caetano, SP, Brasil</p>
-                <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque corporis distinctio dicta magni, ut velit.</b>
+                <b>Desde 2012, somos uma empresa de design inovadora e comprometida em entregar soluções de design criativas e de alta qualidade para nossos clientes. </b>
                 
               </div>
             </div>
@@ -118,7 +132,7 @@
                     </div>
                     <div class="form-group">
                         <label for="state">Estado:</label>
-                        <input type="text" id="state" name="state" value="Minas Gerais" readonly>
+                        <input type="text" id="state" name="state" value="São Paulo" readonly>
                     </div>
                     <div class="form-group">
                         <label for="city">Cidade:</label>
@@ -168,51 +182,66 @@
           </div>
         </div>
       </section>
+      <section class="container">
+        <h1 class="titulo-vagas">Minhas Vagas</h1>
+        <div class="container-vaga">
+            <div class="card">
+                <img src="./../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
+                <h2>Vaga 01</h2>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="home-btn">Editar</button>
+            </div>
+        
+            <div class="card">
+                <img src="./../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
+                <h2>Vaga 02</h2>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="home-btn">Editar</button>
+            </div>
+        </div>
+        <button class="home-btn-emp"><a href="./nova_vaga.html">Adicionar +</a></button>
+    </section>
     </main>
 
     <footer>
-      <div class="footer">
-          <div class="footer__container">
-              <div class="footer__row">
-                  <div class="footer__col">
-                      <h4>Informações</h4>
-                      <ul>
-                          <li><a href="">Sobre Nós</a></li>
-                          <li><a href="">Vagas</a></li>
-                          <li><a href="">Aprimore-se</a></li>
-                          <li><a href="">Contato</a></li>
-                      </ul>
-                  </div>
-                  <div class="footer__col">
-                      <h4>Sobre a Plataforma</h4>
-                      <ul>
-                          <li><a href="">Termos de uso</a></li>
-                          <li><a href="">Politica de privacidade</a></li>
-                      </ul>
-                  </div>
-                  <div class="footer__col">
-                      <h4>Receber Novas Vagas</h4>
-                      <div class="form__sub">
-                          <form action="">
-                              <input type="email" placeholder="Digite seu email" required>
-                              <button>Increva-se</button>
-                          </form>
-                      </div>
-                      <div class="midias-sociais">
-                          <a href=""><i class="midias-sociais__link fab fa-facebook fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-instagram fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-twitter fa-2x"></i></a>
-                          <a href=""><i class="midias-sociais__link fab fa-whatsapp fa-2x"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="footer__sub">
-          <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
-      </div>
-  </footer>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <h4>Informações</h4>
+                        <ul>
+                            <li><a href="">Sobre Nós</a></li>
+                            <li><a href="">Vagas</a></li>
+                            <li><a href="">Aprimore-se</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Sobre a Plataforma</h4>
+                        <ul>
+                            <li><a href="">Termos de uso</a></li>
+                            <li><a href="">Politica de privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Receber Novas Vagas</h4>
+                        <div class="form__sub">
+                            <form>
+                                <input type="text" placeholder="Digite seu email" required>
+                                <button>Increva-se</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub">
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </div>
+    </footer>
 
+  <script defer src="./../../script.js"></script>
     <script>
         //Menu Nav
         let subMenu = document.getElementById("subMenu");
