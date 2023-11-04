@@ -32,5 +32,5 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 Escolhemos o Font Awesome  por possuir uma vasta biblioteca de ícones e a facilidade de implementação. Abrangendo desde ícones básicos e universais até ícones altamente específicos de nichos e setores, atendendo às necessidades do nosso design de maneira abrangente.
 
-![Icones](../docs/img/design/iconografia.png)
+![Icones](../docs/img/design/iconografia2.png)
 

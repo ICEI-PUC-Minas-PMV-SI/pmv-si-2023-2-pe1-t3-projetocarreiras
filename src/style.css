@@ -1458,5 +1458,10 @@ footer a {
     .container-vaga {
         grid-template-columns: 1fr;
     }
+
+    /* Nova Vaga */
+    .form-group-flex {
+        grid-template-columns: 1fr;
+    }
 }
 
