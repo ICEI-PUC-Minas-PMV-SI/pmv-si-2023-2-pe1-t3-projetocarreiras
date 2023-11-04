@@ -703,10 +703,10 @@ aside {
     position: relative;
 }
 
-/* Perfil do Usuário */
+/* Perfil do Usuário e Empresa*/
 
 .background-cover{
-    background: var(--color-button);
+    /*background: var(--color-button);*/
     width: 100%;
     padding: 10%;
     border-top-right-radius: 8px;
@@ -717,7 +717,7 @@ aside {
     width: 40px;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 30px;
+    margin: 0 30px;
 }
 
 .sub-menu-wrap {
@@ -967,6 +967,41 @@ main {
     background: var(--color-button);
 }
 
+/* Vagas do perfil empresa */
+
+.container-vaga {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0 10%;
+    margin: 0 0 10% 0;
+}
+
+.titulo-vagas{
+    font-weight: 900;
+    padding: 30px;
+}
+
+.home-btn-emp {
+    padding: 15px 45px;
+    background-color: var(--color-button);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.home-btn-emp a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.home-btn-emp:hover {
+    background-color: var(--main-color)
+}
 
 /* Página de Descrição de Vaga */
 .info-vaga{
@@ -1403,6 +1438,25 @@ footer a {
     .footer__col{
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    /* Seção Perfil Usuário*/
+    .profile-user {
+        width: 120px;
+        border-radius: 50%;
+        margin-top: -50px;
+    }
+    .logo {
+        width: 140px;
+    }
+
+    /* Seção Perfil Empresa */
+    .sub-menu-wrap {
+        right: -15%;
+    }
+
+    .container-vaga {
+        grid-template-columns: 1fr;
     }
 }
 

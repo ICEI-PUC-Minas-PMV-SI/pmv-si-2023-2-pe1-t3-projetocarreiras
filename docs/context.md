@@ -31,7 +31,7 @@ O desemprego hoje afeta um grande contingente de brasileiros, sendo mais de 8 mi
 Ao mesmo tempo, os recrutadores poderiam fazer análises mais precisas e assertivas, selecionando candidatos cada vez mais aderentes à cultura da empresa, o que poderia ainda significar menor rotatividade e times cada vez mais integrados. Essa questão é abarcada pelo objetivo específico 3 (Simplificar o processo de recrutamento.)\
 Ressalta-se ainda que a platafoma busca atender a necessidades que as soluções hoje disponíveis não conseguem suprir como um todo, abarcando, assim, as principais necessidades dos candidatos no que se refere ao desenvolvimento contínuo de suas carreiras, bem como das empresas no âmbito do recrutamento. O quadro a seguir ilustra o comparativo entre a plataforma aqui proposta, o CV Connect, e as principais plataformas de empregos da atualidade:
 
-| Funcionalidade | LinkedIn | Vagas.com | Gupy | Glassdoor | CV Connect
+| Funcionalidade | LinkedIn | Vagas.com | Gupy | Glassdoor | Jobify
 | --- | --- | --- | --- | --- | --- |
 | Divulga vagas de emprego | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Guarda histórico de currículos  | ✅ | ✅ | ✅ | ❌ | ✅ |
