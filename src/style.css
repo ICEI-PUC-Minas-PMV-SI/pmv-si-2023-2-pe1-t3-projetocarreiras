@@ -215,9 +215,6 @@ body {
     font-size: 60px;
 }
 
-
-
-
 /* seção "Home" */
 .home {
     background: var(--bg-color);
@@ -1192,29 +1189,12 @@ main {
     padding: 20px;
 }
 
-.midias-sociais{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-.midias-sociais a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    color: white;
-    transition: all 0.5s ease;
-}
 .form__sub input{
     width: 100%;
     padding: 10px;
     font-size: 15px;
-    outline: none;
     border: 1px solid white;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: var(--bg-color);
 }
 .form__sub input::placeholder{
