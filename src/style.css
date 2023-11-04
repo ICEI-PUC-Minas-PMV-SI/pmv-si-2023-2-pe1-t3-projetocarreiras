@@ -1105,6 +1105,40 @@ main {
     background-color: var(--color-button);
 }
 
+/* Editar Vagas */
+.container-editar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 46rem;
+    min-height: fit-content;
+    background-color: var(--second-text-color);
+    padding: 20px;
+    margin: 5px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button-editar{
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.button-editar:nth-child(1) {
+    background-color: var(--color-button);
+}
+.button-editar:nth-child(2) {
+    background-color: rgb(255, 187, 0);
+}
+.button-editar:nth-child(3) {
+    background-color: rgb(230, 1, 1);
+}
+
+
 /* Seção Login */
 
 .login-container, .cadastro-container {
@@ -1461,6 +1495,11 @@ footer a {
 
     /* Nova Vaga */
     .form-group-flex {
+        grid-template-columns: 1fr;
+    }
+
+    .container-editar {
+        width: 100%;
         grid-template-columns: 1fr;
     }
 }
