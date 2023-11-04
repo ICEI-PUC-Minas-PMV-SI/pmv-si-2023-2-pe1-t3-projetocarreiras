@@ -269,7 +269,7 @@ body {
     height: auto;
 }
 
-/* s */
+/* Secao Destques Vagas */
 .secao-vagas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -324,8 +324,6 @@ body {
     text-decoration: none;
     transition: all 0.5s;
 }
-
-
 
 /* Seção Vagas */
 
@@ -695,12 +693,6 @@ aside {
     margin-left: 3%;
 }
 
-/* Estilo do link no footer */
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
 /* Perfil Usuário - Inicio */
 
 .nav{
@@ -801,8 +793,7 @@ footer a {
 /* Conteudo do Perfil */
 
 main {
-    background: rgb(242, 242, 242);
-    margin-bottom: 30px;
+    background: var(--bg-color);
 }
 
 .profile-main{
@@ -901,7 +892,7 @@ main {
     font-weight: 600;
 }
 
-.form-group input, .form-group select {
+.form-group input, .form-group select, .form-group textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px 0;
@@ -989,6 +980,94 @@ main {
 
 .desc-vaga {
     padding: 10px 0 0 30px;
+}
+
+/* Página Sobre */
+
+.secao-sobre__info {
+    margin: 0 30px 0 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.secao-sobre__serv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
+}
+.secao-sobre__imagem {
+    margin: 0 30px;
+}
+.secao-sobre__img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: scale-down;
+}
+
+.secao-sobre-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.secao-titulo {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    letter-spacing: 0.04em;
+    color: var(--color-button);
+}
+
+.secao-texto {
+    font-size: var(--text-base);
+    text-align: justify;
+}
+
+
+.secao-contato {
+    background-color: white;
+    padding: 60px;
+}  
+
+.container-contato {
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: var(--color-button);
 }
 
 /* Seção Login */
@@ -1119,19 +1198,15 @@ main {
 
 
 /* Footer */
-.footer-simples {
-    background-color: var(--second-bg-color);
-    color: #fff;
-    text-align: center;;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 .footer{
     background-color: var(--color-button);
     padding: 50px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer__container{
@@ -1211,7 +1286,7 @@ main {
     color:rgb(255, 255, 255);
     border-radius: 3px;
     font-weight: bold;
-    background-color: var(--main-color);
+    background-color: var(--second-bg-color);
 }
 
 /*___________________________________________Estilo responsivo___________________________________________*/
@@ -1314,7 +1389,17 @@ main {
         line-height: 0;
     }
 
-    
+    /* seção sobre */
+    .secao-sobre__serv {
+        grid-template-columns: 1fr;
+    }
+    .secao-sobre__info {
+        grid-row: 1;
+    }
+    .secao-sobre__imagem {
+        grid-row: 2;
+    }
+
     .footer__col{
         width: 100%;
         margin-bottom: 30px;
