@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="./../../style.css">
     <title>Jobify</title>
 </head>
     <body>
         <header class="header">
-            <img src="./docs/img/logo-sem-background.png" alt="logo">
+            <img src="./../../../docs/img/logo-sem-background.png" alt="logo">
             <nav>
             <ul class="nav_links">
                 <li><a href="src/html/navegacao/vagas.html">Vagas</a></li>
                 <li><a href="src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
-                <li><a href="src/html/navegacao/sobre.html">Sobre</a></li>
-                <li><a href="src/html/navegacao/sobre.html #contato">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
             </nav>
             <a class="button-login" href="src/html/telas acesso/login.html"><button>Login</button></a>
@@ -37,50 +37,38 @@
         </header>
 
         <main>
-            <section class="home">
-                <div class="home-text">
-                    <h4 class="text-h4">Welcome</h4>
-                    <h1 class="text-h1">Está em busca de novas oportunidades?</h1>
-                    <p>Explore um mundo de oportunidades profissionais e dê o próximo passo em sua carreira conosco.  Descubra as melhores vagas e inicie sua jornada rumo ao sucesso profissional hoje mesmo.</p>
-                    <a href="#" class="home-btn">Veja mais</a>
-                </div>
-                <div class="home-img">
-                    <img src="docs/img/html-img/img01.png" alt="">
-                </div>
-            </section>
-
-            <section id="d">
-                <h1 class="titulo">DESTAQUE VAGAS</h1>
-                <div class="secao-vagas">
-                    <div class="card">
-                        <img src="docs/img/logos/dashaus.png" class="card-img-top" alt="...">
-                        <h2>Vaga 01</h2>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="home-btn">Ver mais</button>
+            <section class="secao-sobre">
+                <div class="secao-sobre-container">
+                    <div class="secao-sobre__serv">
+                        <article class="secao-sobre__info">
+                            <h2 class="secao-titulo">Sobre</h2>
+                            <p class="secao-texto">Bem-vindo ao Jobify, a sua plataforma completa para encontrar oportunidades profissionais e aprimorar suas habilidades de busca de emprego. Nossa missão é simplificar a jornada de busca de emprego, proporcionando acesso a vagas de emprego de alta qualidade e recursos valiosos para ajudá-lo a se destacar no mercado de trabalho.
+                            </p> <br>
+                            <p class="secao-texto">
+                                Em nosso site, você encontrará uma ampla variedade de vagas de emprego em diversos setores e localizações. Oferecemos orientações práticas e exemplos de currículos vencedores, ajudando você a destacar suas habilidades e experiências de forma profissional. Além de vagas e dicas de currículo, fornecemos informações valiosas sobre como se preparar para entrevistas, negociar ofertas de emprego e desenvolver suas habilidades profissionais.
+                            </p> <br>
+                            <p class="secao-texto">
+                                No Jobify, acreditamos que todos têm o potencial para alcançar o sucesso profissional. Nossa visão é ser o seu parceiro na jornada de carreira, capacitando você com as ferramentas necessárias para se destacar em um mercado de trabalho competitivo.</p>
+                        </article>
+                        <div class="secao-sobre__imagem">
+                            <img src="../../../docs/img/html-img/img2.png" alt="" class="secao-sobre__img">
+                        </div>
                     </div>
-                
-                    <div class="card">
-                        <img src="docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                        <h2>Vaga 02</h2>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="home-btn">Ver mais</button>
-                    </div>
-                
-                    <div class="card">
-                        <img src="docs/img/logos/itinc.png" class="card-img-top" alt="...">
-                        <h2>Vaga 03</h2>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="home-btn">Ver mais</button>
-                    </div>
-                
-                    <div class="card">
-                        <img src="docs/img/logos/zyxbank.png" class="card-img-top" alt="...">
-                        <h2>Vaga 04</h2>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="home-btn">Ver mais</button>
-                    </div>
+                    
                 </div>
             </section>
+            <section id="contato" class="secao-contato">
+                <div class="container-contato">
+                    <h1 class="secao-titulo">Contato</h1>
+                    <form class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Seu Name" required>
+                        <input type="email" name="email" id="email" placeholder="Seu Email" required>
+                        <textarea name="description" id="description" rows="5" placeholder="Assunto" required></textarea>
+                        <button class="contact-button" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            
         </main>
 
         <footer>
@@ -121,7 +109,16 @@
             </div>
         </footer>
 
-        <script defer src="src/script.js"></script>
-    
+
+        <script>
+            function openNav(){
+                document.getElementById("myNav").style.width = '100%'; 
+            }
+
+            function closeNav(){
+                document.getElementById("myNav").style.width = '0'; 
+            }
+
+        </script>
     </body>
 </html>
