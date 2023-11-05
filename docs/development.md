@@ -41,14 +41,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-012| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | Bruna | aplicar.html |
 |RF-013| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| Edlaine | perfil_user.html <br> perfil_empresa.html |
 
-
 ## Descrição das estruturas:
 
-## Notícia
+## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id | Numero (Inteiro)  |   |   |
+|  Nome  | Texto             | Nome do usuário| Marina Yoshida  |
+| E-mail       | Texto             | E-mail de cadastro do usuário | marinayoshida@gmail.com |
+| Senha  | Numero (Inteiro)  | Senha de acesso do usuário | MariYoshi@13 |
+
+## Empresa
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id | Numero (Inteiro)  |   |   |
+|  Nome  | Texto             | Nome da empresa | Design Solutions  |
+| E-mail       | Texto             | E-mail de cadastro da empresa | contato@designsolutions.com|
+| Senha  | Numero (Inteiro)  | Senha de acesso da empresa | dsolutions2023selecao |
 
