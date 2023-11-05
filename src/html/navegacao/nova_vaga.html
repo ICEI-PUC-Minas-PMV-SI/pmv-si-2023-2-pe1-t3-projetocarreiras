@@ -9,62 +9,59 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a href="../../../index.html">
-            <img src="../../../docs/img/logo-sem-background.png" alt="">
-        </a>
-        <ul class="nav_links">
-            <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
-            <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
-            <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>  
-        </ul>
-          <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
-          <div class="sub-menu-wrap" id="subMenu">
-              <div class="sub-menu">
-                  <div class="user-info">
-                      <img src="../../../docs/img/logos/designsolutions.png" alt="" />
-                      <h2>Design Solutions</h2>
-                  </div>
-                  <hr />
-
-                  <a href="#" class="sub-menu-link">
-                      <i class="fas fa-user-alt"></i>
-                      <p>Editar perfil</p>
+        <nav class="nav">
+          <a href="../../../index.html">
+              <img class="logo" src="../../../docs/img/logo-sem-background.png" alt="">
+          </a>
+          <ul class="nav_links">
+              <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+              <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+              <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+          </ul>
+            <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                        <h2>Design Solutions</h2>
+                    </div>
+                    <hr />
+  
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-user-alt"></i>
+                        <p>Editar Perfil</p>
+                        <span></span>
+                    </a>
+                    <a href="../minhas_vagas_usuario-empresa/minhasvagas_empresa.html" class="sub-menu-link">
+                      <i class="fas fa-folder"></i>
+                      <p>Minhas vagas</p>
                       <span></span>
-                  </a>
-                  <a href="#" class="sub-menu-link">
-                      <i class="fas fa-cog"></i>
-                      <p>Configurações</p>
-                      <span></span>
-                  </a>
-                  <a href="#" class="sub-menu-link">
-                      <i class="fas fa-question-circle"></i>
-                      <p>Ajuda e Suporte</p>
-                      <span></span>
-                  </a>
-                  <a href="#" class="sub-menu-link">
-                      <i class="fas fa-sign-out-alt"></i>
-                      <p>Sair</p>
-                      <span></span>
-                  </a>
-              </div>
-          </div>
-      </nav>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-cog"></i>
+                        <p>Configurações</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-question-circle"></i>
+                        <p>Ajuda e Suporte</p>
+                        <span></span>
+                    </a>
+                    <a href="../../../index.html" class="sub-menu-link">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>Sair</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
         <div class="menu-btn" onclick="openNav()">
-            <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+          <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
         </div>
         <div id="myNav" class="overlay">
             <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
-            
-            <div class="menu-items">
-                <a href="#">Home</a>
-                <a href="#">Vagas</a>
-                <a href="#">Aprimore-se</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </div>
         </div>
-  </header>
+    </header>
 
     <main>
 
@@ -114,8 +111,8 @@
                     <div class="form-group">
                         <label for="country">País:<span class="required-field">*</span></label>
                         <select id="country" name="country">
-                            <option value="ca">Alemanha</option>
                             <option value="br">Brasil</option>
+                            <option value="ca">Alemanha</option>
                             <option value="ca">Canadá</option>
                             <option value="us">Estados Unidos</option>
                             <option value="ca">Holanda</option>   

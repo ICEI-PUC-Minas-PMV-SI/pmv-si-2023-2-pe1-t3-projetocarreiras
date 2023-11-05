@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: rgb(242, 242, 242);;
+    background: var(--bg-color)
 
 }
 
@@ -295,6 +295,7 @@ body {
     max-height: fit-content;
     align-items: center;
     border-radius: 8px;
+    background-color: white;
 }
 
 .card img {
@@ -366,6 +367,8 @@ body {
     float: right;
     margin: 10px;
     cursor: pointer;
+    color: white;
+    font-weight: 600;
 }
 
 .botao-vaga a {
@@ -957,8 +960,7 @@ main {
     border-radius: 5px;
     padding: 5px 10px;
     background: var(--color-button); 
-    color: #fff; 
-    cursor: pointer;
+    color: #fff;
     text-align: center;
 }
 
@@ -990,6 +992,16 @@ main {
     font-weight: 700;
     text-decoration: none;
     transition: all 0.5s;
+    border: none;
+}
+
+.home-btn-emp.nova-vaga {
+    background-color: var(--second-bg-color);
+}
+
+.home-btn-emp.nova-vaga:hover {
+    background-color: var(--color-button);
+    
 }
 
 .home-btn-emp a {
@@ -1121,21 +1133,23 @@ main {
 .button-editar{
     padding: 10px 35px;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: none;
     font-weight: 700;
     text-decoration: none;
     transition: all 0.5s;
     margin: 10px;
+    cursor: pointer;
 }
 
 .button-editar:nth-child(1) {
     background-color: var(--color-button);
 }
 .button-editar:nth-child(2) {
-    background-color: rgb(255, 187, 0);
+    background-color: var(--second-bg-color);
 }
 .button-editar:nth-child(3) {
-    background-color: rgb(230, 1, 1);
+    background-color: rgb(153, 0, 0);
 }
 
 
