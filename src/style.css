@@ -312,6 +312,7 @@ body {
 .card p {
     font-size: 1rem;
     margin-top: 10px;
+    padding: 20px;
 }
 
 .card button {

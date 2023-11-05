@@ -46,7 +46,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id | Numero (Inteiro)  | CPF do usuário |  123.456.789-00 |
+Id | Numero (inteiro) | Número de identificação do usuário | 333 |
+| CPF | Texto  | CPF do usuário |  123.456.789-00 |
 | Nome  | Texto             | Nome do usuário| Marina Yoshida  |
 | E-mail       | Texto             | E-mail de cadastro do usuário | marinayoshida@gmail.com |
 Descrição | Texto | Breve frase de apresentação do usuário | Em busca de novas oportunidades para crescer profissionalmente. |
@@ -64,8 +65,9 @@ Anexo de documento | File | Carrega arquivos contendo o currículo do usuário |
 ## Empresa
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id | Texto  | CNPJ da empresa  | 12.345.678/0001-00  |
-|  Nome  | Texto             | Nome da empresa | Design Solutions  |
+Id | Numero (inteiro) | Número de identificação da empresa | 902 |
+| CNPJ | Texto  | CNPJ da empresa  | 12.345.678/0001-00  |
+|  Nome  | Texto  | Nome da empresa | Design Solutions  |
 | E-mail       | Texto             | E-mail de cadastro da empresa | contato@designsolutions.com|
 Descrição | Texto | Breve frase de apresentação da empresa | Desde 2012, somos uma empresa de design inovadora e comprometida em entregar soluções de design criativas e de alta qualidade para nossos clientes. |
 Localização | Texto | Local da sede da empresa | São Caetano, SP, Brasil |

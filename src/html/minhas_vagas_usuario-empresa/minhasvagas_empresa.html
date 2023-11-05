@@ -29,19 +29,57 @@
 
 <body>
     <header class="header">
-        <a href="../../../index.html">
-            <img src="../../../docs/img/logo-sem-background.png" alt="">
-        </a>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
-                <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
-                <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li> 
-            </ul>
+        <nav class="nav">
+          <a href="../../../index.html">
+              <img class="logo" src="../../../docs/img/logo-sem-background.png" alt="">
+          </a>
+          <ul class="nav_links">
+              <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+              <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+              <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+          </ul>
+            <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                        <h2>Design Solutions</h2>
+                    </div>
+                    <hr />
+  
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-user-alt"></i>
+                        <p>Editar Perfil</p>
+                        <span></span>
+                    </a>
+                    <a href="../minhas_vagas_usuario-empresa/minhasvagas_empresa.html" class="sub-menu-link">
+                      <i class="fas fa-folder"></i>
+                      <p>Minhas vagas</p>
+                      <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-cog"></i>
+                        <p>Configurações</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-question-circle"></i>
+                        <p>Ajuda e Suporte</p>
+                        <span></span>
+                    </a>
+                    <a href="../../../index.html" class="sub-menu-link">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>Sair</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
         </nav>
-        <a class="button-login" href="#"><button>USERNAME</button></a>
-        <div class="menu-btn">
-            <img src="../docs/img/html-img/bars-solid.png" alt="">
+        <div class="menu-btn" onclick="openNav()">
+          <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
         </div>
     </header>
 
