@@ -46,16 +46,43 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id | Numero (Inteiro)  |   |   |
-|  Nome  | Texto             | Nome do usuário| Marina Yoshida  |
+| Id | Numero (Inteiro)  | CPF do usuário |  123.456.789-00 |
+| Nome  | Texto             | Nome do usuário| Marina Yoshida  |
 | E-mail       | Texto             | E-mail de cadastro do usuário | marinayoshida@gmail.com |
+Descrição | Texto | Breve frase de apresentação do usuário | Em busca de novas oportunidades para crescer profissionalmente. |
+Localização | Texto | Local onde usuário reside | São Cateano, SP, Brasil|
+Telefone | Texto | Número para contato do usuário | (99) 99999-9999
 | Senha  | Numero (Inteiro)  | Senha de acesso do usuário | MariYoshi@13 |
+
+## Usuário: Aplicação em vagas
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Pergunta aberta | Texto  | Resposta aberta a alguma pergunta submetida pela empresa responsável pela vaga | Gostaria de trabalhar na empresa porque me identifico com os valores (...) |
+| Pergunta fechada | Radio | Seleciona apenas uma opção em um formulário submetido pela empresa responsável pela vaga | [x] Não |
+Anexo de documento | File | Carrega arquivos contendo o currículo do usuário | meucurriculo.pdf
 
 ## Empresa
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id | Numero (Inteiro)  |   |   |
+| Id | Texto  | CNPJ da empresa  | 12.345.678/0001-00  |
 |  Nome  | Texto             | Nome da empresa | Design Solutions  |
 | E-mail       | Texto             | E-mail de cadastro da empresa | contato@designsolutions.com|
+Descrição | Texto | Breve frase de apresentação da empresa | Desde 2012, somos uma empresa de design inovadora e comprometida em entregar soluções de design criativas e de alta qualidade para nossos clientes. |
+Localização | Texto | Local da sede da empresa | São Caetano, SP, Brasil |
+Telefone | Texto | Número para contato da empresa | (99) 99999-9999 |
+Site | Texto | URL do site oficial da empresa | designsolutions.com.br |
+Gestor de RH | Texto | Pessoa responsável pelos processos seletivos da empresa submetidos na platforma | Maria Aparecida Bento
 | Senha  | Numero (Inteiro)  | Senha de acesso da empresa | dsolutions2023selecao |
 
+## Empresa: Cadastro de vagas
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+Titulo da vaga | Texto | Nome do cargo a ser ocupado | Pessoa Designer Gráfica |
+Empresa | Texto | Nome da empresa contratante | Design Solutions |
+Data de início | Data | Data de abertura do processo seletivo | 01/10/2023 |
+Data de término | Data | Data prevista para encerramento do processo | 01/01/2024 |
+Localidade | Texto | Local onde a função será exercida | Belo Horizonte, MG, Brasil |
+Modalidade | Texto | Tipo de contratação | CLT |
+Salário | Número (Decimal) | Valor do salário a ser pago | R$3.200,00 |
+Descrição da empresa | Texto | Apresentação da empresa, sua história e valores | Desde 2012, somos uma empresa de design inovadora e comprometida em entregar soluções de design criativas e de alta qualidade para nossos clientes. |
+Requisitos | Texto | Requisitos necessários para exercer o cargo a ser ocupado | Formação completa em Design Gráfico; Conhecimento em copy-writing; Conhecimento em Photoshop, Ilustrator e Figma. |
