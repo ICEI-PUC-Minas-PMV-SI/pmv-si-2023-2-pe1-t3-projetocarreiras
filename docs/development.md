@@ -53,7 +53,7 @@ Id | Numero (inteiro) | Número de identificação do usuário | 333 |
 Descrição | Texto | Breve frase de apresentação do usuário | Em busca de novas oportunidades para crescer profissionalmente. |
 Localização | Texto | Local onde usuário reside | São Cateano, SP, Brasil|
 Telefone | Texto | Número para contato do usuário | (99) 99999-9999
-| Senha  | Numero (Inteiro)  | Senha de acesso do usuário | MariYoshi@13 |
+| Senha  | Texto  | Senha de acesso do usuário | MariYoshi@13 |
 
 ## Usuário: Aplicação em vagas
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
@@ -74,7 +74,7 @@ Localização | Texto | Local da sede da empresa | São Caetano, SP, Brasil |
 Telefone | Texto | Número para contato da empresa | (99) 99999-9999 |
 Site | Texto | URL do site oficial da empresa | designsolutions.com.br |
 Gestor de RH | Texto | Pessoa responsável pelos processos seletivos da empresa submetidos na platforma | Maria Aparecida Bento
-| Senha  | Numero (Inteiro)  | Senha de acesso da empresa | dsolutions2023selecao |
+| Senha  | Texto  | Senha de acesso da empresa | dsolutions2023selecao |
 
 ## Empresa: Cadastro de vagas
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |

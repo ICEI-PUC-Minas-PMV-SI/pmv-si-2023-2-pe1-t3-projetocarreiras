@@ -980,9 +980,22 @@ main {
     margin: 0 0 10% 0;
 }
 
-.titulo-vagas{
+.titulo-vagas1 {
+    text-align: center;
+}
+
+.titulo-vagas1 h1{
     font-weight: 900;
-    padding: 30px;
+    margin: 20px auto;
+}
+
+.titulo-vagas1 button{
+    margin-bottom: 20px;
+}
+
+.titulo-vagas1 a {
+    text-decoration: none;
+    color: white;
 }
 
 .home-btn-emp {
