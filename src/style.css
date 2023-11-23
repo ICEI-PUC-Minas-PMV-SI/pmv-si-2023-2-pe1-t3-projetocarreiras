@@ -288,6 +288,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
@@ -305,6 +306,7 @@ body {
 }
 
 .card h2 {
+    text-align: center;
     font-size: 1.5rem;
     margin-top: 10px;
 }
