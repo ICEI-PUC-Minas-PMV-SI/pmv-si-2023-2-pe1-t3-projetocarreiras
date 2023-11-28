@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <script defer src="/src/script.js"></script>
+    <title>Login | Jobify</title>
+</head>
+<body>
+    <header class="header">
+        <img src="/docs/img/logo-sem-background.png" alt="Logo">
+        <nav>
+        <ul class="nav_links">
+            <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+            <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+            <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+        </ul>
+        </nav>
+        <a class="button-login" href=""><button>Login</button></a>
+        <div class="menu-btn">
+            <img src="../docs/img/html-img/bars-solid.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="container cadastro-container">
+            <div class="criar-conta">
+                <h3> Criar conta como Empresa </h3></br>
+                <div class="toggle-container">
+
+              
+              </div>
+                <form action="#" class="form-cadastro">
+                    
+                    <input type="text" class="_nome" id="_nome" name="_nome" placeholder="Nome da Empresa"/>
+
+                    <input type="email" class="_email" id="_email" name="_email" placeholder="E-mail"/>
+
+                    <input type="tel" class="_telefone" id="_telefone" name="_telefone" placeholder="(99) 9 9999-9999" maxlength="15"/>
+
+                    <input type="text" class="_cnpj" id="_cnpj" name="cnpj" placeholder="CNPJ (XX.XXX.XXX/YYYY-YY.)" maxlength="14"/>
+                 
+                    <input type="password" class="_senha" id="_senha" name="_senha" placeholder="Senha (mínimo 4 caracteres)" minlength="4"/>
+                    
+                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha" placeholder="Confirme a senha" minlength="4"/>
+                </form>
+                <button class="Criarlogin_button" onclick="Criar_Conta()">CRIAR</button>
+
+            </div>
+            
+            <div class="ja-cadastrado">
+                <p>Já tem cadastro? </p>
+                <button class="Tela_login" onclick="window.location.href='login.html'">Fazer login</button>
+            </div>
+ 
+        </section>    
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <h4>Informações</h4>
+                        <ul>
+                            <li><a href="">Sobre Nós</a></li>
+                            <li><a href="">Vagas</a></li>
+                            <li><a href="">Aprimore-se</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Sobre a Plataforma</h4>
+                        <ul>
+                            <li><a href="">Termos de uso</a></li>
+                            <li><a href="">Politica de privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Receber Novas Vagas</h4>
+                        <div class="form__sub">
+                            <form action="#">
+                                <input type="email" placeholder="Digite seu email">
+                                <button>Increva-se</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub">
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </div>
+    </footer>
+        
+</body>
+</html>

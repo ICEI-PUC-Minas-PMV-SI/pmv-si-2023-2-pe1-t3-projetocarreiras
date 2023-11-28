@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <script defer src="/src/script.js"></script>
+    <title>Login | Jobify</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="../../../index.html">
+            <img src="../../../docs/img/logo-sem-background.png" alt="">
+        </a>
+        <nav>
+        <ul class="nav_links">
+            <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+            <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+            <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+        </ul>
+        </nav>
+        <a class="button-login" href="/src/html/telas acesso/login.html"><button>Login</button></a>
+        <div class="menu-btn">
+            <img src="../../../docs/img/html-img/bars-solid.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="container login-container">
+            <div class="area-login">
+                <h3> Login </h3>
+                <form action="#" class="form-login">
+                    <input type="text" class="nome" id="nome" name="nome" placeholder=" Username"/>
+                    <input type="password" class="senha" id="senha" name="senha" placeholder=" Senha"/>
+                </form>
+                <button class="login_button" onclick="verifica_login()" >LOGIN</button>
+
+                <h5 class="msg1"></h5>
+            </div>
+
+            <div class="registre-se">
+                <p>Não tem uma conta?</p> 
+                <button onclick="window.location.href='cadastro.html'">Registre-se</button>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <h4>Informações</h4>
+                        <ul>
+                            <li><a href="">Sobre Nós</a></li>
+                            <li><a href="">Vagas</a></li>
+                            <li><a href="">Aprimore-se</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Sobre a Plataforma</h4>
+                        <ul>
+                            <li><a href="">Termos de uso</a></li>
+                            <li><a href="">Politica de privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Receber Novas Vagas</h4>
+                        <div class="form__sub">
+                            <form action="#">
+                                <input type="email" placeholder="Digite seu email">
+                                <button>Increva-se</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub">
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </div>
+    </footer>
+    
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
