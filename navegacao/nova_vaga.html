@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
+    <title>Jobify | Criar nova vaga</title>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="nav">
+          <a href="../../../index.html">
+              <img class="logo" src="../../../docs/img/logo-sem-background.png" alt="">
+          </a>
+          <ul class="nav_links">
+              <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+              <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+              <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+          </ul>
+            <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                        <h2>Design Solutions</h2>
+                    </div>
+                    <hr />
+  
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-user-alt"></i>
+                        <p>Editar Perfil</p>
+                        <span></span>
+                    </a>
+                    <a href="../minhas_vagas_usuario-empresa/minhasvagas_empresa.html" class="sub-menu-link">
+                      <i class="fas fa-folder"></i>
+                      <p>Minhas vagas</p>
+                      <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-cog"></i>
+                        <p>Configurações</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fas fa-question-circle"></i>
+                        <p>Ajuda e Suporte</p>
+                        <span></span>
+                    </a>
+                    <a href="../../../index.html" class="sub-menu-link">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>Sair</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="menu-btn" onclick="openNav()">
+          <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
+        </div>
+    </header>
+
+    <main>
+
+      <section>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+                <a href="../../../index.html" class="breadcrumbs-link">Home</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="/src/html/navegacao/perfil_empresa.html" class="breadcrumbs-link">Meu perfil</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="" class="breadcrumbs-link active">Criar vaga</a>
+            </li>
+        </ul>
+      </section>
+
+      <section class="secao-perfil">
+        <div class="container">
+            <div class="perfil-descricao">
+              <div class="perfil-titulo">
+                <h2>Criar nova vaga</h2>
+                <div class="custom-select" style="width: 200px;">
+                    <h5>Status</h5>
+                    <button class="styled-select">Aberta</button>
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                    <label for="nome-vaga">Título da vaga:<span class="required-field">*</span></label>
+                    <input type="text" id="nome-vaga" name="nome-vaga" placeholder="Titulo da vaga" >
+                </div>
+                <div class="form-group">
+                    <label for="nome-empresa">Empresa:<span class="required-field">*</span></label>
+                    <input type="text" id="nome-empresa" name="nome-empresa" placeholder="Nome da empresa" >
+                </div>
+                <div class="form-group-flex">
+                    <div class="form-group">
+                        <label for="data-inicio">Data de início da vaga:<span class="required-field">*</span></label>
+                        <input type="date" id="data-inicio" name="data-inicio">
+                    </div>
+                    <div class="form-group">
+                        <label for="data-fim">Data de término da vaga:<span class="required-field">*</span></label>
+                        <input type="date" id="data-fim" name="data-fim">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">País:<span class="required-field">*</span></label>
+                        <select id="country" name="country">
+                            <option value="br">Brasil</option>
+                            <option value="ca">Alemanha</option>
+                            <option value="ca">Canadá</option>
+                            <option value="us">Estados Unidos</option>
+                            <option value="ca">Holanda</option>   
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">Estado:<span class="required-field">*</span></label>
+                        <input type="text" id="state" name="state" placeholder="ex.: Minas Gerais" >
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Cidade:<span class="required-field">*</span></label>
+                        <input type="text" id="city" name="city" placeholder=" ex.: Belo Horizonte" >
+                    </div>
+                    <div class="form-group">
+                        <label for="modalidade">Modalidade:</label>
+                        <input type="text" id="modalidade" name="modalidade" value="" >
+                    </div>
+                    <div class="form-group">
+                        <label for="salario">Salário:</label>
+                        <input type="text" id="salario" name="salario">
+                    </div>
+                    <div class="form-group">
+                        <label for="contratacao">Tipo de contratação:<span class="required-field">*</span></label>
+                        <select id="contratacao" name="contratacao">
+                            <option value="clt">CLT</option>
+                            <option value="freelancer">Freelancer</option>
+                            <option value="estagio">Estágio</option>
+                            <option value="aprendiz">Jovem Aprendiz</option>
+                            <option value="intermitente">Trabalho intermitente</option>
+                            <option value="temporario">Trabalho temporário</option>
+                            <option value="pj">Pessoa Jurídica</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="descricao">Descrição da empresa:</label>
+                    <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="requisitos">Requisitos:</label>
+                    <textarea id="requisitos" name="requisitos" rows="5" cols="40"></textarea>
+                </div>
+
+                <div class="form-button">
+                    <button type="button" class="btn-save">Criar vaga</button>
+                  </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer__sub">
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </div>
+    </footer>
+
+    <script defer src="./../../script.js"></script>
+
+  </body>
+</html>
