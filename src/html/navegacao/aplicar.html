@@ -95,66 +95,76 @@
             </section>
 
             <section class="container">
-                <div class="cabecalho-aplicar">
-                   <img src="../../../docs/img/logos/dashaus.png" alt="" class="img-aplicar">
-                <h2>Título da vaga</h2> 
-                <h3>Nome da empresa</h3>
-                <div class="detalhes-vaga">
-                    <div class="detalhe-vaga">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                        <span>Belo Horizonte</span>
-                    </div>
-                    <div class="detalhe-vaga">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <span>CLT</span>
-                    </div>
-                    <div class="detalhe-vaga">
-                        <i class="fa-solid fa-building"></i>
-                        <span>Presencial</span>
-                    </div>
-                    <div class="detalhe-vaga">
-                        <i class="fa-solid fa-money-bill-1-wave"></i>
-                        <span>R$3.200</span>
-                    </div>
-                </div>
-                </div>
-                <div class="info-user">
-                    <div class="contato-user">
-                        <h4>Suas informações de contato:</h4>
-                        <p>marinayoshida@gmail.com</p>
-                        <p>(99) 9 9999-9999</p>
-                        <p>São Caetano, SP, Brasil</p>  
-                    </div>  
-                </div>
-                <div class="perguntas-form">
-                    <form>
-                        <label for="myfile">Anexe seu currículo:</label>
-                        <input type="file" id="myfile" name="myfile">  
-                    </form>
-                    <br>
-                    <form>
-                        <h3>A empresa XYZ gostaria de saber: </h3>
+                <div class="perfil-descricao">
+                    <div class="cabecalho-aplicar">
+                        <img src="../../../docs/img/logos/dashaus.png" alt="" class="img-aplicar">
+                     <h2></h2> 
+                     <h3></h3>
+                     <div class="detalhes-vaga">
+                         <div class="detalhe-vaga">
+                             <i class="fa-solid fa-map-location-dot"></i>
+                             <span>Belo Horizonte</span>
+                         </div>
+                         <div class="detalhe-vaga">
+                             <i class="fa-solid fa-briefcase"></i>
+                             <span>CLT</span>
+                         </div>
+                         <div class="detalhe-vaga">
+                             <i class="fa-solid fa-building"></i>
+                             <span>Presencial</span>
+                         </div>
+                         <div class="detalhe-vaga">
+                             <i class="fa-solid fa-money-bill-1-wave"></i>
+                             <span>R$3.200</span>
+                         </div>
+                     </div>
+                     
+                     <div class="info-user">
+                         <div class="contato-user">
+                             <h4>Suas informações de contato:</h4>
+                             <p id="telefone-user"></p>
+                             <p id="email-user"></p>
+                             <p id="estado-user"></p>  
+                         </div>  
+                     </div>
+                     <div class="perguntas-form">
+                        <form id="formCurriculo">
+                            <label for="curriculo">Clique aqui para anexar seu currículo</label>
+                            <input type="file" id="curriculo" name="curriculo">
+                            <div id="curriculoDisplay"></div>
+                        </form>
+                        
+                         <br>
 
-                        <label for=""><p>Por que você gostaria de trabalhar conosco?*</p> </label>
-                        <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
+                         <div class="infoEmpresa">
+                             <h3></h3>
+                         </div>
 
-                        <p>Você tem disponibilidade de início imediato?*</p>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Sim</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">Não</label><br>
-                    </form>
-                    <form>
-                        <p>Você tem disponibilidade de trabalhar presencialmente?*</p>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Sim</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">Não</label><br>    
-                    </form>  
-                      
-                    <button class="botao-aplicar">Aplicar</button>
+                         <form>
+                            <label for=""><p>Por que você gostaria de trabalhar conosco?*</p> </label>
+                            <textarea id="descricao" name="descricao" rows="5" cols="40" style="width: 100%; height: 100px;"></textarea>
+                         </form>
+                         <form>
+                            <p>Você tem disponibilidade de início imediato?*</p>
+                             <input type="radio" id="html" name="fav_language" value="HTML">
+                             <label for="html">Sim</label><br>
+                             <input type="radio" id="css" name="fav_language" value="CSS">
+                             <label for="css">Não</label><br>
+                         </form>
+                         <form>
+                             <p>Você tem disponibilidade de trabalhar presencialmente?*</p>
+                             <input type="radio" id="html" name="fav_language" value="HTML">
+                             <label for="html">Sim</label><br>
+                             <input type="radio" id="css" name="fav_language" value="CSS">
+                             <label for="css">Não</label><br>    
+                         </form>  
+                           
+                         <button id="btnAplicar" class="botao-aplicar">Aplicar</button>
+                         
+                     </div>
                 </div>
             </section>  
+            
         </main>
 
         <footer>
@@ -163,6 +173,78 @@
             </div>
         </footer>    
       
+        
+
+        <script>
+           // Obter informações do localStorage
+            var infoVaga = JSON.parse(localStorage.getItem('informacoesVaga'));
+            var infoUser = JSON.parse(localStorage.getItem('infoPerfil'));
+
+            // Verificar se os objetos contêm dados
+            console.log('infoVaga:', infoVaga);
+            console.log('infoUser:', infoUser);
+
+            // Campos da seção com base nas informações
+            if (infoVaga && infoUser) {
+                // Debugging: Verificar se o código chega a este ponto
+                console.log('Preenchendo campos...');
+
+                // campos relacionados à vaga
+                document.querySelector('.cabecalho-aplicar h2').innerText = infoVaga.pessoaArquiteta || '';
+                document.querySelector('.cabecalho-aplicar h3').innerText = infoVaga.empresa || '';
+
+                // campos relacionados ao usuário
+                var contatoUser = document.querySelector('.contato-user');
+                contatoUser.querySelector('#telefone-user').innerText = infoUser.telefone || '';
+                contatoUser.querySelector('#email-user').innerText = infoUser.email || '';
+                contatoUser.querySelector('#estado-user').innerText = infoUser.estado || '';
+
+                var infoEmpresa = document.querySelector('.infoEmpresa');
+                infoEmpresa.querySelector('h3').innerText = "A empresa " + infoVaga.empresa + " gostaria de saber:"|| '';
+
+            } else {
+                // Debugging: Informar se os dados não foram encontrados
+                console.log('Dados não encontrados no localStorage.');
+            }
+
+
+            // Anexar curriculo
+            document.addEventListener('DOMContentLoaded', function () {
+                var inputCurriculo = document.getElementById('curriculo');
+                var curriculoDisplay = document.getElementById('curriculoDisplay');
+                
+                inputCurriculo.addEventListener('change', handleFileSelect);
+
+                function handleFileSelect(event) {
+                    var curriculoFile = event.target.files[0];
+
+                    if (curriculoFile) {
+                        curriculoDisplay.textContent = 'Currículo anexado: ' + curriculoFile.name;
+                    } else {
+                        curriculoDisplay.textContent = '';
+                    }
+                }
+            });
+
+            document.getElementById('btnAplicar').addEventListener('click', function() {
+                // Obtenha os valores dos campos
+                var curriculo = document.getElementById('curriculo').value;
+                var descricao = document.getElementById('descricao').value;
+                var disponibilidadeImediato = document.querySelector('input[name="fav_language"]:checked');
+                var disponibilidadePresencial = document.querySelector('input[name="fav_language"]:checked');
+
+                // Verifique se todos os campos estão preenchidos
+                if (curriculo && descricao && disponibilidadeImediato && disponibilidadePresencial) {
+                    // Exiba um modal ou outra mensagem de confirmação
+                    alert('Aplicação realizada com sucesso!');
+                } else {
+                    // Caso contrário, exiba uma mensagem de erro
+                    alert('Por favor, preencha todos os campos antes de aplicar.');
+                }
+            });
+
+
+        </script>
     </body>
 </html>
 

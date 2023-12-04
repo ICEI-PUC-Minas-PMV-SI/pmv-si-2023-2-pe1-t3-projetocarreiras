@@ -170,7 +170,7 @@
                 </p>
             </div>
 
-            <button class="botao-aplicar" onclick="window.location.href='aplicar.html'">Aplicar</button>
+            <button id="buttonAplicar" class="botao-aplicar" onclick="window.location.href='aplicar.html'">Aplicar</button>
           </div>
         </div>
       </section>
@@ -213,7 +213,7 @@
       </div>
   </footer>
 
-    <script>
+    <!--<script>
         //Menu Nav
         let subMenu = document.getElementById("subMenu");
 
@@ -238,6 +238,30 @@
                 }
             });
         }); 
+    </script> -->
+    <script>
+      function salvarInformacoesLocalStorage() {
+        var pessoaArquiteta = document.querySelector('.cabecalho-aplicar h2').innerText;
+        var empresa = document.querySelector('.cabecalho-aplicar h3').innerText;
+        var detalhesVaga = document.querySelector('.cabecalho-aplicar .detalhes-vaga').innerHTML;
+
+        var informacoes = {
+          pessoaArquiteta: pessoaArquiteta,
+          empresa: empresa,
+          detalhesVaga: detalhesVaga
+        };
+
+        localStorage.setItem('informacoesVaga', JSON.stringify(informacoes));
+
+        // Dispare um evento personalizado para notificar outras abas sobre a atualização
+        var evento = new Event('atualizarInformacoes');
+        window.dispatchEvent(evento);
+      }
+
+      var buttonAplicar = document.getElementById('buttonAplicar');
+      buttonAplicar.addEventListener('click', salvarInformacoesLocalStorage);
     </script>
+
+
   </body>
 </html>
