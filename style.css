@@ -556,14 +556,6 @@ aside {
     margin: 10px 0;
 }
 
-.perguntas-form input[type=text] {
-    background-color: transparent;
-    border-radius: 5px;
-    border: 1px solid;
-    height: 30px;
-    width: 100%;
-}
-
 .perguntas-form h3 {
     text-align: center;
     margin-bottom: 10px;

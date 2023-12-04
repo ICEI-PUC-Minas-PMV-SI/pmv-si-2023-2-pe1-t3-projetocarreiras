@@ -107,7 +107,9 @@
             <div class="perfil-descricao">
               <div class="perfil-titulo">
                 <h2>Informações</h2>
-                <a class="edit-icon"><i class="far fa-edit"></i></a>
+                <button id="edit-button" onclick="toggleEditing()">
+                  <i class="fas fa-edit"></i> Editar
+                </button>
               </div>
               <form>
                 <div class="form-group">
@@ -221,23 +223,63 @@
       subMenu.classList.toggle("open-menu");
       }
 
-      // Bloco Form
-      const editIcons = document.querySelectorAll(".edit-icon");
-      const inputFields = document.querySelectorAll("input[readonly]");
-      const selectField = document.querySelector("select[disabled]");
+      function toggleEditing() {
+          var editButton = document.getElementById('edit-button');
+          var isEditing = editButton.innerText.includes('Editar');
 
-      editIcons.forEach((editIcon, index) => {
-          editIcon.addEventListener("click", () => {
-              editIcon.classList.toggle("editing");
-              inputFields[index].toggleAttribute("readonly");
-              selectField.toggleAttribute("disabled");
-              if (editIcon.classList.contains("editing")) {
-                  editIcon.innerHTML = '<i class="far fa-save"></i>';
-              } else {
-                  editIcon.innerHTML = '<i class="far fa-edit"></i>';
-              }
+          document.querySelectorAll('.form-group input, .form-group select').forEach(input => {
+              input[isEditing ? 'removeAttribute' : 'setAttribute']('readonly', true);
+              input[isEditing ? 'removeAttribute' : 'setAttribute']('disabled', true);
           });
-      }); 
+
+          if (isEditing) {
+              editButton.innerHTML = '<i class="fas fa-save"></i> Salvar';
+          } else {
+              salvarInformacoes();
+              editButton.innerHTML = '<i class="fas fa-edit"></i> Editar';
+          }
+      }
+
+      function salvarInformacoes() {
+          var infoPerfil = obterInfoPerfilDoForm();
+
+          localStorage.setItem('infoPerfil', JSON.stringify(infoPerfil));
+
+          alert("Informações salvas com sucesso!");
+      }
+
+      function obterInfoPerfilDoForm() {
+          return {
+              nome: document.getElementById('first-name').value || "",
+              sobrenome: document.getElementById('last-name').value || "",
+              email: document.getElementById('email').value || "",
+              telefone: document.getElementById('phone').value || "",
+              pais: document.getElementById('country').value || "",
+              estado: document.getElementById('state').value || "",
+              cpf: document.getElementById('cpf').value || ""
+          };
+      }
+
+      function preencherCamposLocalStorage() {
+          var infoPerfil = localStorage.getItem('infoPerfil');
+
+          if (infoPerfil) {
+              infoPerfil = JSON.parse(infoPerfil);
+              preencherCamposDoForm(infoPerfil);
+          }
+      }
+
+      function preencherCamposDoForm(infoPerfil) {
+          document.getElementById('first-name').value = infoPerfil.nome || "";
+          document.getElementById('last-name').value = infoPerfil.sobrenome || "";
+          document.getElementById('email').value = infoPerfil.email || "";
+          document.getElementById('phone').value = infoPerfil.telefone || "";
+          document.getElementById('country').value = infoPerfil.pais || "";
+          document.getElementById('state').value = infoPerfil.estado || "";
+          document.getElementById('cpf').value = infoPerfil.cpf || "";
+      }
+
+      window.onload = preencherCamposLocalStorage;
   </script>
     
   </body>

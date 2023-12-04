@@ -238,7 +238,7 @@ function mask_cpf(e){
 input.addEventListener('input', validateInput)
 
 
-// Menu Hamburguer 
+// --------------- Menu Hamburguer -------------------------- 
 
 function openNav(){
   document.getElementById("myNav").style.width = '100%'; 
