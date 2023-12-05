@@ -122,6 +122,7 @@
                      <div class="info-user">
                          <div class="contato-user">
                              <h4>Suas informações de contato:</h4>
+                             <p id="nome-user"></p>
                              <p id="telefone-user"></p>
                              <p id="email-user"></p>
                              <p id="estado-user"></p>  
@@ -141,18 +142,18 @@
                          </div>
 
                          <form>
-                            <label for=""><p>Por que você gostaria de trabalhar conosco?*</p> </label>
+                            <label for=""><p>Por que você gostaria de trabalhar conosco? <span class="asterisco">*</span></p> </label>
                             <textarea id="descricao" name="descricao" rows="5" cols="40" style="width: 100%; height: 100px;"></textarea>
                          </form>
                          <form>
-                            <p>Você tem disponibilidade de início imediato?*</p>
+                            <p>Você tem disponibilidade de início imediato? <span class="asterisco">*</spa></p>
                              <input type="radio" id="html" name="fav_language" value="HTML">
                              <label for="html">Sim</label><br>
                              <input type="radio" id="css" name="fav_language" value="CSS">
                              <label for="css">Não</label><br>
                          </form>
                          <form>
-                             <p>Você tem disponibilidade de trabalhar presencialmente?*</p>
+                             <p>Você tem disponibilidade de trabalhar presencialmente? <span class="asterisco">*</span></p>
                              <input type="radio" id="html" name="fav_language" value="HTML">
                              <label for="html">Sim</label><br>
                              <input type="radio" id="css" name="fav_language" value="CSS">
@@ -195,6 +196,7 @@
 
                 // campos relacionados ao usuário
                 var contatoUser = document.querySelector('.contato-user');
+                contatoUser.querySelector('#nome-user').innerText = infoUser.nome || '';
                 contatoUser.querySelector('#telefone-user').innerText = infoUser.telefone || '';
                 contatoUser.querySelector('#email-user').innerText = infoUser.email || '';
                 contatoUser.querySelector('#estado-user').innerText = infoUser.estado || '';
