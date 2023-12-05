@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style.css">
-    <script defer src="./js/script.js"></script>
+    <script defer src="../script.js"></script>
     <title>Login | Jobify</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
             <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
         </ul>
         </nav>
-        <a class="button-login" href="/src/html/telas acesso/login.html"><button>Login</button></a>
+        <a class="button-login" href=""><button>Login</button></a>
         <div class="menu-btn">
             <img src="../docs/img/html-img/bars-solid.png" alt="">
         </div>
@@ -26,39 +26,32 @@
     <main>
         <section class="container cadastro-container">
             <div class="criar-conta">
-                <h3> Criar conta </h3>
+                <h3> Criar conta como Empresa </h3></br>
                 <div class="toggle-container">
 
-                <div class="toggle-wrapper">
-                    Sou empresa
-                  <label class="switch">
-                    <input type="checkbox" class="hidden-toggle"/>
-                    <div class="botao-slide">
-                      <div class="botao"></div>
-                    </div>
-                  </label>
-                </div>
               
               </div>
                 <form action="#" class="form-cadastro">
                     
-                    <input type="text" class="_nome" id="_nome" name="_nome" placeholder="Nome completo"/>
+                    <input type="text" class="_nome" id="_nome" name="_nome" placeholder="Nome da Empresa"/>
 
                     <input type="email" class="_email" id="_email" name="_email" placeholder="E-mail"/>
 
                     <input type="tel" class="_telefone" id="_telefone" name="_telefone" placeholder="(99) 9 9999-9999" maxlength="15"/>
+
+                    <input type="text" class="_cnpj" id="_cnpj" name="cnpj" placeholder="CNPJ (XX.XXX.XXX/YYYY-YY.)" maxlength="14"/>
                  
-                    <input type="password" class="_senha" id="_senha" name="_senha" placeholder="Senha (mínimo 6 caracteres)" minlength="6"/>
+                    <input type="password" class="_senha" id="_senha" name="_senha" placeholder="Senha (mínimo 4 caracteres)" minlength="4"/>
                     
-                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha" placeholder="Confirme a senha" minlength="6"/>
+                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha" placeholder="Confirme a senha" minlength="4"/>
                 </form>
-                <button class="botao-cadastro" onclick="window.location.href='../navegacao/perfil_empresa.html'" >Cadastar-se</button>
-                <!--onclick="Criar_Conta()" criar func para o botão acima-->
+                <button class="Criarlogin_button" onclick="Criar_Conta()">CRIAR</button>
+
             </div>
             
             <div class="ja-cadastrado">
                 <p>Já tem cadastro? </p>
-                <button onclick="window.location.href='login.html'">Fazer login</button>
+                <button class="Tela_login" onclick="window.location.href='login.html'">Fazer login</button>
             </div>
  
         </section>    
@@ -86,8 +79,8 @@
                     <div class="footer__col">
                         <h4>Receber Novas Vagas</h4>
                         <div class="form__sub">
-                            <form action="">
-                                <input type="email" placeholder="Digite seu email" required>
+                            <form action="#">
+                                <input type="email" placeholder="Digite seu email">
                                 <button>Increva-se</button>
                             </form>
                         </div>
