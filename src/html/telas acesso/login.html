@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style.css">
+    <script defer src="../script.js"></script>
     <title>Login | Jobify</title>
 </head>
 <body>
@@ -29,11 +30,11 @@
             <div class="area-login">
                 <h3> Login </h3>
                 <form action="#" class="form-login">
-                    <input type="text" class="input-nome-login" name="nome" placeholder="Username"/>
-                    <input type="password" class="input-senha-login" name="senha" placeholder="Senha"/> 
+                    <input type="text" class="nome" id="nome" name="nome" placeholder=" Username"/>
+                    <input type="password" class="senha" id="senha" name="senha" placeholder=" Senha"/>
                 </form>
-                <button class="botao-login" onclick="window.location.href='../navegacao/perfil_user.html'" >LOGIN</button>
-                <!--onclick="verifica_login()" disabled -> colocar no botão acima -->
+                <button class="login_button" onclick="verifica_login()" >LOGIN</button>
+
                 <h5 class="msg1"></h5>
             </div>
 
@@ -67,8 +68,8 @@
                     <div class="footer__col">
                         <h4>Receber Novas Vagas</h4>
                         <div class="form__sub">
-                            <form action="">
-                                <input type="email" placeholder="Digite seu email" required>
+                            <form action="#">
+                                <input type="email" placeholder="Digite seu email">
                                 <button>Increva-se</button>
                             </form>
                         </div>
