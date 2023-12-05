@@ -590,6 +590,10 @@ aside {
     cursor: pointer;
 }
 
+.asterisco {
+    color: rgba(255, 0, 0, 0.678);
+}
+
 /* Estilo básico para o campo de anexo de currículo */
 #curriculo {
     display: none; /* Esconde o campo de input padrão */
