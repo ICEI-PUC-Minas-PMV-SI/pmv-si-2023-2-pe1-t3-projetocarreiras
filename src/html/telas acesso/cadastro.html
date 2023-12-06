@@ -8,8 +8,11 @@
     <title>Login | Jobify</title>
 </head>
 <body>
+    
     <header class="header">
-        <img src="/docs/img/logo-sem-background.png" alt="Logo">
+        <a href="../../../index.html">
+            <img src="../../../docs/img/logo-sem-background.png" alt="">
+        </a>
         <nav>
         <ul class="nav_links">
             <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
@@ -17,45 +20,31 @@
             <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
         </ul>
         </nav>
-        <a class="button-login" href=""><button>Login</button></a>
+        <a class="button-login" href="/src/html/telas_acesso/login.html"><button>Login</button></a>
         <div class="menu-btn">
-            <img src="../docs/img/html-img/bars-solid.png" alt="">
+            <img src="../../../docs/img/html-img/bars-solid.png" alt="">
         </div>
     </header>
-
     <main>
-        <section class="container cadastro-container">
-            <div class="criar-conta">
-                <h3> Criar conta como Empresa </h3></br>
-                <div class="toggle-container">
-
-              
-              </div>
-                <form action="#" class="form-cadastro">
-                    
-                    <input type="text" class="_nome" id="_nome" name="_nome" placeholder="Nome da Empresa"/>
-
-                    <input type="email" class="_email" id="_email" name="_email" placeholder="E-mail"/>
-
-                    <input type="tel" class="_telefone" id="_telefone" name="_telefone" placeholder="(99) 9 9999-9999" maxlength="15"/>
-
-                    <input type="text" class="_cnpj" id="_cnpj" name="cnpj" placeholder="CNPJ (XX.XXX.XXX/YYYY-YY.)" maxlength="14"/>
-                 
-                    <input type="password" class="_senha" id="_senha" name="_senha" placeholder="Senha (mínimo 4 caracteres)" minlength="4"/>
-                    
-                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha" placeholder="Confirme a senha" minlength="4"/>
+        <section class="container login-container">
+            <div class="area-login">
+                <h3> Login </h3>
+                <form action="#" class="form-login">
+                    <input type="text" class="nome" id="nome" name="nome" placeholder=" Username"/>
+                    <input type="password" class="senha" id="senha" name="senha" placeholder=" Senha"/>
                 </form>
-                <button class="Criarlogin_button" onclick="Criar_Conta()">CRIAR</button>
+                <button class="login_button" onclick="verifica_login()" >LOGIN</button>
 
+                <h5 class="msg1"></h5>
             </div>
-            
-            <div class="ja-cadastrado">
-                <p>Já tem cadastro? </p>
-                <button class="Tela_login" onclick="window.location.href='login.html'">Fazer login</button>
+
+            <div class="registre-se">
+                <p>Não tem uma conta?</p> 
+                <button onclick="window.location.href='cadastro.html'">Registre-se</button>
             </div>
- 
         </section>    
     </main>
+
     <footer>
         <div class="footer">
             <div class="footer__container">
@@ -84,7 +73,6 @@
                                 <button>Increva-se</button>
                             </form>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -93,6 +81,6 @@
             <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
         </div>
     </footer>
-        
+    
 </body>
 </html>
