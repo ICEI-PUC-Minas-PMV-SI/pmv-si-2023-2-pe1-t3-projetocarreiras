@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
+    <title>Jobify | Perfil empresarial</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="../../../index.html">
+            <img class="logo" src="../../../docs/img/logo-sem-background.png" alt="">
+        </a>
+        <ul class="nav_links">
+            <li><a href="/src/html/navegacao/vagas.html">Vagas</a></li>
+            <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
+            <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
+        </ul>
+          <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+          <div class="sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+                  <div class="user-info">
+                      <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                      <h2>Design Solutions</h2>
+                  </div>
+                  <hr />
+
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-user-alt"></i>
+                      <p>Editar Perfil</p>
+                      <span></span>
+                  </a>
+                  <a href="../minhas_vagas_usuario-empresa/minhasvagas_empresa.html" class="sub-menu-link">
+                    <i class="fas fa-folder"></i>
+                    <p>Minhas vagas</p>
+                    <span></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-cog"></i>
+                      <p>Configurações</p>
+                      <span></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                      <i class="fas fa-question-circle"></i>
+                      <p>Ajuda e Suporte</p>
+                      <span></span>
+                  </a>
+                  <a href="../../../index.html" class="sub-menu-link">
+                      <i class="fas fa-sign-out-alt"></i>
+                      <p>Sair</p>
+                      <span></span>
+                  </a>
+              </div>
+          </div>
+      </nav>
+      <div class="menu-btn" onclick="openNav()">
+        <i class="fa-sharp fa-solid fa-bars fa-beat-fade fa-2x"></i>
+      </div>
+      <div id="myNav" class="overlay">
+          <a href="javascrip:void(0)" class="closemenu" onclick="closeNav()">&times;</a>
+      </div>
+  </header>
+
+    <main>
+      <section>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+                <a href="../../../index.html" class="breadcrumbs-link">Home</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="" class="breadcrumbs-link active">Meu perfil</a>
+            </li>
+        </ul>
+      </section>
+
+      <section class="container">
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Vaga</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <h4>Informações</h4>
+                        <ul>
+                            <li><a href="">Sobre Nós</a></li>
+                            <li><a href="">Vagas</a></li>
+                            <li><a href="">Aprimore-se</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Sobre a Plataforma</h4>
+                        <ul>
+                            <li><a href="">Termos de uso</a></li>
+                            <li><a href="">Politica de privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Receber Novas Vagas</h4>
+                        <div class="form__sub">
+                            <form>
+                                <input type="text" placeholder="Digite seu email" required>
+                                <button>Increva-se</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub">
+            <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
+        </div>
+    </footer>
+
+  <script defer src="./../../script.js"></script>
+    <script>
+        //Menu Nav
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+        }
+
+        // Bloco Form
+        const editIcons = document.querySelectorAll(".edit-icon");
+        const inputFields = document.querySelectorAll("input[readonly]");
+        const selectField = document.querySelector("select[disabled]");
+
+        editIcons.forEach((editIcon, index) => {
+            editIcon.addEventListener("click", () => {
+                editIcon.classList.toggle("editing");
+                inputFields[index].toggleAttribute("readonly");
+                selectField.toggleAttribute("disabled");
+                if (editIcon.classList.contains("editing")) {
+                    editIcon.innerHTML = '<i class="far fa-save"></i>';
+                } else {
+                    editIcon.innerHTML = '<i class="far fa-edit"></i>';
+                }
+            });
+        }); 
+
+        // adicionar uma nova linha à tabela
+        function addRow(nome, email, telefone, nomeVaga) {
+            var table = document.getElementById("tableClient").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.rows.length);
+
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+            var cell4 = newRow.insertCell(3);
+            var cell5 = newRow.insertCell(4);
+
+            cell1.innerHTML = nome;
+            cell2.innerHTML = email;
+            cell3.innerHTML = telefone;
+            cell4.innerHTML = nomeVaga;
+            cell5.innerHTML = '<button onclick="deleteRow(this)">Excluir</button>';
+        }
+
+        // excluir uma linha da tabela
+        function deleteRow(btn) {
+            var row = btn.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+
+        // ouvir eventos de armazenamento local
+        window.addEventListener('storage', function (event) {
+            if (event.key === 'newApplication') {
+                
+                var data = JSON.parse(event.newValue);
+                addRow(data.nome, data.email, data.telefone, data.nomeVaga);
+            }
+        });
+        
+    </script>
+    
+  </body>
+</html>

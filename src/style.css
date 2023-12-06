@@ -1088,6 +1088,40 @@ main {
     padding: 10px 0 0 30px;
 }
 
+/* Pagina de Relatorio Empresa */
+
+.records{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.records th{
+    height: 50px;
+    background-color: var(--color-button);
+    padding-left: 20px;
+    font-size: 1.2rem;    
+}
+.records td{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.records tbody {
+    background-color: white;
+}
+
+.records th:last-child,
+.records td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.records tr:hover{
+    background-color: var(--bg-color);
+}
+
 /* Página Sobre */
 
 .secao-sobre__info {
