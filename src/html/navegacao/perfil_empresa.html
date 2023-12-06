@@ -94,46 +94,47 @@
             <div class="perfil-descricao">
               <div class="perfil-titulo">
                 <h2>Informações</h2>
+                <a class="edit-icon" onclick="resetDados()"><i class="far fa-edit"></i></a>
               </div>
               <form>
                 <div class="form-group">
                     <label for="_nome">Nome da empresa:</label>
-                    <input type="text" class="_nome" id="_nome" name="_nome"  placeholder="Nome da empresa" >
+                    <input type="text" class="_nome" id="_nome" name="_nome"  placeholder="Nome da empresa" readonly >
                 </div>
                 <div class="form-group-flex">
                     <div class="form-group">
                         <label for="_telefone">Telefone:</label>
-                        <input type="tel" class="_telefone" id="_telefone" name="_telefone"  placeholder="(99) 9 9999-9999" maxlength="15">
+                        <input type="tel" class="_telefone" id="_telefone" name="_telefone"  placeholder="(99) 9 9999-9999" maxlength="15" readonly >
                     </div>
                     <div class="form-group">
                         <label for="_site">Site da empresa:</label>
-                        <input type="text" class="_site" id="_site" name="_site"   placeholder="www.SeuLink.com" >
+                        <input type="text" class="_site" id="_site" name="_site"   placeholder="www.SeuLink.com" readonly >
                     </div>
                     <div class="form-group">
                         <label for="_pais">País:</label>
-                        <input type="text" class="_pais" id="_pais" name="_pais"   placeholder="Brasil" >
+                        <input type="text" class="_pais" id="_pais" name="_pais"   placeholder="Brasil" readonly >
                     </div>
                     <div class="form-group">
                         <label for="_estado">Estado: (Ex: SP, MG)</label>
-                        <input type="text" class="_estado" id="_estado" name="_estado"   placeholder="--" maxlength="2">
+                        <input type="text" class="_estado" id="_estado" name="_estado"   placeholder="--" maxlength="2" readonly >
                     </div>
                     <div class="form-group">
                         <label for="_cidade">Cidade:</label>
-                        <input type="text" class="_cidade"  id="_cidade" name="_cidade"  placeholder="Sua Cidade" >
+                        <input type="text" class="_cidade"  id="_cidade" name="_cidade"  placeholder="Sua Cidade" readonly >
                     </div>
                     <div class="form-group">
                         <label for="_email">E-mail do(a) gestor(a) de RH:</label>
-                        <input type="email" class="_email" id="_email" name="_email"   placeholder="gestorrh@email.com" >
+                        <input type="email" class="_email" id="_email" name="_email"   placeholder="gestorrh@email.com" readonly >
                     </div>
                 </div>
                 
                 <div class="form-group">
                     <label for="_cnpj">CNPJ:</label>
-                    <input type="text" class="_cnpj" id="_cnpj" name="_cnpj"  maxlength="14">
+                    <input type="text" class="_cnpj" id="_cnpj" name="_cnpj"  maxlength="14" readonly >
                 </div>
                 <div class="form-group">
                     <label for="_descricao">Descrição da Empresa:</label>
-                    <textarea class="_descricao" id="_descricao" name="_descricao"  rows="5" cols="40"></textarea>
+                    <textarea class="_descricao" id="_descricao" name="_descricao"  rows="5" cols="40" readonly ></textarea>
                 </div>
               </form>
             </div>
@@ -146,14 +147,14 @@
               <form>
                 <div class="form-group">
                     <label for="_senha">Nova senha:</label>
-                    <input type="password" class="_senha" id="_senha" name="_senha"  mixlength="4">
+                    <input type="password" class="_senha" id="_senha" name="_senha"  mixlength="4" readonly >
                 </div>
                 <div class="form-group">
                     <label for="conf_senha">Confirme a nova senha:</label>
-                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha"  mixlength="4">
+                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha"  mixlength="4" readonly >
                 </div>
                 <div class="form-button">
-                  <button type="button" class="btn-save" onclick="resetDados()" >Salvar</button>
+                  <button type="button" class="btn-save" onclick="salvarDados()" >Salvar</button>
                 </div>
                 
               </form>           
@@ -231,14 +232,11 @@
 
         // Bloco Form
         const editIcons = document.querySelectorAll(".edit-icon");
-        const inputFields = document.querySelectorAll("input[readonly]");
-        const selectField = document.querySelector("select[disabled]");
+
 
         editIcons.forEach((editIcon, index) => {
             editIcon.addEventListener("click", () => {
                 editIcon.classList.toggle("editing");
-                inputFields[index].toggleAttribute("readonly");
-                selectField.toggleAttribute("disabled");
                 if (editIcon.classList.contains("editing")) {
                     editIcon.innerHTML = '<i class="far fa-save"></i>';
                 } else {
