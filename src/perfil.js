@@ -86,6 +86,18 @@ function resetDados() {
   document.getElementById('_cidade').style.border = ""
   document.getElementById('_descricao').style.border = ""
 
+  document.getElementById('_nome').removeAttribute('readonly');
+  document.getElementById('_senha').removeAttribute('readonly');
+  document.getElementById('conf_senha').removeAttribute('readonly');
+  document.getElementById('_telefone').removeAttribute('readonly');
+  document.getElementById('_email').removeAttribute('readonly');
+  document.getElementById('_cnpj').removeAttribute('readonly');
+  document.getElementById('_site').removeAttribute('readonly');
+  document.getElementById('_pais').removeAttribute('readonly');
+  document.getElementById('_estado').removeAttribute('readonly');
+  document.getElementById('_cidade').removeAttribute('readonly');
+  document.getElementById('_descricao').removeAttribute('readonly');
+
   let id = localStorage.getItem('id_login')
     let dados = localStorage.getItem(id)
     let user = JSON.parse(dados)
@@ -119,8 +131,6 @@ function resetDados() {
 
     let pais = user.pais_
     document.querySelector('._pais').value = pais
-
-    salvarDados()
 }
 
 function salvarDados() {
@@ -133,26 +143,19 @@ function salvarDados() {
   var senha1 = user.senha_
   var email1 = user.email_
   var cnpj1 = user.cnpj_
-  var descricao = user.descricao_
-  var pais = user.pais_
-  var cidade = user.cidade_
-  var estado = user.estado_
-  var site = user.site_
+
 
   var nome = document.getElementById("_nome").value
   var site = document.getElementById("_site").value
-  var telefone = document.getElementById("_telefone").value
+  var tel = document.getElementById("_telefone").value
   var pais = document.getElementById("_pais").value
   var cidade = document.getElementById("_cidade").value
   var estado = document.getElementById("_estado").value
   var descricao = document.getElementById("_descricao").value
+  var email = document.getElementById("_email").value
+  var cnpj = document.getElementById("_cnpj").value
+  var senha = document.getElementById("_senha").value
 
-  var email = document.getElementById("_email").value
-  if (validEmail()) {
-    retorno = 1
-  }
-  var nome = document.getElementById("_nome").value
-  var email = document.getElementById("_email").value
   if (email == email1) {
     document.getElementById('_email').style.border = "1px solid #15c22c"
   } else {
@@ -160,13 +163,13 @@ function salvarDados() {
       retorno = 1
     }
   }
-  var telefone = document.getElementById("_telefone").value
+  var tel = document.getElementById("_telefone").value
   var cnpj = document.getElementById("_cnpj").value
   if (cnpj == cnpj1) {
     document.getElementById('_cnpj').style.border = "1px solid #15c22c"
   } else {
   if (validCNPJ()) {
-    retorno = 1
+    retorno++
   }
 }
   var senha = document.getElementById("_senha").value
@@ -178,17 +181,23 @@ function salvarDados() {
   } else {
     document.getElementById('_nome').style.border = "2px solid #15c22c"
   }
+  if (senha.length < 4) {
+    document.getElementById('_senha').style.border = "1px solid #e80c0c"
+    retorno++
+  } else {
+    document.getElementById('_senha').style.border = "1px solid #15c22c"
+  }
   if (senha != senha1) {
     if ((senha != conf_senha) || (conf_senha.length < 4)) {
       document.getElementById('conf_senha').style.border = "1px solid #e80c0c"
       retorno++
     } else {
-      document.getElementById('_senha').style.border = "1px solid #15c22c"
+      document.getElementById('conf_senha').style.border = "1px solid #15c22c"
     }
   } else {
     document.getElementById('conf_senha').style.border = "1px solid #15c22c"
   }
-  if (telefone.length < 8) {
+  if (tel.length < 8) {
     document.getElementById('_telefone').style.border = "2px solid #e80c0c"
     retorno++
   } else {
@@ -200,13 +209,13 @@ function salvarDados() {
   } else {
     document.getElementById('_descricao').style.border = "2px solid #15c22c"
   }
-  if (pais.length > 3) {
+  if (pais.length < 3) {
     document.getElementById('_pais').style.border = "2px solid #e80c0c"
     retorno++
   } else {
     document.getElementById('_pais').style.border = "2px solid #15c22c"
   }
-  if (cidade.length > 8) {
+  if (cidade.length < 3) {
     document.getElementById('_cidade').style.border = "2px solid #e80c0c"
     retorno++
   } else {
@@ -218,20 +227,17 @@ function salvarDados() {
   } else {
     document.getElementById('_estado').style.border = "2px solid #15c22c"
   }
-  if (site.length > 7) {
+  if (site.length < 7) {
     document.getElementById('_site').style.border = "2px solid #e80c0c"
     retorno++
   } else {
     document.getElementById('_site').style.border = "2px solid #15c22c"
   }
-  if (retorno > 0) {
-    return
-  }
 
   var usuario = {
               nome_ : nome,
               email_ : email,
-              tel_ : telefone,
+              tel_ : tel,
               cnpj_ : cnpj,
               senha_ : senha,
               descricao_ : descricao,
@@ -240,10 +246,9 @@ function salvarDados() {
               cidade_ : cidade,
               site_ : site
               };
-  
-  // Armazenar os dados no Local Storage do Navegador
+
   localStorage.setItem(key, JSON.stringify(usuario));
-  window.location = '/src/html/navegacao/vagas.html'
+  window.location = '/src/html/navegacao/perfil_empresa.html'
 }
 
 function validEmail() {
