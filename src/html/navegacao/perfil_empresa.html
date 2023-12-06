@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../style.css" />
     <script src="https://kit.fontawesome.com/0d1371ad2e.js" crossorigin="anonymous"></script>
+    <script src="../../perfil.js"></script>
     <title>Jobify | Perfil empresarial</title>
   </head>
   <body>
@@ -23,7 +24,7 @@
               <div class="sub-menu">
                   <div class="user-info">
                       <img src="../../../docs/img/logos/designsolutions.png" alt="" />
-                      <h2>Design Solutions</h2>
+                      <h2 class="username">Jobify</h2>
                   </div>
                   <hr />
 
@@ -47,8 +48,8 @@
                       <p>Ajuda e Suporte</p>
                       <span></span>
                   </a>
-                  <a href="../../../index.html" class="sub-menu-link">
-                      <i class="fas fa-sign-out-alt"></i>
+                  <a class="sub-menu-link" href="../telas_acesso/login.html">
+                      <i class="fas fa-sign-out-alt" onclick="logout()"></i>
                       <p>Sair</p>
                       <span></span>
                   </a>
@@ -83,9 +84,8 @@
               </div>
               <div class="profile-container-inner">
                 <img src="../../../docs/img/logos/designsolutions.png" alt="" class="profile-user" />
-                <h1>Design Solutions</h1>
-                <p>São Caetano, SP, Brasil</p>
-                <b>Desde 2012, somos uma empresa de design inovadora e comprometida em entregar soluções de design criativas e de alta qualidade para nossos clientes. </b>
+                <h1 class="user">Empresa S.A</h1>
+                <b class="userdescricao">Descrição </b>
                 
               </div>
             </div>
@@ -94,53 +94,46 @@
             <div class="perfil-descricao">
               <div class="perfil-titulo">
                 <h2>Informações</h2>
-                <a class="edit-icon"><i class="far fa-edit"></i></a>
               </div>
               <form>
                 <div class="form-group">
-                    <label for="first-name">Nome da empresa:</label>
-                    <input type="text" id="first-name" name="first-name" value="Nome da empresa" readonly>
+                    <label for="_nome">Nome da empresa:</label>
+                    <input type="text" class="_nome" id="_nome" name="_nome"  placeholder="Nome da empresa" >
                 </div>
                 <div class="form-group-flex">
                     <div class="form-group">
-                        <label for="phone">Telefone:</label>
-                        <input type="tel" id="phone" name="phone" value="(99) 9 9999-9999" readonly>
+                        <label for="_telefone">Telefone:</label>
+                        <input type="tel" class="_telefone" id="_telefone" name="_telefone"  placeholder="(99) 9 9999-9999" maxlength="15">
                     </div>
                     <div class="form-group">
-                        <label for="site">Site da empresa:</label>
-                        <input type="text" id="site" name="site" value="Link do site" readonly>
+                        <label for="_site">Site da empresa:</label>
+                        <input type="text" class="_site" id="_site" name="_site"   placeholder="www.SeuLink.com" >
                     </div>
                     <div class="form-group">
-                        <label for="country">País:</label>
-                        <select id="country" name="country" disabled>
-                            <option value="ca">Alemanha</option>
-                            <option value="br">Brasil</option>
-                            <option value="ca">Canadá</option>
-                            <option value="us">Estados Unidos</option>
-                            <option value="ca">Holanda</option>
-                        </select>
+                        <label for="_pais">País:</label>
+                        <input type="text" class="_pais" id="_pais" name="_pais"   placeholder="Brasil" >
                     </div>
                     <div class="form-group">
-                        <label for="state">Estado:</label>
-                        <input type="text" id="state" name="state" value="São Paulo" readonly>
+                        <label for="_estado">Estado: (Ex: SP, MG)</label>
+                        <input type="text" class="_estado" id="_estado" name="_estado"   placeholder="--" maxlength="2">
                     </div>
                     <div class="form-group">
-                        <label for="city">Cidade:</label>
-                        <input type="text" id="city" name="city" value="São Caetano" readonly>
+                        <label for="_cidade">Cidade:</label>
+                        <input type="text" class="_cidade"  id="_cidade" name="_cidade"  placeholder="Sua Cidade" >
                     </div>
                     <div class="form-group">
-                        <label for="email">E-mail do(a) gestor(a) de RH:</label>
-                        <input type="email" id="email" name="email" value="gestorrh@email.com" readonly>
+                        <label for="_email">E-mail do(a) gestor(a) de RH:</label>
+                        <input type="email" class="_email" id="_email" name="_email"   placeholder="gestorrh@email.com" >
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="cnpj">CNPJ:</label>
-                    <input type="text" id="cnpj" name="cnpj" value="12.345.678/0001-00" readonly>
+                    <label for="_cnpj">CNPJ:</label>
+                    <input type="text" class="_cnpj" id="_cnpj" name="_cnpj"  maxlength="14">
                 </div>
                 <div class="form-group">
-                    <label for="descricao">Descrição da Empresa:</label>
-                    <textarea id="descricao" name="descricao" rows="5" cols="40"></textarea>
+                    <label for="_descricao">Descrição da Empresa:</label>
+                    <textarea class="_descricao" id="_descricao" name="_descricao"  rows="5" cols="40"></textarea>
                 </div>
               </form>
             </div>
@@ -152,19 +145,15 @@
               </div>
               <form>
                 <div class="form-group">
-                    <label for="current-password">Senha atual:</label>
-                    <input type="password" id="current-password" name="current-password">
+                    <label for="_senha">Nova senha:</label>
+                    <input type="password" class="_senha" id="_senha" name="_senha"  mixlength="4">
                 </div>
                 <div class="form-group">
-                    <label for="new-password">Nova senha:</label>
-                    <input type="password" id="new-password" name="new-password">
-                </div>
-                <div class="form-group">
-                    <label for="confirm-new-password">Confirme a nova senha:</label>
-                    <input type="password" id="confirm-new-password" name="confirm-new-password">
+                    <label for="conf_senha">Confirme a nova senha:</label>
+                    <input type="password" class="conf_senha" id="conf_senha" name="conf_senha"  mixlength="4">
                 </div>
                 <div class="form-button">
-                  <button type="button" class="btn-save">Salvar</button>
+                  <button type="button" class="btn-save" onclick="resetDados()" >Salvar</button>
                 </div>
                 
               </form>           
