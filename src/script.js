@@ -4,7 +4,6 @@ const input2 = document.querySelector('.senha')
 const button = document.querySelector('.login_button')
 const button2 = document.querySelector('.Criarlogin_button')
 
-document.querySelector('.senha').style.display = "none"
 document.querySelector('.login_criar').style.display = "none"
 document.querySelector('.Tela_login').style.display = "none"
 
@@ -63,7 +62,6 @@ function Criar_Conta() {
   }
   var senha = document.getElementById("_senha").value
   var conf_senha = document.getElementById("conf_senha").value
-  
 
   if (nome.length < 3) {
     document.getElementById('_nome').style.border = "2px solid #e80c0c"
@@ -93,17 +91,29 @@ function Criar_Conta() {
     return
   }
 
+  var site = "--"
+  var pais = "--"
+  var cidade = "--"
+  var estado = "--"
+  var descricao = "--"
+
   var usuario = {
-              nome_ : nome,
-              email_ : email,
-              tel_ : telefone,
-              cnpj_ : cnpj,
-              senha_ : senha
-              };
+    nome_ : nome,
+    email_ : email,
+    tel_ : telefone,
+    cnpj_ : cnpj,
+    senha_ : senha,
+    descricao_ : descricao,
+    pais_ : pais,
+    estado_ : estado,
+    cidade_ : cidade,
+    site_ : site
+    };
   
   // Armazenar os dados no Local Storage do Navegador
   localStorage.setItem(key, JSON.stringify(usuario));
   localStorage.setItem('id_login', key);
+  window.location = '/src/html/navegacao/perfil_empresa.html'
 }
 
 function validEmail() {
@@ -202,4 +212,5 @@ function verifica_login() {
 
 }
 input.addEventListener('input', validateInput)
+
 
