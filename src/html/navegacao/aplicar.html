@@ -98,8 +98,8 @@
                 <div class="perfil-descricao">
                     <div class="cabecalho-aplicar">
                         <img src="../../../docs/img/logos/dashaus.png" alt="" class="img-aplicar">
-                     <h2></h2> 
-                     <h3></h3>
+                     <h2>Pessoa Arquiteta</h2> 
+                     <h3>DasHaus Engineering</h3>
                      <div class="detalhes-vaga">
                          <div class="detalhe-vaga">
                              <i class="fa-solid fa-map-location-dot"></i>
@@ -122,10 +122,20 @@
                      <div class="info-user">
                          <div class="contato-user">
                              <h4>Suas informações de contato:</h4>
-                             <p id="nome-user"></p>
-                             <p id="telefone-user"></p>
-                             <p id="email-user"></p>
-                             <p id="estado-user"></p>  
+                             <form>
+                                <div class="form-group">
+                                    <label for="first-name">Nome:</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="Digite seu nome">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefone:</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                                </div>
+                              </form>
                          </div>  
                      </div>
                      <div class="perguntas-form">
@@ -177,7 +187,7 @@
         
 
         <script>
-           // Obter informações do localStorage
+           /*// Obter informações do localStorage
             var infoVaga = JSON.parse(localStorage.getItem('informacoesVaga'));
             var infoUser = JSON.parse(localStorage.getItem('infoPerfil'));
 
@@ -207,7 +217,23 @@
             } else {
                 // Debugging: Informar se os dados não foram encontrados
                 console.log('Dados não encontrados no localStorage.');
-            }
+            }*/
+
+            document.getElementById('btnAplicar').addEventListener('click', function () {
+                // Obter os valores do formulário
+                var nome = document.getElementById('first-name').value;
+                var email = document.getElementById('email').value;
+                var telefone = document.getElementById('phone').value;
+                var nomeDaVaga = document.querySelector('.cabecalho-aplicar h2').textContent;
+
+                localStorage.setItem('newApplication', JSON.stringify({
+                    nome: nome,
+                    email: email,
+                    telefone: telefone,
+                    nomeDaVaga: nomeDaVaga
+                }));
+            });
+
 
 
             // Anexar curriculo
@@ -237,14 +263,11 @@
 
                 // Verifique se todos os campos estão preenchidos
                 if (curriculo && descricao && disponibilidadeImediato && disponibilidadePresencial) {
-                    // Exiba um modal ou outra mensagem de confirmação
                     alert('Aplicação realizada com sucesso!');
                 } else {
-                    // Caso contrário, exiba uma mensagem de erro
                     alert('Por favor, preencha todos os campos antes de aplicar.');
                 }
             });
-
 
         </script>
     </body>
