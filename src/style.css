@@ -1271,7 +1271,7 @@ main {
     opacity: 0.5;
 }
 
-.botao-login, .botao-cadastro{
+.login_button, .Criarlogin_button{
     border: none;
     border-radius: 5px;
     background-color: var(--color-button);
