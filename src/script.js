@@ -4,17 +4,16 @@ const input2 = document.querySelector('.senha')
 const button = document.querySelector('.login_button')
 const button2 = document.querySelector('.Criarlogin_button')
 
-document.querySelector('.login_criar').style.display = "none"
 document.querySelector('.Tela_login').style.display = "none"
 
 const validateInput = ({ target }) => {
-    if (target.value.length > 6) {
-      button.removeAttribute('disabled')
-      return
-    }
-  
-    button.setAttribute('disabled', '')
+  if (target.value.length > 6) {
+    button.removeAttribute('disabled')
+    return
   }
+
+  button.setAttribute('disabled', '')
+}
 
 function confir_senha() {
     document.querySelector('.senha').style.display = "block"
@@ -81,7 +80,7 @@ function Criar_Conta() {
   } else {
     document.getElementById('conf_senha').style.border = "2px solid #15c22c"
   }
-  if (telefone.length < 8) {
+  if (telefone.length < 14) {
     document.getElementById('_telefone').style.border = "2px solid #e80c0c"
     retorno++
   } else {
@@ -147,7 +146,7 @@ function validEmail() {
 function validCNPJ() {
   var cnpj = document.getElementById("_cnpj").value
 
-  if (cnpj.length < 13) {
+  if (cnpj.length < 17) {
     document.getElementById('_cnpj').style.border = "2px solid #e80c0c"
     return true
   } else {
@@ -211,6 +210,33 @@ function verifica_login() {
   }
 
 }
+
+// var input_tel = document.querySelector("input[type=tel]");
+var input_tel = document.getElementById('_telefone');
+input_tel.addEventListener('keyup', mask_tel);
+
+// var input_cnpj = document.querySelector("input[type=text]");
+var input_cnpj = document.getElementById('_cnpj');
+input_cnpj.addEventListener('keyup', mask_cnpj);
+
+function mask_tel(e){
+  var caractere = e.target.value.replace(/\D/g,""); 
+  caractere = caractere.replace(/^(\d\d)(\d)/g,"($1) $2");
+  caractere = caractere.replace(/(\d{5})(\d)/,"$1-$2");
+
+    e.target.value = caractere;
+
+}
+
+function mask_cnpj(e){
+    var caractere = e.target.value.replace(/\D/g,"");
+    caractere = caractere.replace(/(\d{2})(\d)/,"$1.$2");
+    caractere = caractere.replace(/(\d{3})(\d)/,"$1.$2");
+    caractere = caractere.replace(/(\d{3})(\d)/,"$1/$2");
+    caractere = caractere.replace(/(\d{4})(\d)/,"$1-$2");
+
+    e.target.value = caractere;
+
+}
+
 input.addEventListener('input', validateInput)
-
-
