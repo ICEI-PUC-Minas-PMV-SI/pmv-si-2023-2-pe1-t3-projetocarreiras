@@ -41,9 +41,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |--------|---------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | ALTA | Paola |
+|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | MÉDIA | Paola |
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | ALTA | Bruna |
-|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | MÉDIA | Leonardo |
+|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | ALTA | Leonardo |
 |RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | ALTA | Abraão |
 |RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | ALTA | Edlaine |
 |RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | MÉDIA | Bruna |
@@ -51,9 +51,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | MÉDIA | Edlaine |
 |RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | MÉDIA | Leonardo |
 |RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | MÉDIA | Abraão |
-|RF-011| O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo. | BAIXA | Paola |
-|RF-012| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | ALTA | Leonardo |
-|RF-013| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| BAIXA | Abraão |
+|RF-011| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | ALTA | Leonardo |
+|RF-012| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| BAIXA | Abraão |
 
 
 ### Requisitos não-Funcionais: 
@@ -67,7 +66,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-005| O sistema será constituído da parte de front-end utilizando HTML, CSS e JS. | ALTA | 
 |RNF-006| O sistema estará em conformidade com as normas legais em vigor no território nacional, incluindo a LGPD. | ALTA | 
 |RNF-007| O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge). | ALTA | 
-|RNF-008| O sistema deve permitir a possibilidade de os usuários manterem várias versões de seus currículos | MÉDIA | 
+|RNF-008| O sistema deve permitir a possibilidade de os usuários manterem várias versões de seus currículos | BAIXA | 
 |RNF-009| O sistema deve fornecer mensagens claras e orientações quando os usuários encontrarem erros ou problemas |  ALTA | 
 |RNF-010| O sistema deve oferecer um layout simplificado e de fácil usabilidade. | MÉDIA | 
 

@@ -18,11 +18,11 @@
             <li><a href="/src/html/aprimore-se/aprimore-se.html">Aprimore-se</a></li>
             <li><a href="/src/html/navegacao/sobre.html">Sobre</a></li>
         </ul>
-          <img src="../../../docs/img/logos/designsolutions.png" alt="" class="user-pic" onclick="toggleMenu()" />
+          <img src="../../../docs/img/logos/dashaus.png" alt="" class="user-pic" onclick="toggleMenu()" />
           <div class="sub-menu-wrap" id="subMenu">
               <div class="sub-menu">
                   <div class="user-info">
-                      <img src="../../../docs/img/logos/designsolutions.png" alt="" />
+                      <img src="../../../docs/img/logos/dashaus.png" alt="" />
                       <h2>Design Solutions</h2>
                   </div>
                   <hr />
@@ -70,12 +70,16 @@
                 <a href="../../../index.html" class="breadcrumbs-link">Home</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="" class="breadcrumbs-link active">Meu perfil</a>
+                <a href="" class="breadcrumbs-link">Meu perfil</a>
+            </li>
+            <li class="breadcrumbs-item">
+                <a href="" class="breadcrumbs-link active">Relatório</a>
             </li>
         </ul>
       </section>
 
       <section class="container">
+        <h2 class="titulo-relatorio">RELATÓRIO DE CANDIDATOS POR VAGA</h2>
         <table id="tableClient" class="records">
             <thead>
                 <tr>
@@ -90,7 +94,7 @@
 
             </tbody>
         </table>
-    </section>
+       </section>
     </main>
 
     <footer>
@@ -131,7 +135,6 @@
         </div>
     </footer>
 
-  <script defer src="./../../script.js"></script>
     <script>
         //Menu Nav
         let subMenu = document.getElementById("subMenu");
@@ -173,7 +176,7 @@
             cell2.innerHTML = email;
             cell3.innerHTML = telefone;
             cell4.innerHTML = nomeVaga;
-            cell5.innerHTML = '<button onclick="deleteRow(this)">Excluir</button>';
+            cell5.innerHTML = '<button onclick="deleteRow(this)" style="background-color: var(--main-color); color: white; padding: 5px;">Excluir</button>';
         }
 
         // excluir uma linha da tabela
