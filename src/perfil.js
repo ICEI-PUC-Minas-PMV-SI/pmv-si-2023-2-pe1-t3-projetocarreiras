@@ -7,6 +7,15 @@ function logout() {
   }
 }
 
+const validateInput = ({ target }) => {
+  if (target.value.length > 6) {
+    button.removeAttribute('disabled')
+    return
+  }
+
+  button.setAttribute('disabled', '')
+}
+
 window.onload = () => {
     let id = localStorage.getItem('id_login')
     let dados = localStorage.getItem(id)
@@ -79,7 +88,6 @@ function resetDados() {
   document.getElementById('conf_senha').style.border = ""
   document.getElementById('_telefone').style.border = ""
   document.getElementById('_email').style.border = ""
-  document.getElementById('_cnpj').style.border = ""
   document.getElementById('_site').style.border = ""
   document.getElementById('_pais').style.border = ""
   document.getElementById('_estado').style.border = ""
@@ -91,7 +99,6 @@ function resetDados() {
   document.getElementById('conf_senha').removeAttribute('readonly');
   document.getElementById('_telefone').removeAttribute('readonly');
   document.getElementById('_email').removeAttribute('readonly');
-  document.getElementById('_cnpj').removeAttribute('readonly');
   document.getElementById('_site').removeAttribute('readonly');
   document.getElementById('_pais').removeAttribute('readonly');
   document.getElementById('_estado').removeAttribute('readonly');
@@ -197,7 +204,7 @@ function salvarDados() {
   } else {
     document.getElementById('conf_senha').style.border = "1px solid #15c22c"
   }
-  if (tel.length < 8) {
+  if (tel.length < 14) {
     document.getElementById('_telefone').style.border = "2px solid #e80c0c"
     retorno++
   } else {
@@ -282,7 +289,7 @@ function validEmail() {
 function validCNPJ() {
     var cnpj = document.getElementById("_cnpj").value
   
-    if (cnpj.length < 13) {
+    if (cnpj.length < 17) {
       document.getElementById('_cnpj').style.border = "2px solid #e80c0c"
       return true
     } else {
@@ -305,4 +312,15 @@ function validCNPJ() {
       }
     }
     return false
+  }
+
+  var input_tel = document.getElementById('_telefone');
+  input_tel.addEventListener('keyup', mask_tel);
+  
+  function mask_tel(e){
+    var caractere = e.target.value.replace(/\D/g,""); 
+    caractere = caractere.replace(/^(\d\d)(\d)/g,"($1) $2");
+    caractere = caractere.replace(/(\d{5})(\d)/,"$1-$2");
+  
+      e.target.value = caractere;
   }
