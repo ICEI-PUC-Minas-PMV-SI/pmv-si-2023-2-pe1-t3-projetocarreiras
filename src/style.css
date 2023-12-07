@@ -300,8 +300,8 @@ body {
 }
 
 .card img {
-    width: 9rem;
-    height: 9rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 5px;
 }
 
@@ -1021,8 +1021,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    padding: 0 10%;
-    margin: 0 0 10% 0;
+    padding: 0 5%;
+    margin: 20px 0 10% 0;
 }
 
 .titulo-vagas1 {
@@ -1094,13 +1094,15 @@ main {
     width: 100%;
     user-select: none;
     text-align: left;
+    padding-top: 20px;
 }
 
 .records th{
     height: 50px;
     background-color: var(--color-button);
-    padding-left: 20px;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;   
+    color: white; 
+    text-align: center;
 }
 .records td{
     height: 50px;
@@ -1120,6 +1122,18 @@ main {
 
 .records tr:hover{
     background-color: var(--bg-color);
+}
+
+.titulo-relatorio {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.titulo-vagas {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
 }
 
 /* Página Sobre */
