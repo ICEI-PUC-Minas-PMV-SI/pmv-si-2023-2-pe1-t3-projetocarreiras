@@ -89,6 +89,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
+Realizando os testes de login, cadastro e edição dos dados no perfil da empresa consegui identificar que um dos pontos fortes é ser de fácil entendimento todos processos, tanto para login quanto para realização do cadastro. Um dos pontos negativos é a falta de instrução para edição do perfil, algo que pode ser mais trabalhado nos próximos projetos é deixar mais exposto e claro as funcionalidades para os usuários do sistema.
+
 
 
 ## Testes de unidade automatizados (Opcional)
@@ -132,6 +134,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
 
 
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é o gestor de RH de uma empresa e precisa de um novo sistema para encontrar funcionários. Entre no Jobify e realize o cadastro da sua empresa, realize login e comece a gerenciar suas vagas.|
+| 2             | Você é o diretor de uma empresa pequena que já tem conta no Jobify, e quer contratar jovens no mercado. Após realizar login no Jobify, altere os dados da sua empresa para manter seu perfil sempre atualizado. |
+
 
 ## Registro de Testes de Usabilidade
 
@@ -139,37 +146,34 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 35.44 segundos                  |
+| 2       | SIM             | 5                    | 48.11 segundos                  |
+| 3       | SIM             | 5                    | 1.20.09 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 67.88 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 22.66 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Achei o site bonito, fácil de entender.
+    Consegui realizar o cadastro bem tranquilo.
+    Tudo funcionou beleza.
 
 
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é o diretor de uma empresa pequena que já tem conta no Jobify, e quer contratar jovens no mercado. Após realizar login no Jobify, altere os dados da sua empresa para manter seu perfil sempre atualizado.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 58.43 segundos                  |
+| 2       | SIM             | 5                    | 1.39.62 segundos                  |
+| 3       | SIM             | 5                    | 1.44.38 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 1.14.14 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 38.79 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
-
+    Comentários dos usuários: Bonito o perfil, gostei de todos campos pra preencher.
+    Podia ser mais intuitivo o lápis pra editar, mas tudo funcionou perfeito.
+    Ficaram boas as funcionalidades, tudo sem dar erro nenhum.
 
 
 ## Avaliação dos Testes de Usabilidade
