@@ -94,58 +94,14 @@
             
                 <div class="card">
                     <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 01</h2>
+                    <h2>Design Gráfico</h2>
                     <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
                     <button class="home-btn">Ver mais</button>
                 </div>
             
                 <div class="card">
                     <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 02</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 03</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 04</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            </div>
-            
-            <div class="secao-vagas">
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 05</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 06</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 07</h2>
-                    <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
-                </div>
-            
-                <div class="card">
-                    <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
-                    <h2>Vaga 08</h2>
+                    <h2>Analista de Marketing</h2>
                     <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
                     <button class="home-btn">Ver mais</button>
                 </div>
@@ -196,6 +152,64 @@
             <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
         </div>
     </footer>
+    <script>
+
+document.addEventListener('DOMContentLoaded', function () {
+    loadVagas(); // Chame a função ao carregar a página
+
+    document.querySelector('.btn-save').addEventListener('click', function () {
+        // ... (seu código para salvar a vaga no localStorage)
+        
+        // Após salvar, chame a função loadVagas para atualizar a exibição
+        loadVagas();
+    });
+});
+
+function loadVagas() {
+    // Recupere a vaga do localStorage
+    var vagaSalva = localStorage.getItem('novaVaga');
+    
+    // Verifique se há uma vaga salva
+    if (vagaSalva) {
+        var vagaObjeto = JSON.parse(vagaSalva);
+
+        // Crie um elemento card para a nova vaga
+        var novoCard = criarCard(vagaObjeto);
+
+        // Adicione o novo card à seção de vagas
+        var secaoVagas = document.querySelector('.secao-vagas');
+        secaoVagas.appendChild(novoCard);
+
+        // Limpe a vaga salva do localStorage após exibir
+        localStorage.removeItem('novaVaga');
+    }
+}
+
+function criarCard(vaga) {
+    var card = document.createElement('div');
+    card.classList.add('card');
+
+    var img = document.createElement('img');
+    img.src = '../../../docs/img/logos/designsolutions.png';
+    img.classList.add('card-img-top');
+    card.appendChild(img);
+
+    var h2 = document.createElement('h2');
+    h2.textContent = vaga.titulo;
+    card.appendChild(h2);
+
+    var p = document.createElement('p');
+    p.textContent = vaga.descricaoEmpresa;
+    card.appendChild(p);
+
+    var button = document.createElement('button');
+    button.classList.add('home-btn');
+    button.textContent = 'Ver mais';
+    card.appendChild(button);
+
+    return card;
+}
+</script>
 </body>
 
 </html>

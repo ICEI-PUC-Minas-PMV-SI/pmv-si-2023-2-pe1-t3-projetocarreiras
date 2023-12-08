@@ -174,6 +174,60 @@
     </footer>
 
     <script defer src="./../../script.js"></script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          document.querySelector('.btn-save').addEventListener('click', function () {
+            // Campos do formulário
+            var titulo = document.getElementById('nome-vaga').value;
+            var empresa = document.getElementById('nome-empresa').value;
+            var dataInicio = document.getElementById('data-inicio').value;
+            var dataFim = document.getElementById('data-fim').value;
+            var pais = document.getElementById('country').value;
+            var estado = document.getElementById('state').value;
+            var cidade = document.getElementById('city').value;
+            var modalidade = document.getElementById('modalidade').value;
+            var salario = document.getElementById('salario').value;
+            var tipoContratacao = document.getElementById('contratacao').value;
+            var descricaoEmpresa = document.getElementById('descricao').value;
+            var requisitos = document.getElementById('requisitos').value;
+      
+            localStorage.setItem('novaVaga', JSON.stringify({
+              titulo: titulo,
+              empresa: empresa,
+              dataInicio: dataInicio,
+              dataFim: dataFim,
+              pais: pais,
+              estado: estado,
+              cidade: cidade,
+              modalidade: modalidade,
+              salario: salario,
+              tipoContratacao: tipoContratacao,
+              descricaoEmpresa: descricaoEmpresa,
+              requisitos: requisitos
+            }));
+      
+            // Exibição dos valores
+            console.log('Título:', titulo);
+            console.log('Empresa:', empresa);
+            console.log('Data de Início:', dataInicio);
+            console.log('Data de Fim:', dataFim);
+            console.log('País:', pais);
+            console.log('Estado:', estado);
+            console.log('Cidade:', cidade);
+            console.log('Modalidade:', modalidade);
+            console.log('Salário:', salario);
+            console.log('Tipo de Contratação:', tipoContratacao);
+            console.log('Descrição da Empresa:', descricaoEmpresa);
+            console.log('Requisitos:', requisitos);
+      
+            // Verifique se todos os campos estão preenchidos
+            if (titulo && empresa && dataInicio && dataFim && pais && estado && cidade && tipoContratacao) {
+              alert('Cadastro realizado com sucesso!');
+            } else {
+              alert('Por favor, preencha todos os campos.');
+            }
+          });
+        });
+      </script>
   </body>
 </html>
