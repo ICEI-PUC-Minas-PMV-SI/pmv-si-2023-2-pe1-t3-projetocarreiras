@@ -41,20 +41,49 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT01 - Criar conta da Empresa**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa nome da empresa, e-mail, número de contato, CNPJ, senha e confirma a senha. Clica no botão "Criar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
+**Requisitos associados** | RF-001
+**Resultado esperado** | Realizar o cadastro da Empresa.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT02 - Realizar login**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
+**Requisitos associados** | RF-001
+**Resultado esperado** | Verificação de Login
+**Dados de entrada** | Inserção de dados válidos na validação de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Alterar os dados no perfil**
+ :--------------: | ------------
+**Procedimento**  | 1) Após a Empresa realizar o login, é direcionado a página de perfil. Onde poderá realizar a edição dos dados.<br>2) Clica no "lápis" no canto superior direito do perfil para realizar a edição dos dados.<br>3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>4) Após editar os dados a aplicação armazena os dados e direciona a Empresa para a tela de perfil novamente com os dados novos.
+**Requisitos associados** | RF-013
+**Resultado esperado** | Realizar o cadastro da Empresa.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
+
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|*Caso de Teste*                                 |*CT-01 - Criar conta da Empresa*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-001 - Empresas não autenticadas podem se cadastrar para criar uma conta e serem autenticadas.|
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*CT-02 - Realizar Login*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-001 - Empresas já cadastradas podem realizar login.|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*CT-03 - Alterar os dados do perfil*                                         |
+|---|---|
+|Requisito Associado | RF-013 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 ## Avaliação dos Testes de Software
 
