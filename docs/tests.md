@@ -73,17 +73,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT-01 - Criar conta da Empresa*                                         |
 |---|---|
 |Requisito Associado | RF-001 - Empresas não autenticadas podem se cadastrar para criar uma conta e serem autenticadas.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1jgycXJy3KD0RnYPBX6ny9ntVmDoBuBYW/view?usp=drive_link | 
 
 |*Caso de Teste*                                 |*CT-02 - Realizar Login*                                         |
 |---|---|
 |Requisito Associado | RF-001 - Empresas já cadastradas podem realizar login.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/13X8I_IeCRoufu-JUnBptQJje9s5RQu0B/view?usp=drive_link | 
 
 |*Caso de Teste*                                 |*CT-03 - Alterar os dados do perfil*                                         |
 |---|---|
 |Requisito Associado | RF-013 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1PoDlPP7Hpz_iCRjhMoCuNVzMRMdzvtIJ/view?usp=drive_link | 
 
 ## Avaliação dos Testes de Software
 
