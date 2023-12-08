@@ -1,4 +1,4 @@
-# Título do Projeto
+# Jobify
 
 `CURSO: Sistemas de Informação`
 
@@ -6,11 +6,10 @@
 
 `SEMESTRE: 1º`
 
-O trabalho tem como objetivo promover assistência aos candidatos em processos seletivos de empregos.
+Projeto de sistema com intuito de realizar o ensino aos jovens e antigos integrantes do mercado de trabalho realizando a conexão entre usuários e empresas, além de preparar os usuários para se tornarem profissionais, o sistema conta com as empresas criando novas vagas para os novos profissionais!
 
 ## Integrantes
 
-* Bruna Climaco Nunes de Queiroz
 * Edlaine Nunes D Oliveira
 * Leonardo Guedes Gomes Junior
 * Paola Marques Braga
