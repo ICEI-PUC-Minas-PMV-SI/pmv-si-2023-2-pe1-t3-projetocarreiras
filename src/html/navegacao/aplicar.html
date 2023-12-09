@@ -164,9 +164,9 @@
                          </form>
                          <form>
                              <p>Você tem disponibilidade de trabalhar presencialmente? <span class="asterisco">*</span></p>
-                             <input type="radio" id="html" name="fav_language" value="HTML">
+                             <input type="radio" id="html" name="fav_language2" value="HTML">
                              <label for="html">Sim</label><br>
-                             <input type="radio" id="css" name="fav_language" value="CSS">
+                             <input type="radio" id="css" name="fav_language2" value="CSS">
                              <label for="css">Não</label><br>    
                          </form>  
                            
@@ -187,55 +187,6 @@
         
 
         <script>
-           /*// Obter informações do localStorage
-            var infoVaga = JSON.parse(localStorage.getItem('informacoesVaga'));
-            var infoUser = JSON.parse(localStorage.getItem('infoPerfil'));
-
-            // Verificar se os objetos contêm dados
-            console.log('infoVaga:', infoVaga);
-            console.log('infoUser:', infoUser);
-
-            // Campos da seção com base nas informações
-            if (infoVaga && infoUser) {
-                // Debugging: Verificar se o código chega a este ponto
-                console.log('Preenchendo campos...');
-
-                // campos relacionados à vaga
-                document.querySelector('.cabecalho-aplicar h2').innerText = infoVaga.pessoaArquiteta || '';
-                document.querySelector('.cabecalho-aplicar h3').innerText = infoVaga.empresa || '';
-
-                // campos relacionados ao usuário
-                var contatoUser = document.querySelector('.contato-user');
-                contatoUser.querySelector('#nome-user').innerText = infoUser.nome || '';
-                contatoUser.querySelector('#telefone-user').innerText = infoUser.telefone || '';
-                contatoUser.querySelector('#email-user').innerText = infoUser.email || '';
-                contatoUser.querySelector('#estado-user').innerText = infoUser.estado || '';
-
-                var infoEmpresa = document.querySelector('.infoEmpresa');
-                infoEmpresa.querySelector('h3').innerText = "A empresa " + infoVaga.empresa + " gostaria de saber:"|| '';
-
-            } else {
-                // Debugging: Informar se os dados não foram encontrados
-                console.log('Dados não encontrados no localStorage.');
-            }*/
-
-            document.getElementById('btnAplicar').addEventListener('click', function () {
-                // Obter os valores do formulário
-                var nome = document.getElementById('first-name').value;
-                var email = document.getElementById('email').value;
-                var telefone = document.getElementById('phone').value;
-                var nomeDaVaga = document.querySelector('.cabecalho-aplicar h2').textContent;
-
-                localStorage.setItem('newApplication', JSON.stringify({
-                    nome: nome,
-                    email: email,
-                    telefone: telefone,
-                    nomeDaVaga: nomeDaVaga
-                }));
-            });
-
-
-
             // Anexar curriculo
             document.addEventListener('DOMContentLoaded', function () {
                 var inputCurriculo = document.getElementById('curriculo');
@@ -268,6 +219,64 @@
                     alert('Por favor, preencha todos os campos antes de aplicar.');
                 }
             });
+
+            document.getElementById('btnAplicar').addEventListener('click', function () {
+                // Obter os valores do formulário
+                var nome = document.getElementById('first-name').value;
+                var email = document.getElementById('email').value;
+                var telefone = document.getElementById('phone').value;
+                var nomeDaVaga = document.querySelector('.cabecalho-aplicar h2').textContent;
+                var descricao = document.getElementById('descricao').value;
+
+                // Converter o currículo para uma string e armazenar no localStorage
+                var inputCurriculo = document.getElementById('curriculo');
+                var curriculoString = '';
+
+                if (inputCurriculo.files.length > 0) {
+                    var curriculoFile = inputCurriculo.files[0];
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        curriculoString = e.target.result;
+
+                        // Criar um ID único para esta aplicação
+                        var aplicacaoId = 'aplicacao_' + Date.now();
+
+                        // Criar um objeto com os dados da aplicação, incluindo o currículo
+                        var aplicacaoData = {
+                            nome: nome,
+                            email: email,
+                            telefone: telefone,
+                            nomeDaVaga: nomeDaVaga,
+                            descricao: descricao,
+                            curriculo: curriculoString
+                        };
+
+                        localStorage.setItem(aplicacaoId, JSON.stringify(aplicacaoData));
+
+                        // Limpar os campos do formulário
+                        clearFormFields();
+                    };
+
+                    reader.readAsDataURL(curriculoFile);
+                } else {
+                    alert('Por favor, anexe seu currículo antes de aplicar.');
+                }
+            });
+
+            // Função para limpar os campos do formulário
+            function clearFormFields() {
+                document.getElementById('first-name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('phone').value = '';
+                document.getElementById('curriculo').value = '';
+                document.getElementById('curriculoDisplay').textContent = '';
+                document.getElementById('descricao').value = '';
+                document.querySelector('input[name="fav_language"][value="CSS"]').checked = false;
+                document.querySelector('input[name="fav_language"][value="HTML"]').checked = false;
+                document.querySelector('input[name="fav_language2"][value="CSS"]').checked = false;
+                document.querySelector('input[name="fav_language2"][value="HTML"]').checked = false;
+            }
 
         </script>
     </body>
