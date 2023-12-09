@@ -212,56 +212,5 @@
           <p>&copy; 2023 PUC Minas. Todos os direitos reservados. | Desenvolvido por <a href="#">Grupo 04</a></p>
       </div>
   </footer>
-
-    <!--<script>
-        //Menu Nav
-        let subMenu = document.getElementById("subMenu");
-
-        function toggleMenu() {
-        subMenu.classList.toggle("open-menu");
-        }
-
-        // Bloco Form
-        const editIcons = document.querySelectorAll(".edit-icon");
-        const inputFields = document.querySelectorAll("input[readonly]");
-        const selectField = document.querySelector("select[disabled]");
-
-        editIcons.forEach((editIcon, index) => {
-            editIcon.addEventListener("click", () => {
-                editIcon.classList.toggle("editing");
-                inputFields[index].toggleAttribute("readonly");
-                selectField.toggleAttribute("disabled");
-                if (editIcon.classList.contains("editing")) {
-                    editIcon.innerHTML = '<i class="far fa-save"></i>';
-                } else {
-                    editIcon.innerHTML = '<i class="far fa-edit"></i>';
-                }
-            });
-        }); 
-    </script> -->
-    <script>
-      function salvarInformacoesLocalStorage() {
-        var pessoaArquiteta = document.querySelector('.cabecalho-aplicar h2').innerText;
-        var empresa = document.querySelector('.cabecalho-aplicar h3').innerText;
-        var detalhesVaga = document.querySelector('.cabecalho-aplicar .detalhes-vaga').innerHTML;
-
-        var informacoes = {
-          pessoaArquiteta: pessoaArquiteta,
-          empresa: empresa,
-          detalhesVaga: detalhesVaga
-        };
-
-        localStorage.setItem('informacoesVaga', JSON.stringify(informacoes));
-
-        // Dispare um evento personalizado para notificar outras abas sobre a atualização
-        var evento = new Event('atualizarInformacoes');
-        window.dispatchEvent(evento);
-      }
-
-      var buttonAplicar = document.getElementById('buttonAplicar');
-      buttonAplicar.addEventListener('click', salvarInformacoesLocalStorage);
-    </script>
-
-
   </body>
 </html>
