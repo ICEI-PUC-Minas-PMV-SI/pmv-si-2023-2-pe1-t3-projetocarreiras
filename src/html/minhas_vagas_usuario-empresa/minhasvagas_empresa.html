@@ -96,7 +96,8 @@
                     <img src="../../../docs/img/logos/designsolutions.png" class="card-img-top" alt="...">
                     <h2>Design Gráfico</h2>
                     <p>Seja o talento criativo por trás da Design Solutions, dando vida a projetos visuais incríveis. Faça parte de uma equipe dedicada à excelência estética e impacto visual.</p>
-                    <button class="home-btn">Ver mais</button>
+                    <button class="home-btn" onclick="verMais(1)">Ver mais</button>
+
                 </div>
             
                 <div class="card">
@@ -158,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
     loadVagas(); // Chame a função ao carregar a página
 
     document.querySelector('.btn-save').addEventListener('click', function () {
-        // ... (seu código para salvar a vaga no localStorage)
+        
         
         // Após salvar, chame a função loadVagas para atualizar a exibição
         loadVagas();
@@ -202,13 +203,39 @@ function criarCard(vaga) {
     p.textContent = vaga.descricaoEmpresa;
     card.appendChild(p);
 
+    /*var button = document.createElement('button');
+    button.classList.add('home-btn');
+    button.textContent = 'Ver mais';
+    card.appendChild(button);*/ 
+
     var button = document.createElement('button');
     button.classList.add('home-btn');
     button.textContent = 'Ver mais';
+    button.addEventListener('click', function () {
+        // Recupere o índice do card clicado
+        var index = Array.from(card.parentNode.children).indexOf(card);
+
+        // Chame a função verMais passando o índice + 1 como ID
+        verMais(index + 1);
+    });
     card.appendChild(button);
 
-    return card;
+    function verMais(id) {
+    // Recupere a vaga correspondente ao ID do botão clicado
+    var vagasSalvas = localStorage.getItem('vagas') ? JSON.parse(localStorage.getItem('vagas')) : [];
+    var vagaSelecionada = vagasSalvas[id - 1]; 
+
+    // Armazene a vaga selecionada no localStorage
+    localStorage.setItem('vagaSelecionada', JSON.stringify(vagaSelecionada));
+
+    // Redirecione para a nova página
+    window.location.href = '../../html/navegacao/editar_vaga.html';
 }
+
+    return card;
+
+}
+
 </script>
 </body>
 
