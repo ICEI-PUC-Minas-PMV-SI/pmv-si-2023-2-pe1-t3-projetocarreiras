@@ -133,7 +133,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Telefone:</label>
-                                    <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                                    <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" oninput="formatPhoneNumber(this)">
                                 </div>
                               </form>
                          </div>  
@@ -187,6 +187,22 @@
         
 
         <script>
+            function formatPhoneNumber(input) {
+                // Remove tudo, exceto os números
+                var telNumber = input.value.replace(/\D/g, '');
+
+                // Aplica a máscara de telefone
+                if (telNumber.length === 12) {
+                    input.value = `+${telNumber.substring(0, 2)} (${telNumber.substring(2, 4)}) ${telNumber.substring(4, 8)}-${telNumber.substring(8, 12)}`;
+                } else if (telNumber.length === 11) {
+                    input.value = `(${telNumber.substring(0, 2)}) ${telNumber.substring(2, 7)}-${telNumber.substring(7, 11)}`;
+                } else if (telNumber.length > 2 && telNumber.length <= 10) {
+                    input.value = `(${telNumber.substring(0, 2)}) ${telNumber.substring(2, 6)}-${telNumber.substring(6, 10)}`;
+                } else {
+                    input.value = telNumber;
+                }
+            }
+
             // Anexar curriculo
             document.addEventListener('DOMContentLoaded', function () {
                 var inputCurriculo = document.getElementById('curriculo');
