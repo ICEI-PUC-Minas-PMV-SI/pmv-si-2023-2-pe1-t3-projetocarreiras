@@ -6,19 +6,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve permitir que usuários e empresas não cadastrados registrem-se e gerenciem suas contas. | Leonardo | login.html <br> cadastro.html|
+|RF-001| O sistema deve permitir que empresas não cadastradas registrem-se e gerenciem suas contas. | Leonardo | login.html <br> cadastro.html|
 |RF-002| O sistema deve ter uma seção ensinando como estruturar um bom currículo. | Bruna | aprimore-se.html <br> curriculo.html <br> entrevista.html|
-|RF-003| O sistema deve poder ser acessado por usuários não cadastrados. | Edlaine | index.html |
-|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | Edlaine | nova_vaga.html <br> editar_vaga.html |
-|RF-005| O sistema deve permitir que usuários cadastrados apliquem para as vagas de emprego disponíveis. | Bruna | aplicar.html |
-|RF-006| O sistema deve manter o histórico de aplicações dos usuários cadastrados. | Paola | minhasvagas.html |
-|RF-007| O sistema deve manter o histórico de vagas submetidas pelas empresas. | Paola | minhasvagas_empresa.html |
-|RF-008| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. | Edlaine | nova_vaga.html |
-|RF-009| O sistema deve permitir que o recrutador altere o status das vagas para "fechada". | Edlaine | editar_vaga.html |
-|RF-010| O sistema deve permitir que o usuário visitante pesquise uma vaga pelos parâmetros palavra-chave e localidade. | Bruna | vagas.html |
-|RF-011| O sistema deve permitir que o usuário cadastrado possa criar alertas para uma vaga de seu desejo. | Bruna | alerta.html |
-|RF-012| O sistema deve permitir que o usuário cadastrado anexe seu currículo em vagas para quais esteja se candidatando | Bruna | aplicar.html |
-|RF-013| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| Edlaine | perfil_user.html <br> perfil_empresa.html |
+|RF-003| O sistema deve ser acessado por usuários não cadastrados. | Edlaine | index.html |
+|RF-004| O sistema deve permitir que empresas criem e gerenciem vagas de emprego. | Edlaine | nova_vaga.html <br> inhasvagas_empresa.html |
+|RF-005| O sistema deve permitir que os usuários apliquem para as vagas de emprego disponíveis | Edlaine | aplicar.html |
+|RF-006| O sistema deve manter o histórico de vagas submetidas pelas empresas. | Paola | minhasvagas_empresa.html |
+|RF-007| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. E “Encerrada” quando a vaga for fechada. | Edlaine | editar_vaga.html |
+|RF-008| O sistema deve permitir que o usuário anexe seu currículo em vagas para quais esteja se candidatando. | Edlaine | aplicar.html |
+|RF-009| O sistema deve enviar o formulário preenchido e o currículo anexado para o e-mail cadastrado na vaga. | Edlaine | plicar.html |
 
 ## Descrição das estruturas:
 
