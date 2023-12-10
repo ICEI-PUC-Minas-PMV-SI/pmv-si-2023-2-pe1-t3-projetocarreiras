@@ -85,6 +85,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-013 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1PoDlPP7Hpz_iCRjhMoCuNVzMRMdzvtIJ/view?usp=drive_link | 
 
+|*Caso de Teste*                                 |*CT-04 - Aplicar para a Vaga*                                         |
+|---|---|
+|Requisito Associado | RF-005 - O sistema deve permitir que os usuários apliquem para as vagas de emprego disponíveis.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1A6MWtXV1Ak5SR7-dXo6Eel5HESWniHj0/view?usp=drive_link | 
+
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
