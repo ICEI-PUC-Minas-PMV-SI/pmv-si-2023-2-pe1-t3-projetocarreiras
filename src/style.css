@@ -1141,6 +1141,10 @@ main {
     text-align: center;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* Página Sobre */
 
 .secao-sobre__info {

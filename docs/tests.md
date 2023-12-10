@@ -90,6 +90,16 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-005 - O sistema deve permitir que os usuários apliquem para as vagas de emprego disponíveis.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1A6MWtXV1Ak5SR7-dXo6Eel5HESWniHj0/view?usp=drive_link | 
 
+|*Caso de Teste*                                 |*CT-05 - Formulário preenchido + Currículo*                                         |
+|---|---|
+|Requisito Associado | RF-008 - O sistema deve enviar o formulário preenchido e permitir que o usuário anexe seu currículo em vagas para quais esteja se candidatando.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1_heki9FA_qBhnYUQSIJeWiD1-3vd9oF8/view?usp=drive_link| 
+
+|*Caso de Teste*                                 |*CT-06 - Empresa exibe Relatório de Candidatos*                                         |
+|---|---|
+|Requisito Associado | RF-009 - O sistema deverá gerar um relatório consolidado, contendo informações sobre os candidatos cadastrados, incluindo seus currículos anexados|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1EithvRvG_yKIgVKxSQcqlXdOyv7SUKGG/view?usp=drive_link | 
+
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
