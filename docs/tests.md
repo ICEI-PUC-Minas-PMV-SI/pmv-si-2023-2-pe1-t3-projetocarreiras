@@ -65,6 +65,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT04 - Usuário aplica a uma vaga**
+ :--------------: | ------------
+**Procedimento**  | 1) Após o usuário selecionar uma vaga, é direcionado a página de detalhes. Onde poderá clicar no botão de aplicação para se candidatar a vaga<br>2) Ao selecionar o botão de "aplicar" será direcionado a um formulário para ser preenchido com algumas informações<br>3) A aplicação verifica se os dados estão todos preenchidos e informa ao usuário caso não estejam.<br>4) Após finalizar a aplicação, os dados são armazenados e a mensagem de aplicação realizada com sucesso é exibida.
+**Requisitos associados** | RF-005 e RF-008
+**Resultado esperado** | Aplicação realizada.
+**Dados de entrada** | Inserção de dados válidos no formulário de candidatura.
+**Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
 
