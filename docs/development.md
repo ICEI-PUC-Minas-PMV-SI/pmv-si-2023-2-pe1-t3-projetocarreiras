@@ -15,20 +15,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. E “Encerrada” quando a vaga for fechada. | Edlaine | editar_vaga.html |
 |RF-008| O sistema deve enviar o formulário preenchido e deve permitir que o usuário anexe seu currículo em vagas para quais esteja se candidatando. | Edlaine | aplicar.html |
 |RF-009| O sistema deverá gerar um relatório consolidado, contendo informações sobre os candidatos cadastrados, incluindo seus currículos anexados | Edlaine | relatorio.html |
+|RF-010| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| Leonardo | perfil_user.html <br> perfil_empresa.html |
 
 ## Descrição das estruturas:
-
-## Usuário
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-Id | Numero (inteiro) | Número de identificação do usuário | 333 |
-| CPF | Texto  | CPF do usuário |  123.456.789-00 |
-| Nome  | Texto             | Nome do usuário| Marina Yoshida  |
-| E-mail       | Texto             | E-mail de cadastro do usuário | marinayoshida@gmail.com |
-Descrição | Texto | Breve frase de apresentação do usuário | Em busca de novas oportunidades para crescer profissionalmente. |
-Localização | Texto | Local onde usuário reside | São Cateano, SP, Brasil|
-Telefone | Texto | Número para contato do usuário | (99) 99999-9999
-| Senha  | Texto  | Senha de acesso do usuário | MariYoshi@13 |
 
 ## Usuário: Aplicação em vagas
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
