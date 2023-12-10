@@ -419,6 +419,11 @@ aside {
     font-size: 0.6em;
     margin: 10px auto;
     padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background-color: var(--main-color);
+    border-radius: 5px;
 }
 
 .row-filtro label {
@@ -1622,6 +1627,14 @@ footer a {
     .container-editar {
         width: 100%;
         grid-template-columns: 1fr;
+    }
+
+    /* Tela Relatório */
+    #tableClient th:nth-child(2),
+    #tableClient td:nth-child(2),
+    #tableClient th:nth-child(3),
+    #tableClient td:nth-child(3){
+      display: none;
     }
 }
 
