@@ -240,6 +240,22 @@ Cenário 3: Você é um recrutador de uma empresa e quer criar vagas e visualiza
     Bom, funcional, rápido e intuitivo.
     Bonito e simples, não é complexo.
 
+Cenário 4: Você é um candidato e deseja aplicar para uma determinada vaga de emprego.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 1.41.29 segundos                  |
+| 2       | SIM             | 4                    | 1.28.12 segundos                  |
+| 3       | SIM             | 5                    | 2.02.34 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 1.57.25 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1.06.44 segundos |
+
+
+    Comentários dos usuários: Gostei da facilidade de preenchimento do formulário de candidatura.
+    O formulário de candidatura é fácil de preencher, mas seria mais conveniente se algumas informações do meu currículo pudessem ser importadas automaticamente.
+    As informações sobre as responsabilidades da vaga são claras e de facil de navegação.
+
 ## Avaliação dos Testes de Usabilidade
 
 
