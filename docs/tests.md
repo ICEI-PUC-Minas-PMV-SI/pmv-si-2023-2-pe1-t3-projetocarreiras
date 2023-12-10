@@ -141,15 +141,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
 | 1             | Você é o gestor de RH de uma empresa e precisa de um novo sistema para encontrar funcionários. Entre no Jobify e realize o cadastro da sua empresa, realize login e comece a gerenciar suas vagas.|
 | 2             | Você é o diretor de uma empresa pequena que já tem conta no Jobify, e quer contratar jovens no mercado. Após realizar login no Jobify, altere os dados da sua empresa para manter seu perfil sempre atualizado. |
 | 3             | Você é um recrutador de uma empresa e quer criar vagas e visualizar todas as vagas cadastradas na plataformapara Jobify, a fim de encontrar profissionais qualificados no mercado de trabalho. |
+| 4             | Você é um candidato e deseja aplicar para uma determinada vaga de emprego. |
 
 ## Registro de Testes de Usabilidade
 
