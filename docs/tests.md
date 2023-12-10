@@ -1,8 +1,6 @@
 # Testes
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
 **Caso de Teste** | **CT01 - Criar conta da Empresa**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa nome da empresa, e-mail, número de contato, CNPJ, senha e confirma a senha. Clica no botão "Criar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
@@ -13,7 +11,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT02 - Realizar login**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
+**Procedimento**  | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>         3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
 **Requisitos associados** | RF-001
 **Resultado esperado** | Verificação de Login
 **Dados de entrada** | Inserção de dados válidos na validação de login.
@@ -54,7 +52,6 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
 |*Caso de Teste*                                 |*CT-01 - Criar conta da Empresa*                                         |
 |---|---|
@@ -98,10 +95,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-Realizando os testes de login, cadastro e edição dos dados no perfil da empresa consegui identificar que um dos pontos fortes é ser de fácil entendimento todos processos, tanto para login quanto para realização do cadastro. Um dos pontos negativos é a falta de instrução para edição do perfil, algo que pode ser mais trabalhado nos próximos projetos é deixar mais exposto e claro as funcionalidades para os usuários do sistema.
-
+Realizando os testes de login, cadastro e edição dos dados no perfil da empresa consegui identificar que um dos pontos fortes é ser de fácil entendimento todos processos, tanto para login quanto para realização do cadastro. Um dos pontos negativos é a falta de instrução para edição do perfil, algo que pode ser mais trabalhado nos próximos projetos é deixar mais exposto e claro as funcionalidades para os usuários do sistema. 
+Na realização da aplicação para uma vaga, os detalhes sobre as vagas são considerados claros e informativos. A confirmação após o envio da candidatura é um pouco discreta, podendo ser otimizada para um feedback mais visualmente destacado.
 
 
 ## Testes de unidade automatizados (Opcional)
