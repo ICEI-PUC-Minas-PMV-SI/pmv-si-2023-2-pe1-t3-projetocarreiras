@@ -68,7 +68,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT-03 - Alterar os dados do perfil*                                         |
 |---|---|
-|Requisito Associado | RF-013 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-010 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1PoDlPP7Hpz_iCRjhMoCuNVzMRMdzvtIJ/view?usp=drive_link | 
 
 |*Caso de Teste*                                 |*CT-04 - Aplicar para a Vaga*                                         |
