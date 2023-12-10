@@ -9,9 +9,9 @@
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Realizar login**
+**Caso de Teste** | **CT02 - Realizar login**                                                        |
  :--------------: | ------------ 
-**Procedimento**                      | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>  3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
+**Procedimento**  | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>  3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
 **Requisitos associados** | RF-001
 **Resultado esperado** | Verificação de Login
 **Dados de entrada** | Inserção de dados válidos na validação de login.
