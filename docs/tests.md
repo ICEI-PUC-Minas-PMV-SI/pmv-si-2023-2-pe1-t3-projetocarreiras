@@ -9,7 +9,7 @@
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Realizar login**                                                        |
+**Caso de Teste** | **CT02 - Realizar login**
  :--------------: | ------------ 
 **Procedimento**  | 1) Usuário informa e-mail e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>  3) A aplicação armazena os dados e direciona a Empresa para a tela de perfil.
 **Requisitos associados** | RF-001
@@ -96,7 +96,7 @@
 ## Avaliação dos Testes de Software
 
 Realizando os testes de login, cadastro e edição dos dados no perfil da empresa consegui identificar que um dos pontos fortes é ser de fácil entendimento todos processos, tanto para login quanto para realização do cadastro. Um dos pontos negativos é a falta de instrução para edição do perfil, algo que pode ser mais trabalhado nos próximos projetos é deixar mais exposto e claro as funcionalidades para os usuários do sistema. <br>
-Na realização da aplicação para uma vaga, os detalhes sobre as vagas são considerados claros e informativos. A confirmação após o envio da candidatura é um pouco discreta, podendo ser otimizada para um feedback mais visualmente destacado.
+Na realização da aplicação para uma vaga, os detalhes sobre as vagas são considerados claros e informativos. A confirmação após o envio da candidatura é um pouco discreta, podendo ser otimizada para um feedback mais visualmente destacado, reforçando a confirmação de que sua aplicação foi recebida com sucesso.
 
 
 ## Testes de unidade automatizados (Opcional)
