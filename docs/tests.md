@@ -73,6 +73,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de candidatura.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT07 - Empresa cria nova vaga**
+ :--------------: | ------------
+**Procedimento**  | 1) Em "minhas vagas" a empresa poderá visualizar as vagas cadastradas e "criar vaga". Ao clicar em "criar vaga" será direcionado para uma página de criação da vaga.<br>2) Ao selecionar "criar vaga" será direcionado a um formulário com os dados da vaga para ser preenchido com algumas informações<br>3) O cadastro verifica se os todos os dados obrigatórios estão preenchidos e informa ao usuário caso não estejam.<br>4) Após finalizar o cadastro, os dados são armazenados e a mensagem de aplicação realizada com sucesso é exibida.
+**Requisitos associados** | RF-003 e RF-005
+**Resultado esperado** | Aplicação realizada.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro da vaga.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT08 - Empresa visualiza vagas cadastradas**
+ :--------------: | ------------
+**Procedimento**  | 1) Após o cadastro das novas vagas os dados são armazenados.<br>2) A nova vaga aparecerá em "minhas vagas". Nessa página, ela poderá ser visualizada junto com as demais vagas, bem como o título da vaga e o resumo.<br>4) Ao clicar no botão "ver mais", será direcionado para a página de visualização da vaga com os dados.
+**Requisitos associados** | RF-005
+**Resultado esperado** | Aplicação realizada.
+**Dados de entrada** | Visualização da vaga cadastrada.
+**Resultado obtido** | Sucesso.
+
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -106,6 +123,16 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-009 - O sistema deverá gerar um relatório consolidado, contendo informações sobre os candidatos cadastrados, incluindo seus currículos anexados|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1EithvRvG_yKIgVKxSQcqlXdOyv7SUKGG/view?usp=drive_link | 
+
+|*Caso de Teste*                                 |*CT-06 - Empresa cria nova vaga*                                         |
+|---|---|
+|Requisito Associado | RF-003 - O sistema deve permitir que empresas criem e gerenciem vagas de emprego. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qRUnzbWkQrKhEYhUwC80CSNb4R2R24sn/view?usp=drivesdk |
+
+|*Caso de Teste*                                 |*CT-07 - Empresa visualiza vagas cadastradas*                                         |
+|---|---|
+|Requisito Associado | RF-005 - O sistema deve manter o histórico de vagas submetidas pelas empresas.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qRUnzbWkQrKhEYhUwC80CSNb4R2R24sn/view?usp=drivesdk |
 
 ## Avaliação dos Testes de Software
 
@@ -160,7 +187,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 |---------------|----------------------|
 | 1             | Você é o gestor de RH de uma empresa e precisa de um novo sistema para encontrar funcionários. Entre no Jobify e realize o cadastro da sua empresa, realize login e comece a gerenciar suas vagas.|
 | 2             | Você é o diretor de uma empresa pequena que já tem conta no Jobify, e quer contratar jovens no mercado. Após realizar login no Jobify, altere os dados da sua empresa para manter seu perfil sempre atualizado. |
-
+| 3             | Você é um recrutador de uma empresa e quer criar vagas e visualizar todas as vagas cadastradas na plataformapara Jobify, a fim de encontrar profissionais qualificados no mercado de trabalho. |
 
 ## Registro de Testes de Usabilidade
 
@@ -197,6 +224,21 @@ Cenário 2: Você é o diretor de uma empresa pequena que já tem conta no Jobif
     Podia ser mais intuitivo o lápis pra editar, mas tudo funcionou perfeito.
     Ficaram boas as funcionalidades, tudo sem dar erro nenhum.
 
+Cenário 3: Você é um recrutador de uma empresa e quer criar vagas e visualizar todas as vagas cadastradas na plataformapara Jobify, a fim de encontrar profissionais qualificados no mercado de trabalho.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 2.27 segundos                  |
+| 2       | SIM             | 5                    | 1.31 segundos                  |
+| 3       | SIM             | 5                    | 1.57 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 1.71 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 2.27 segundos |
+
+
+    Comentários dos usuários: Gostei do sistema, funcionou adequadamente.
+    Bom, funcional, rápido e intuitivo.
+    Bonito e simples, não é complexo.
 
 ## Avaliação dos Testes de Usabilidade
 
