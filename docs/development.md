@@ -15,7 +15,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| O sistema deve definir o status "em aberto" quando uma nova vaga for cadastrada. E “Encerrada” quando a vaga for fechada. | Edlaine | editar_vaga.html |
 |RF-008| O sistema deve enviar o formulário preenchido e deve permitir que o usuário anexe seu currículo em vagas para quais esteja se candidatando. | Edlaine | aplicar.html |
 |RF-009| O sistema deverá gerar um relatório consolidado, contendo informações sobre os candidatos cadastrados, incluindo seus currículos anexados | Edlaine | relatorio.html |
-|RF-010| O sistema deve permitir que o usuário cadastrado altere os dados do seu perfil| Leonardo | perfil_user.html <br> perfil_empresa.html |
+|RF-010| O sistema deve permitir que a Empresa altere os dados do seu perfil| Leonardo | perfil_user.html <br> perfil_empresa.html |
 
 ## Descrição das estruturas:
 
