@@ -14,6 +14,8 @@ Projeto de sistema com intuito de realizar o ensino aos jovens e antigos integra
 * Leonardo Guedes Gomes Junior
 * Paola Marques Braga
 
+Acesse o site através do link: https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-projetocarreiras/
+
 ## Orientador
 
 * Luciana de Nardin
