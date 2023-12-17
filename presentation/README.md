@@ -16,6 +16,10 @@ Jobify
 
 Projeto de sistema web com intuito de realizar o ensino aos jovens e antigos integrantes do mercado de trabalho realizando a conexão entre usuários e empresas, além de preparar os usuários para se tornarem profissionais, o sistema conta com as empresas criando novas vagas para os novos profissionais!
 
+## Identidade Visual (Marca, Design)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-projetocarreiras/assets/104607051/4b300b0b-092d-4dd6-ad88-16f6f788979a)
+
+
 ## Conjunto de Slides
 
 * [Pitch inicial](./Apresentacao1_Jobify.pdf)
