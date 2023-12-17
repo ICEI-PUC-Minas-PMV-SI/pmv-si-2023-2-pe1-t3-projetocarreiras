@@ -1,29 +1,23 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Jobify
 authors:
+  - family-names: Guedes Gomes Junior
+    given-names: Leonardo
   - family-names:
     given-names:
   - family-names:
     given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: de Nardin
+    given-names: Luciana
 keywords:
-  -
-  -
-repository-code:
+  - Emprego
+  - Aprendizado
+  - Oportunidade
+  - Tecnologia
+repository-code: https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-projetocarreiras/
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2023-12-17
