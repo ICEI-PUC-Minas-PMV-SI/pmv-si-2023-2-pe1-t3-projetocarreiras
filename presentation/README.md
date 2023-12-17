@@ -7,7 +7,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 * [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](https://drive.google.com/file/d/1H4Wcfs3KW0FE6DJowubi-g8USrIBblIj/view?usp=sharing)
+* [Jobify - Vídeo de demonstração](https://drive.google.com/file/d/1H4Wcfs3KW0FE6DJowubi-g8USrIBblIj/view?usp=sharing)
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
@@ -35,5 +35,5 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-https://drive.google.com/file/d/1H4Wcfs3KW0FE6DJowubi-g8USrIBblIj/view?usp=sharing
+* [Jobify - Vídeo de demonstração](https://drive.google.com/file/d/1H4Wcfs3KW0FE6DJowubi-g8USrIBblIj/view?usp=sharing)
 
