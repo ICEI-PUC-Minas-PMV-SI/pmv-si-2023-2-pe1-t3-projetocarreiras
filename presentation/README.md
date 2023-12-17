@@ -5,8 +5,8 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./Apresentacao_Final%20-%20Jobify.pdf) -- arquivo com os slides da apresentação final
+* [Pitch inicial](./Apresentacao1_Jobify.pdf) -- arquivo com os slides da apresentação inicial
+* [Apresentação final](./Apresentacao_Final%20-%20Jobify.pdf)
 * [Jobify - Vídeo de demonstração](https://drive.google.com/file/d/1H4Wcfs3KW0FE6DJowubi-g8USrIBblIj/view?usp=sharing)
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
